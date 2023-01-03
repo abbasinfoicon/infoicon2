@@ -1,0 +1,3284 @@
+@media only screen and (max-width: 1800px) {
+    header .home-container {
+        padding: 0 15px;
+    }
+    .menu ul li {
+        /*font-size: 13px;*/
+        margin-right: 22px;
+    }
+    .menu ul li a.readMoreBtn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .popupMenuBox {
+        padding: 20px;
+    }
+    .mobMenuCover.active a.mobMenu {
+        top: 20px;
+    }
+    .popupMenu li {
+        padding: 10px 0 0 0;
+        font-size: 16px;
+    }
+    .popupMenu.smll li {
+        font-size: 18px;
+    }
+    .conInfo li {
+        font-size: 14px;
+    }
+    .popupBot {
+        bottom: 20px;
+        left: 20px;
+    }
+    .popupMenuBox {
+        width: 400px;
+    }
+    .topSocialLink {
+        padding: 0;
+    }
+    .popupDDBox {
+        width: calc(100% - 400px);
+        right: calc(-100% + 800px);
+        padding: 20px;
+    }
+    .popupDDBox.active {
+        right: 400px;
+    }
+    .popupDDBox .hd {
+        font-size: 40px;
+    }
+    .popupDDBox .text {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .popupDDBox .linkBox .subHd {
+        font-size: 15px;
+    }
+    .popupDDBox .linkBox ul li {
+        font-size: 13px;
+    }
+    .menuTopInner {
+        max-width: 1220px;
+    }
+    .menuDDBot .inner {
+        flex-wrap: nowrap;
+        padding-left: 140px;
+    }
+    .menuDDBot .viewInsights a {
+        padding: 40px 0px 40px 40px !important;
+        font-size: 13px;
+    }
+    .menuDDBot .viewInsights a img {
+        width: 28px;
+        top: 32px;
+    }
+    .menu ul li .headerSL li {
+        font-size: 13px;
+    }
+    .menu ul li .headerSL li span {
+        font-size: 16px;
+    }
+    .menu ul li .headerPL {
+        flex-wrap: nowrap;
+    }
+    .menu ul li .headerPL li {
+        padding: 20px 10px;
+        margin: 0;
+    }
+    .menu ul li .headerPL li img {
+        max-width: 100px;
+    }
+    .bannerCon .bannerItem .home-container {
+        padding: 100px 40px 20px 40px;
+    }
+    .bannerHd {
+        line-height: 55px;
+        padding-bottom: 30px;
+    }
+    .bannerText {
+        font-size: 20px;
+        max-width: 1050px;
+        line-height: 30px;
+        padding: 30px 0 30px 0;
+    }
+    a.readMoreBtn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    .home-container {
+        padding: 0 40px;
+    }
+    .mainHd {
+        font-size: 32px;
+    }
+    .hdText {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .serviceLink {
+        width: 300px;
+    }
+    .serviceLink a {
+        padding: 1px 20px 1px 20px;
+        font-size: 20px;
+    }
+    .serviceMid {
+        width: calc(100% - 600px);
+        padding: 0 15px;
+    }
+    .serviceList {
+        margin: -10px;
+    }
+    .serviceList li {
+        padding: 10px;
+    }
+    .serviceList>li>a {
+        padding: 15px;
+    }
+    .serviceList>li>a .hd {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .serviceList>li>a .hd img {
+        width: 40px;
+    }
+    .salesforceBox {
+        width: 300px;
+        padding: 15px 25px 25px 25px;
+    }
+    .salesforceBox .hd {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .salesforceBox .btn {
+        left: 25px;
+        bottom: 25px;
+    }
+    .pfLft .pfInner .name,
+    .pfRgt .pfInner .name {
+        padding: 20px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pfInner .overBox {
+        padding: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .pfInner .overBox .hd {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .pfInner .overBox a {
+        font-size: 16px;
+    }
+    .pfRgtTop .pfInner .overBox,
+    .pfRgtBot .pfInner .overBox {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .pfRgtTop .pfInner .overBox .hd,
+    .pfRgtBot .pfInner .overBox .hd {
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+    .pfInner .overBox .mb20 {
+        margin-bottom: 15px;
+    }
+    a.learnMore {
+        font-size: 19px;
+        padding: 10px 15px;
+    }
+    .statsList {
+        padding: 50px 0;
+    }
+    .statsList ul {
+        margin: -10px 0;
+        padding: 0 25px;
+    }
+    .statsList ul li {
+        padding: 10px 5px;
+    }
+    .statsList li>div {
+        padding: 20px 10px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .statsList li>div span .counter {
+        font-size: 24px;
+    }
+    .videoCon {
+        width: calc(50% - 20px);
+        margin: 50px 0 50px 20px;
+        height: 300px;
+    }
+    .videoTop {
+        max-width: 320px;
+    }
+    .partnerBox {
+        padding-right: 25px;
+    }
+    .clientBox {
+        padding-left: 25px;
+    }
+    .newsLft {
+        padding: 25px;
+    }
+    .newsLft .hd {
+        font-size: 30px;
+    }
+    .newsList li {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .newsList li a {
+        padding: 16px 80px 16px 0;
+    }
+    .blogBox figure {
+        font-size: 20px;
+        top: 70%;
+    }
+    .blogBox figure .hd {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .letsTalk .hd {
+        font-size: 26px;
+        padding: 0 0 5px 0;
+    }
+    .letsTalk a {
+        font-size: 18px;
+    }
+    .footerTop {
+        margin: 0 -10px;
+    }
+    /* .footerCol {
+        padding: 35px 10px;
+    } */
+    .footerCol.colm2 {
+        width: 17%;
+    }
+    .footerCol.colm3 {
+        width: 20%;
+    }
+    .footerCol.colm4 {
+        width: 17%;
+    }
+    .footerCol.colm5 {
+        width: 26%;
+    }
+    .awards-sec .dmca img {
+        width: 140px;
+    }
+    .awards-sec .magento-certified img {
+        width: 75px;
+    }
+    .awards-sec .google-partner img,
+    .awards-sec .microsoft-partner img {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .letsTalk {
+        padding: 50px 0;
+    }
+    .home-about-video1 {
+        min-height: 380px;
+    }
+    .menu ul li {
+        font-size: 14px;
+    }
+    .address p .zone-btn {
+        padding: 5px 7px;
+    }
+    .slicknav_menu {
+        max-height: 300px;
+    }
+    .about-md-content .about-section {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .headRgt {
+        height: 80px;
+    }
+    .menu {
+        display: none;
+    }
+    .popupMenuBox {
+        width: 320px;
+    }
+    .popupDDBox {
+        width: calc(100% - 320px);
+        right: calc(-100% + 600px);
+    }
+    .popupDDBox.active {
+        right: 320px;
+    }
+    .popupDDBox .linkBox .subHd {
+        position: static;
+    }
+    .popupDDBox .hd {
+        font-size: 30px;
+        padding: 0 55px 0 0;
+    }
+    .popupDDBox .text {
+        padding: 15px 0 0 0;
+    }
+    .popupDDBox .linkBox {
+        padding: 20px 0;
+    }
+    .popupDDBox .linkBox .subHd img {
+        top: 16px;
+    }
+    .popupDDBox .linkBox ul {
+        padding: 12px 0 0 0;
+    }
+    .conInfo li {
+        font-size: 15px;
+    }
+    .bannerCon {
+        min-height: auto;
+    }
+    .bannerCon .bannerItem .home-container {
+        min-height: 560px;
+    }
+    .bannerText {
+        max-width: 100%;
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .home-container {
+        padding: 0 15px;
+    }
+    .pt50 {
+        padding-top: 30px;
+    }
+    .pb50 {
+        padding-bottom: 30px;
+    }
+    .mainHd {
+        font-size: 28px;
+    }
+    .hdText {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .serviceMid {
+        width: calc(100% - 300px);
+        padding: 0 0 0 15px;
+    }
+    .salesforceBox {
+        width: 100%;
+        /* display: none; */
+        align-items: center;
+        margin-top: 30px;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .awards-sec {
+        padding: 25px;
+    }
+    .salesforceBox .img {
+        padding: 0 30px 0 0;
+    }
+    .salesforceBox .hd {
+        padding: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .salesforceBox .btn {
+        left: initial;
+        right: 20px;
+        bottom: 50%;
+        margin-bottom: -21px;
+    }
+    .pfLft .pfInner .name,
+    .pfRgt .pfInner .name {
+        padding: 15px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .pfInner .overBox .hd {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .pfInner .overBox {
+        padding: 15px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .pfInner .overBox a {
+        font-size: 16px;
+    }
+    a.learnMore span:after {
+        top: 0;
+    }
+    .pfRgtTop .pfInner .overBox,
+    .pfRgtBot .pfInner .overBox {
+        padding: 15px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .pfRgtTop .pfInner .overBox .hd,
+    .pfRgtBot .pfInner .overBox .hd {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .statsList {
+        padding: 30px 15px;
+    }
+    .statsList ul {
+        margin: -5px 0;
+        padding: 15px 20px;
+    }
+    .statsList ul li {
+        padding: 5px;
+    }
+    .statsList li>div {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .statsList li>div span {
+        font-size: 18px;
+    }
+    .statsList li>div span .counter {
+        font-size: 20px;
+    }
+    .videoCon {
+        width: calc(50% - 30px);
+        margin: 30px 15px 30px 15px;
+    }
+    .videoOuter {
+        bottom: -23px;
+    }
+    .videoTop {
+        max-width: 300px;
+    }
+    .videoDots li {
+        padding-top: 5px;
+    }
+    .clientCon {
+        padding: 0 15px;
+    }
+    .partnerBox {
+        padding-right: 15px;
+    }
+    .clientBox {
+        padding-left: 15px;
+    }
+    .newsLft {
+        padding: 15px;
+    }
+    .newsList {
+        margin-bottom: 20px;
+    }
+    .newsList li {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    .newsList li a {
+        padding: 14px 70px 14px 0;
+    }
+    .newsLft .hd {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .blogBox figure {
+        padding: 15px;
+        top: 75%;
+    }
+    .blogBox figure .title {
+        left: 15px;
+        bottom: 10px;
+        font-size: 15px;
+    }
+    .blogBox figure .hd {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .tollFree span {
+        font-size: 24px;
+    }
+    .socialLink li a {
+        height: 35px;
+    }
+    .socialLink li a:after {
+        transform: scale(.8);
+    }
+    .footerCol {
+        width: 30%;
+    }
+    .footerCol.colm2 {
+        width: 22%;
+    }
+    .footerCol.colm3 {
+        width: 26%;
+    }
+    .footerCol.colm4 {
+        width: 22%;
+    }
+    .footerCol.colm5 {
+        padding: 0 10px 20px 10px;
+        width: 100%;
+        max-width: 340px;
+        margin: auto;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .bannerHd {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .popupMenuBox {
+        width: 100%;
+        position: fixed;
+        overflow: auto;
+    }
+    .mobMenuCover.active .quickMenuCon {
+        overflow: auto;
+    }
+    .popupBot {
+        position: static;
+    }
+    .popupDDBox .hd {
+        padding: 10px 55px 0 0px;
+    }
+    .popupDDBox {
+        width: 100%;
+        height: 100%;
+        transition: ease-in-out .5s;
+        overflow: auto;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        padding: 20px;
+        z-index: 100;
+    }
+    .popupDDBox.active {
+        right: 0;
+        transition: ease-in-out .5s;
+    }
+    .popupDDBox .back {
+        display: block;
+        color: #fff;
+    }
+    .popupDDBox .back img {
+        transform: rotate(180deg);
+        vertical-align: middle;
+        margin: 0 5px 2px 0;
+    }
+    .mainHd {
+        font-size: 26px;
+    }
+    .serviceLink {
+        width: 180px;
+    }
+    .serviceLink a {
+        padding: 1px 10px;
+        font-size: 18px;
+        text-align: right;
+    }
+    .serviceMid {
+        width: calc(100% - 180px);
+    }
+    .serviceList {
+        margin: -5px;
+    }
+    .serviceList li {
+        padding: 5px;
+    }
+    .serviceList>li>a {
+        padding: 10px;
+    }
+    .serviceList>li>a .text {
+        font-size: 13px;
+    }
+    .pfInner .overBox .mb20 {
+        display: none;
+    }
+    .pfRgtTop .pfInner .overBox,
+    .pfRgtBot .pfInner .overBox {
+        padding: 10px;
+    }
+    .pfRgtTop .pfInner .overBox .hd,
+    .pfRgtBot .pfInner .overBox .hd {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .pfInner .overBox a {
+        font-size: 15px;
+    }
+    .statsList {
+        width: auto;
+        padding: 20px 15px;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+        margin: -5px;
+    }
+    .serviceList>li {
+        padding: 5px;
+    }
+    .videoCon {
+        width: calc(100% - 30px);
+        margin: 15px 15px 30px 15px;
+        height: 320px;
+    }
+    .service-single-items h2 {
+        font-size: 24px;
+    }
+    .home-about-video1 {
+        min-height: 270px;
+        margin-top: 0;
+    }
+    .single-flip-box {
+        padding: 0 15px;
+    }
+    .innerHeading {
+        font-size: 20px;
+        min-height: 380px;
+        padding: 110px 0 40px 0;
+        line-height: 28px;
+    }
+    .midLft {
+        width: 70%;
+        padding-right: 20px;
+    }
+    .midRgt {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .aboutus-wrap {
+        padding: 50px 0;
+    }
+    .home-about-video {
+        margin: 30px 0 15px;
+    }
+    .why-choose-us-area.style-two {
+        background: #233d7e;
+    }
+    .choose {
+        margin-top: 20px;
+    }
+    .letsTalk {
+        background-size: cover;
+    }
+    .letsTalk .home-container {
+        padding-right: 15px !important;
+    }
+    .subscribe-input-field {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .home-about-video1 {
+        min-height: 420px;
+    }
+    .address p .zone-btn {
+        margin-bottom: 5px;
+    }
+    .footer-top h2 {
+        font-size: 18px;
+    }
+    .footer-top h2 strong {
+        font-size: 11px;
+        letter-spacing: 9px;
+    }
+    .social_media li a i {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        padding: 0;
+        line-height: 30px;
+    }
+    .awards-sec {
+        padding: 15px;
+    }
+    .midCon.about-section {
+        padding-bottom: 222px;
+    }
+    .about-md-content .midCon.about-section {
+        padding-bottom: 0;
+    }
+    .innerHeading h1 {
+        font-size: 45px;
+    }
+    .address-col {
+        margin-top: 20px;
+    }
+    .location-col figure img {
+        width: 100%;
+    }
+    .listicon li {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header .home-container {
+        height: 70px;
+    }
+    .salesforceBox {
+        display: none;
+    }
+    .bannerCon .bannerItem .home-container {
+        padding: 80px 15px 20px 15px;
+        min-height: calc(100vh - 50px);
+    }
+    .bannerHd {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .bannerText {
+        font-size: 17px;
+        line-height: 22px;
+        padding: 20px 0;
+        display: none;
+    }
+    .sfBanImg {
+        width: 70px !important;
+        margin: 0 0 10px 4px !important;
+    }
+    a.readMoreBtn {
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+    .mainHd {
+        font-size: 26px;
+    }
+    .hdText {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .mb20 {
+        margin-bottom: 20px;
+    }
+    .serviceLink {
+        width: 100%;
+        border-right: none;
+        display: none;
+        margin-bottom: 10px;
+    }
+    .serviceLink a {
+        width: 50%;
+        height: 50px;
+        border-right: 1px solid transparent;
+        padding: 10px;
+        font-size: 14px;
+        justify-content: center;
+    }
+    .serviceLink .active {
+        display: none;
+    }
+    .serviceLink a.current {
+        border-right: 1px solid rgba(255, 255, 255, 1);
+    }
+    .serviceMid {
+        width: 100%;
+        padding: 0;
+        display: none;
+    }
+    .statsList {
+        padding: 15px 10px;
+        margin: 0px;
+    }
+    .videoCon {
+        width: calc(100% - 20px);
+        margin: 15px 10px 30px 10px;
+        height: 230px;
+    }
+    .partnerBox {
+        width: 100%;
+        padding-right: 0;
+    }
+    .partnerBox:after {
+        width: 100%;
+        height: 1px;
+        right: 0px;
+        top: 100%;
+        background: #ccc;
+    }
+    .clientBox {
+        width: 100%;
+        padding-left: 0;
+    }
+    .newsLft {
+        width: 100%;
+    }
+    .newsRgt {
+        width: 100%;
+        height: 320px;
+    }
+    .blogBox figure {
+        top: 70%;
+    }
+    .letsTalk {
+        padding: 50px 0;
+        font-size: 35px;
+    }
+    .letsTalk .hd {
+        font-size: 22px;
+    }
+    .footerTop .footerCol {
+        width: 100%;
+    }
+    .footerHd {
+        max-width: 100%;
+    }
+    .footerCol.colm5 {
+        width: 50%;
+        display: block;
+    }
+    .serviceForMob {
+        display: block;
+    }
+    .serviceForMob .serviceList {
+        display: flex;
+    }
+    .popupDDBox {
+        padding: 15px;
+    }
+    .popupDDBox .linkBox ul li {
+        font-size: 12px;
+    }
+    .blogBox a .topHd {
+        font-size: 15px;
+    }
+    .blogBox figure {
+        padding: 15px 15px 30px 15px;
+    }
+    .blogBox figure .hd {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .blogBox figure .date {
+        font-size: 13px;
+    }
+    .blogBox figure .title {
+        font-size: 13px;
+        left: 15px;
+        bottom: 5px;
+    }
+    .newsList li a span {
+        font-size: 13px;
+    }
+    .newsList li a {
+        padding: 14px 50px 14px 0;
+    }
+    .ServiceCon {
+        padding-bottom: 0;
+    }
+    .serviceList>li {
+        width: 100%;
+        padding: 25px;
+        background: #233d7e;
+        margin-bottom: 15px;
+        border-radius: 3px;
+    }
+    .serviceList>li>a .hd {
+        margin-bottom: 0px;
+        padding-left: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .serviceList>li>a .hd img {
+        width: 30px;
+    }
+    .serviceList>li>a {
+        height: auto;
+        color: #fff;
+        padding: 0 0 15px;
+        background: none;
+        box-shadow: inherit;
+    }
+    .serviceList>li>a:before {
+        transform: scale(1);
+        opacity: 1;
+        display: none;
+    }
+    .serviceList>li>a:after {
+        display: none;
+    }
+    .serviceMobLink {
+        position: relative;
+    }
+    .serviceMobLink li {
+        width: 50%;
+        font-size: 14px;
+        padding: 10px 5px 10px 27px;
+        position: relative;
+        z-index: 2;
+    }
+    .serviceMobLink li:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border: 1px solid #33519c;
+        position: absolute;
+        left: 0;
+        top: 12px;
+    }
+    .serviceMobLink li:after {
+        content: '';
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid transparent;
+        border-left: 4px solid #fff;
+        position: absolute;
+        left: 6px;
+        top: 16.5px;
+    }
+    .serviceMobLink li a {
+        display: inline-block;
+        color: #fff;
+    }
+    .eventCon {
+        flex-direction: column-reverse;
+    }
+    .eventCon .newsLft {
+        background: none;
+        padding: 12px 0 0 0;
+    }
+    .eventCon .newsLft .hd {
+        display: none;
+    }
+    .eventCon .newsLft .newsList {
+        display: none;
+    }
+    a.newsBtn {
+        background: #00a2ee;
+    }
+    .why-choose-us-area.style-two .dreamit-section-content-text p {
+        width: 100%;
+    }
+    .service-single-items {
+        margin-bottom: 15px;
+    }
+    .service-section .mainHd {
+        margin-bottom: 20px;
+    }
+    .service-single-items h2 br {
+        display: none;
+    }
+    .home-about-video1 {
+        display: none !important;
+    }
+    .footer-top h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+    .social_media {
+        margin: 15px 0;
+        text-align: center !important;
+    }
+    .subscribe-input-field {
+        margin-bottom: 0;
+    }
+    .ot-heading h2 {
+        line-height: 33px;
+        font-size: 26px;
+    }
+    .flip-box-section {
+        display: none;
+    }
+    .midCon.about-section {
+        padding-bottom: 30px;
+    }
+    .about-infolist ul li {
+        width: 50%;
+    }
+    .about-infolist.infolist2 ul li:nth-last-child(-n+4) {
+        border-bottom: 1px dashed #dadada;
+    }
+    .about-infolist.infolist2 ul li:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+    .about-infolist.infolist2 ul li:nth-child(2n+1) {
+        border-left: none;
+    }
+    .about-md-content .about-single-thumb {
+        position: inherit;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .about-md-content .about-single-thumb::after {
+        display: none;
+    }
+    .about-md-content .ot-heading p {
+        font-size: 16px;
+    }
+    .innerHeading {
+        padding: 90px 0 30px 0;
+        font-size: 16px;
+        min-height: 350px;
+        line-height: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    .innerHeading h1 {
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+    .innerHeading h1:after {
+        width: 60px;
+        bottom: 15px;
+        margin-left: -30px;
+    }
+    .midCon {
+        padding: 30px 0px;
+    }
+    .bradcrumb .lft {
+        font-size: 13px;
+    }
+    .midLft {
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 0;
+    }
+    .midRgt {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .bannerHd {
+        font-size: 20px;
+    }
+    .icon-box-s1 {
+        margin-bottom: 20px;
+    }
+    .why-choose-us-area.style-two.pt-115.pb-90 {
+        padding: 30px 0px;
+    }
+    .why-choose-us-area.style-two .dreamit-section-main-title h2 {
+        font-size: 26px;
+        margin-left: 0;
+    }
+    .about-bg-bar:before,
+    .about-bg-bar:after {
+        display: none;
+    }
+    .service-number {
+        margin-right: 35px;
+        line-height: 29px;
+    }
+    .service-number::after {
+        width: 20px;
+        top: 12px;
+    }
+    .service-single-items h2 {
+        font-size: 20px;
+    }
+    .section-head h5 {
+        font-size: 14px;
+    }
+    .letsTalk {
+        padding: 30px 0;
+    }
+    .letsTalk .hd {
+        font-size: 20px;
+    }
+    .subscribe-mail-box .subscribe-mail-field {
+        padding: 15px;
+    }
+    .subscribe-mail-box {
+        height: auto;
+        background: none;
+    }
+    .subscribe-mail-box .subscribe-mail-field {
+        background: #fff;
+    }
+    .subscribe-mail-box .subscribe-btn {
+        position: inherit;
+        width: 100%;
+    }
+    .innerHeading h1 {
+        font-size: 24px;
+    }
+    .about-section .bold-text p {
+        font-size: 16px;
+    }
+    .about-infolist.infolist2 ul li {
+        padding: 30px 9px;
+    }
+    .about-infolist ul li p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .address-col p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .address-col>i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .listicon li {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .popupDDBox .linkBox ul li {
+        width: 50%;
+        padding: 2px 5px;
+    }
+    .pt50 {
+        padding-top: 20px;
+    }
+    .pb50 {
+        padding-bottom: 20px;
+    }
+    .serviceLink {
+        flex-wrap: wrap;
+    }
+    .serviceList {
+        margin: -5px;
+    }
+    .serviceList>li {
+        width: 100%;
+    }
+    .serviceList>li:last-child {
+        margin-bottom: 0;
+    }
+    .serviceMobLink li {
+        width: 100%;
+    }
+    .midCon {
+        padding: 30px 0px;
+    }
+    .pfLft {
+        width: 100%;
+        height: 300px;
+    }
+    .pfRgt {
+        width: 100%;
+    }
+    .pfRgtTop {
+        width: 100%;
+        height: 220px;
+        /* display: none; */
+    }
+    .pfInner .overBox .mb20 {
+        display: block;
+    }
+    .pfRgtTopC>div {
+        width: 100%;
+        height: 220px;
+    }
+    .projects-wrap .hdText {
+        padding: 0 15px;
+    }
+    .videoTop {
+        max-width: 250px;
+    }
+    .statsList ul {
+        margin: -2px;
+        padding: 10px 0;
+    }
+    .statsList ul li {
+        width: 50%;
+        padding: 2px;
+    }
+    .statsList li>div {
+        padding: 6px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .partnerList li {
+        width: 33.33%;
+    }
+    .mobileHide {
+        display: none !important;
+    }
+    footer .home-container {
+        padding: 0;
+    }
+    footer .footerTop {
+        margin: 0;
+    }
+    .footerRgt {
+        padding: 10px 5px;
+        border: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    .tollFree {
+        display: none !important;
+    }
+    .mailSkp {
+        display: none !important;
+    }
+    .footerRgt a.readMoreBtn {
+        display: none;
+    }
+    .socialLink {
+        padding: 0 0 5px 0;
+        max-width: 260px;
+        margin: auto;
+        justify-content: center;
+    }
+    .socialLink li a {
+        height: 32px;
+    }
+    .socialLink li a:after {
+        transform: scale(0.7);
+    }
+    .socialLink li a:hover {
+        background: none;
+    }
+    .footerLink li {
+        font-size: 13px;
+    }
+    .footerLink li.mobHide {
+        display: none;
+    }
+    .footerLink li.dsMob {
+        display: none;
+    }
+    .ccBox {
+        max-width: 260px;
+        margin: 5px auto 0 auto;
+        padding: 0 5px;
+    }
+    .crating {
+        font-size: 9px;
+    }
+    .crating span {
+        font-size: 9px;
+    }
+    .clutch span {
+        font-size: 9px;
+    }
+    .clutch {
+        padding: 3px 0 0 27px;
+    }
+    .clutch .clImg {
+        width: 22px;
+    }
+    .copy {
+        text-align: center;
+        font-size: 11px;
+    }
+    .mobSk {
+        display: flex;
+        color: #fff;
+        font-size: 14px;
+    }
+    .mobCon {
+        display: block;
+    }
+}
+
+@media(max-width:1800px){
+    .salesforceIconTop .icon {left:15px;}
+    }
+    
+    @media(max-width:1500px){
+    .newPflist li .imageBg {height:240px;}
+    .newPfDet {padding:20px;}
+    .newPfDet .hd {font-size:19px;}
+    .newPfDet .tagBx strong {font-size:14px;}
+    .newPfDet .tagBx span {font-size:14px;}
+    .newPfDet .txt {font-size:15px; line-height:20px;}
+    .newPflist li:nth-child(5n-2) {/* height:400px !important; */}
+    .newPflist li:nth-child(5n-2) .imageBg {/* height:400px; */}
+    .newPflist li:nth-child(5n-2) .newPfDet {padding:20px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .hd {font-size:25px; padding-bottom:10px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx strong {font-size:17px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx span {font-size:15px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .txt {font-size:16px; line-height:22px;}
+    .newPflist li:nth-child(5n-1) {/* height:199px !important; */}
+    .newPflist li:nth-child(5n-1) .imageBg {/* height:198px; */}
+    .newPflist li:nth-child(5n-1) .newPfDet {padding:10px;}
+    .newPflist li:nth-child(5n-1) .newPfDet .hd {font-size:16px;}
+    .newPflist li:nth-child(5n-1) .newPfDet .tagBx {padding-bottom:5px;}
+    .newPflist li:nth-child(5n-1) .newPfDet .tagBx strong {font-size:12px;}
+    .newPflist li:nth-child(5n-1) .newPfDet .tagBx span {font-size:11px; padding:3px 4px;}
+    .newPflist li:nth-child(5n) {/* height:199px !important; */}
+    .newPflist li:nth-child(5n) .imageBg {/* height:198px; */}
+    .newPflist li:nth-child(5n) .newPfDet {padding:10px;}
+    .newPflist li:nth-child(5n) .newPfDet .hd {font-size:16px;}
+    .newPflist li:nth-child(5n) .newPfDet .tagBx {padding-bottom:5px;}
+    .newPflist li:nth-child(5n) .newPfDet .tagBx strong {font-size:12px;}
+    .newPflist li:nth-child(5n) .newPfDet .tagBx span {font-size:11px; padding:3px 4px;}
+    
+    .innerHeading h1 {font-size:50px;}
+    .pfListNew li > a figure {top: 20%;}
+    .pfListNew li > a:hover figure {top:5%;}
+    
+    }
+    
+    @media(max-width:1179px){
+    .processCon {width:850px; margin:auto; background-size:100% auto;}
+    .processCon ul {width:850px; height:440px;}
+    .processCon ul li {width:200px;}
+    .processCon ul li .icon img {width:70px;}
+    .processCon ul li.first .icon {left:68px; top:-165px;}
+    .processCon ul li.second {left:142px;}
+    .processCon ul li.second .icon {left:65px; top:195px;}
+    .processCon ul li.thrid {left:326px;}
+    .processCon ul li.thrid .icon {left:68px; top:-165px;}
+    .processCon ul li.four {left:510px;}
+    .processCon ul li.four .icon {left:65px; top:175px;}
+    .processCon ul li.five {left:695px;}
+    .processCon ul li.five .icon {left:68px; top:-165px;}
+    /*.pfTab ul li a {padding:20px 20px; font-size:13px;}*/
+    .deLft .inner {width:auto; float:none; padding:50px 20px;}
+    .deRgt .inner {width:auto; float:none; padding:230px 20px;}
+    .deRgt .inner.mac {padding:170px 20px;}
+    .webSlider {padding:0 35px;}
+    .webSlider .owl-prev, .whySlider .owl-prev {left:0px;}
+    .webSlider .owl-next, .whySlider .owl-next {right:0;}
+    .whySlider {margin-top:40px; padding:0 35px; position:relative;}
+    .whySlider .item .content {padding:10px;}
+    .seopfOver {top:inherit; bottom:0; display:block; height:auto;}
+    .seopfOver .hd {display:none;}
+    .seopfOver .bot {display:none;}
+    .seopfOver .info {height:100%; display:table; width:100%;}
+    .seopfOver .info .name {font-size:16px; padding:10px;}
+    .seopfOver .info .tags {display:none;}
+    .mobDetSliderOut {width:700px; margin:auto;}
+    .mobDetSliderOut .mobCover {margin-left:-102px; top:-22px;}
+    .mobDetSliderOut .mobCover img {width:200px;}
+    .pfImgBox .homePfOver, .csSlider .homePfOver {top:inherit; bottom:0; height:100%; display:block; background:none;}
+    .pfImgBox .homePfOver .info .name a, .csSlider .homePfOver .info .name a {background:rgba(0,0,0,.5); color:#fff;}
+    
+    .dmExpertseList {width:96%; margin:auto;}
+    .dmExpertseList li:nth-child(2n) {padding-top:76px;}
+    .dmExpertseBox {background:url(../images/polygone.png); width:180px; height:157px; background-size:cover; padding-top:52px; margin-left:-20px;}
+    .strengthList li {padding:10px 10px 10px 120px; font-size:17px;}
+    .strengthList li span {font-size:50px; position:absolute; left:10px; top:0px;}
+    .competenceBox {width:60%;}
+    .planTextBox {width:40%; }
+    .platformExpertise li {font-size:19px;}
+    .ssBox {width:320px; height:368px; margin:0 5px;}
+    .ssFront {background-size:cover !important;}
+    .ssOver {background-size:cover !important; padding:60px 15px 0 15px;}
+    .bigdataEx li {padding:10px 10px;}
+    .dbTxtSlider {font-size:18px;}
+    .autonationInfo ul li {padding:0 7px;}
+    .cloudBox {width:330px; height:289px; padding:15px 25px 0 25px;}
+    .cloudBox .hd {font-size:17px;}
+    .cloudBox .content {padding:0 20px; font-size:15px;}
+    .cloudBoxBig {width:450px; height:291px; margin:60px -60px 0 -60px; padding:25px 75px 0 75px;}
+    .cloudBoxBig .hd {font-size:20px;}
+    .cloudBoxBig .content {font-size:17px;}
+    .parkList li .desc {font-size:14px; padding:10px; line-height:20px;}
+    .strengthList li.thr {padding-left:100px;}
+    .strengthList li.fur {padding-left:65px;}
+    .bdExpertise li {font-size:19px;}
+    .dedicatedTeamMod img {margin:0 10px; height:60px;}
+    .bigdataList.iotService > ul > li {padding:20px;}
+    .midRgt #recaptcha1, .midRgt #recaptcha1 > div {transform:scale(0.69); -webkit-transform:scale(0.69); margin-bottom:-25px;}
+    
+    .mobileExpertiseSlider {padding:0 35px;}
+    .mobileExpertiseSlider .owl-prev {left:0px;}
+    .mobileExpertiseSlider .owl-next {right:0;}
+    .verticalsBot {text-align:center; padding:15px 0;}
+    .verticalsBot a {display:inline-block; margin:5px 10px;}
+    .verticalsBot a img {height:40px;}
+    .expertiseBot {text-align:center; padding:15px 0;}
+    .expertiseBot a {display:inline-block; margin:5px 10px;}
+    .expertiseBot a img {height:40px;}
+    .contactFormNew {padding:15px 20px;}
+    .phoneNumberList li {font-size:15px; padding:12px 10px;}
+    .busSolLink > li {font-size:16px;}
+    
+    .iotBanner .lft {padding:65px 40px 20px 0; font-size:20px;}
+    .iotBanner .lft h1 {font-size:42px;}
+    .iotBanner .rgt {padding:65px 0 20px 0;}
+    .iotHIW {max-width:1000px;}
+    .iotHIW li {width:250px;}
+    .iotIndustry li:hover {-moz-transform:none; -webkit-transform:none; transform:none;}
+    
+    .bulletHalf li {font-size:15px; padding:4px 0 4px 25px; float:none; width:100%;}
+    .bulletHalf li:before {border:2px solid #dedede; width:10px; height:10px; top:5px;}
+    .industrySlider .item .mainHd {font-size:21px;}
+    .industrySlider .item {padding:10px;}
+    
+    .aiHIW {text-align:center;}
+    .aiHIW li {height:auto; float:none; width:33.33%; padding:25px 10px 0 10px; margin:0; margin-left:-4px; text-align:center; display:inline-block; vertical-align:top;}
+    .aiHIW li .hd {padding:8px 15px;}
+    .aiHIW li .hd:after {display:none;}
+    .aiHIW li .icon {position:relative; margin:0 auto; left:0; top:-5px;}
+    .aiHIW li .text {position:static; border-left:none; padding:15px 0 0 0; width:100%; font-size:14px; line-height:20px;}
+    .aiHIW li:nth-child(2) .text {border-left:none;}
+    .aiHIW li:nth-child(3) .text {border-left:none;}
+    .aiHIW li:nth-child(4) .text {border-left:none;}
+    .aiHIW li:nth-child(5) {width:33.33%; padding:25px 10px  10px;}
+    .aiHIW li:nth-child(5) .roundBox {width:100%; height:auto; border:none; position:static;}
+    .aiHIW li:nth-child(5) .smllRoundBox {width:100%; height:50px; background:#19bec8; border:none; position:static; border-radius:0; padding:8px 15px; font-weight:400;}
+    .aiHIW li:nth-child(5) .text {border-left:none; padding:15px 0 0 0;}
+    .aiHIW li:nth-child(5) .icon {width:74px; height:74px; left:0; top:-5px;}
+    .aiHIW li:nth-child(5) .upArrow {display:none;}
+    .blockchainSolIcon {width:220px; height:220px; margin:-110px 0 0 -110px;}
+    .hireTab ul li a {font-size:17px; padding-top:13px;}
+    .hireTab.techo ul li a {padding-top:22px;}
+    .pfLftHd {font-size:16px;}
+    .pfLftHd a {padding: 12px 10px;}
+    .pfLeftMenu {padding:10px;}
+    .pfRgt {padding-left:10px;}
+    .newPflist li {margin-top:10px;}
+    .newPflist li .imageBg {height:200px;}
+    .newPfDet {padding:10px;}
+    .newPfDet .hd {font-size:17px;}
+    .newPfDet .tagBx span {font-size:13px; padding:5px 8px;}
+    .newPfDet .txt {font-size:14px; line-height:19px;}
+    .newPflist li:nth-child(5n-4) {padding-right:5px;}
+    .newPflist li:nth-child(5n-3) {padding-left:5px;}
+    .newPflist li:nth-child(5n-2) {width:100%; padding-right:0; height:350px !important;}
+    .newPflist li:nth-child(5n-2) .imageBg {height:350px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .hd {font-size:20px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx strong {font-size:15px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx span {font-size:13px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .txt {font-size: 14px; line-height: 20px;}
+    .newPflist li:nth-child(5n-1) {width:50%; padding-left:0; padding-right:4px; margin-top:8px;}
+    .newPflist li:nth-child(5n) {width:50%; margin-top:8px; padding-left:4px;}
+    .devopsExLft {width:50%;}
+    .devopsExRgt {padding:0 0 0 30px; width:50%;}
+    .devopsExRgt .text {float:none; position:static; width:100%; padding:15px; font-size:19px;}
+    .reProjectHd {font-size:26px;}
+    .pfCover {padding:40px;}
+    .pfFront .item .lft {padding-right:20px;}
+    .pfFront .item .hd {font-size:24px;}
+    .pfFront .item .text {font-size:15px; line-height:22px;}
+    .pfFront .item a.fcsBtn {padding:10px 25px; font-size:17px;}
+    .relProjectCon .slick-prev {left:-50px; width:45px;}
+    .relProjectCon .slick-next {right:-50px; width:45px;}
+    .verStList {margin:-5px; padding-bottom:10px;}
+    .verStList li {padding:5px; margin-top:20px;}
+    .verStList li a {font-size:20px;}
+    .ourCapList li > div {padding:20px; font-size:17px; line-height:22px;}
+    .ourCapList li > div span {font-size:22px;}
+    .indExpertise .inner {padding:30px; font-size:17px; line-height:24px;}
+    .indExpertise span {font-size:24px;}
+    .techStackList > li .textBox .content {font-size:16px; line-height:28px;}
+    .salesforceSol {margin:-10px;}
+    .salesforceSol li {padding:10px;}
+    .salesforceSol li > div {padding:15px;}
+    .salesforceSol li > div .hd {font-size:18px;}
+    
+    .leaderSlider {padding:0 20px;}
+    .leaderBox .info {padding:20px;}
+    .leaderBox .info .hd {font-size:30px;}
+    .leaderBox .info .hd span {font-size:17px;}
+    .leaderBox .info .text {font-size:17px; line-height:24px;}
+    
+    .clientVideoSlider .owl-prev {position:absolute; left:-8px; top:50%; margin-top:-21px; width:42px; height:42px; border:2px solid #e1e1e1; background:#fff url(../images/testimonial_prev_arrow.png) no-repeat center; border-radius:100%; overflow:hidden; text-indent:-200px;}
+    .clientVideoSlider .owl-next {position:absolute; right:-8px; top:50%; margin-top:-21px; width:42px; height:42px; border:2px solid #e1e1e1; background:#fff url(../images/testimonial_next_arrow.png) no-repeat center; border-radius:100%; overflow:hidden; text-indent:-200px;}
+    .threeColumn {margin:-10px;}
+    .threeColumn li {padding:10px;}
+    .capabilitiesList {margin:-10px;}
+    .capabilitiesList li {padding:10px;}
+    .meantopList {margin:-10px;}
+    .meantopList li {padding:10px;}
+    
+    .featureList > li {padding:15px;}
+    .featureList > li .bulletList li {font-size:15px;}
+    .featureList > li .bulletList li:before {top:12px;}
+    
+    .leadHd {font-size: 32px; padding-bottom: 30px;}
+    .leadList {margin: -20px -10px; padding-bottom: 30px;}
+    .leadList li {padding:20px 10px;}
+    .leadList li > div:after {width: calc(100% + 16px); height: calc(100% + 16px); left: -8px; top: -8px;}
+    .leadTop {margin-bottom: 30px;}
+    
+    .aboutStats.new {padding:20px 0 50px 15px;}
+    .aboutStatsImg {padding-right:15px;}
+    .aboutStats {padding: 60px 15px;}
+        .aboutStats ul {padding-right: 0;}
+        .ourHistoryBot {padding-right: 30px;}
+        .ourHistoryBot:after {right: -14px;}
+        .listIndustry {margin: -8px;}
+        .listIndustry li {padding: 8px;}
+        .listIndustry li > a .name {display: none;}
+        .listIndustry li > a .over {transform: scale(1); width: auto; height: auto; top: inherit; bottom: 0; padding: 10px; font-size: 15px; line-height: 22px; background: rgba(49,150,204,.6);}
+        .listIndustry li > a .over span {margin-bottom: 20px; font-size: 19px;}
+        .listIndustry li > a .over span:after {bottom: -12px;}
+        .pfListNew {margin: -8px;}
+        .pfListNew li {padding: 8px;}
+        .pfListNew li > a figure {top: 0; display: flex; align-items: center;}
+        .pfListNew li > a figure .inner {padding: 15px;}
+        .pfListNew li > a .imgBox {min-height: 260px;}
+        .pfListNew li > a .hd {font-size: 20px; line-height: 28px;}
+        .pfListNew li > a:hover .text {display: none;}
+        .pfListNew li > a:hover .tags {display: none;}
+        .newServiceLink li a {height: 100%;}
+        .serviceTxt {font-size: 20px; padding: 20px; line-height: 28px;} 
+        .newServiceLink li a {font-size: 14px; line-height: 18px;}
+        .serviceLft {padding: 125px 15px 0 0;}
+        .serviceGB .serviceLft {padding: 170px 0 0 15px;}
+        .industryInner {float:none; width:auto; padding:35px 20px;}
+    .solutionInner {float:none; width:auto; padding:35px 20px;}
+    
+    .whwf .lft {font-size:26px;}
+    .whwf .rgt li img {max-width:155px;}
+    .modelsList li .rgt {padding: 15px; font-size: 15px; line-height: 22px;}
+    .modelsList li .rgt span {font-size: 20px; line-height: 24px; padding-bottom: 10px;}
+    .salesforceIconTop .icon {width: 90px;}
+    .integrationBox .inner {padding:30px;}
+    .integrationBox ul li  {margin-bottom:20px; font-size:16px; line-height:24px;}
+    .integrationBox ul li span {font-size:24px; line-height:32px;}
+    .integrationBox ul li .icon {top:5px;}
+    .slaList {margin:-15px;}
+    .slaList li .inner {font-size:15px; line-height:24px;}
+    .slaList li .inner .icon {top:5px;}
+    .slaList li .inner span {font-size:24px; line-height:32px;}
+    
+    }
+    
+    @media(max-width:999px){
+    .innerHeading {font-size:20px; min-height:380px; padding:110px 0 40px 0; line-height:28px;}
+    .innerHeading br {display:none;}
+    .innerHeading h1 {padding-bottom:50px; font-size:45px;}
+    .innerHeading h1:after {bottom:25px;}
+    .midCon {padding:20px 0;}
+    .mainHd {font-size:28px;}
+    .hireCon {margin:20px 0;}
+    .hireTab {height:58px;}
+    .hireTab ul li.active a {height:56px;}
+    .hireTab ul li:after {top:5px;}
+    .hireTab ul li:last-child:after {display:none;}
+    .hireTab ul li a {font-size:14px; padding:15px 5px 0 5px; height:55px;}
+    .hireTab ul li a.singal {line-height:55px; padding:0;}
+    .hireLink li {width:50%; padding:15px 0;}
+    .hireLink.tech li {width:33%;}
+    .content {font-size:16px; line-height:22px;}
+    .trendingList {padding-top:20px;}
+    .trendingList .item a {font-size:17px;}
+    .trendingList .item a img {max-width:80px;}
+    .freeConsultation {font-size:18px;}
+    .freeConsultation a {padding:6px 15px;}
+    footer .client-Left {border-bottom:1px solid #5c5c5c; border-right:none;}
+    .industryTop {padding:20px 0;}
+    .industryList li {width:32%; margin:0 2% 20px 0;}
+    .industryList li .hd {padding:10px; font-size:15px;}
+    .industryList li .text {padding:10px; font-size:15px;}
+    a.loadBtn {padding:10px 25px; font-size:15px;}
+    .midLft {width:70%; padding-right:20px;}
+    .aboutBig {font-size:18px;}
+    .domainExpertise {padding:20px 0;}
+    .botPad30 {padding-bottom:20px !important;}
+    .subHd {font-size:20px;}
+    .deSlider .item {padding:20px 0 0 0; font-size:15px;}
+    .deSlider .item span {font-size:18px;}
+    .deSlider .owl-dots {padding:20px 0 0 0;}
+    .aboutInfo {padding:20px 0;}
+    .infoList {margin-bottom:20px;}
+    .officeGallery .owl-dots {padding:20px 0 0 0;}
+    .coreSlider .item {padding:20px 0 0 0; font-size:15px;}
+    .coreSlider .item span {font-size:18px;}
+    .midRgt {width:30%;}
+    .reqForm {padding:10px;}
+    .clientSlider .item {font-size:15px;}
+    .casestudySlider .item {font-size:15px;}
+    .mpLft {padding-bottom:20px;}
+    .mpLft .hd {font-size:32px; line-height:35px;}
+    .mpLft .hd span {font-size:36px; line-height:40px;}
+    .mpRgt {padding:0 0 0 20px;}
+    .mpRgt ul li {min-height:100px; padding:0 0 0 120px;}
+    .mpRgt ul li .icon {width:100px; height:100px; padding-top:15px;}
+    .mpRgt ul li .icon img {width:70px;}
+    .mpRgt ul li .hd {font-size:20px;}
+    .processCon {background:none; width:auto; padding:20px 0;}
+    .processCon ul {width:auto; height:auto;}
+    .processCon ul li {width:33.33%; float:left; position:static !important; padding:0 10px 20px 10px;}
+    .processCon ul li .icon {position:static !important; background:#f2f2f2; display:block; width:100px; height:100px; margin:0 auto 10px auto; border-radius:100px; padding-top:15px;}
+    .processCon ul li .hd {font-size:17px;}
+    .engagingUs {padding:20px 0 0 0;}
+    .engagingUs .subHd {font-size:24px;}
+    .engagingUsList > li {padding:20px; margin:20px 2% 0 0; width:32%;}
+    .engagingUsList > li .hd {min-height:60px; font-size:20px; line-height:26px; padding:0 0 20px 35px; display:block;}
+    .engagingUsList > li .hd span {font-size:45px;}
+    .contactTop {font-size:18px;}
+    .contactFormOut {padding:20px 0;}
+    .contactForm {padding:20px;}
+    .formField {padding-bottom:10px;}
+    .formField label {font-size:15px;}
+    .formBtn.smll {padding:10px 25px; min-width:256px;}
+    .contcatMap {display:none;}
+    .officeTime {padding:20px 0 0 0;}
+    .timeList {padding:20px 0 0 0;}
+    .timeList li {font-size:16px;}
+    .contcatLink li {padding:10px 10px 10px 45px; font-size:15px;}
+    .contcatLink li img.afj {top:9px; left:10px;}
+    .contcatLink li img.call {top:12px; left:14px;}
+    .contcatLink li img.req {top:11px; left:9px;}
+    .pfTopTxt {padding:20px 10px; font-size:18px;}
+    .pfTab ul li a {padding:20px 7px; font-size:12px;}
+    .pfSearchCon {padding:10px 5px 25px 5px;}
+    .pfSearchBox {padding:0 5px;}
+    .pfList ul li {width:49%; margin-right:2%; margin-bottom:5px;}
+    .pfList ul li:nth-child(3n) {margin-right:2%;}
+    .pfList ul li:nth-child(2n) {margin-right:0;}
+    .mobPFList ul li {width:49%; margin-right:2%; margin-bottom:5px;}
+    .mobPFList ul li:nth-child(3n) {margin-right:2%;}
+    .mobPFList ul li:nth-child(2n) {margin-right:0;}
+    .uiuxList ul li {padding:20px;}
+    .uiuxList ul li .detBox {padding:0 30px 0 0;}
+    .uiuxList ul li .detBox span {font-size:20px;}
+    .uiuxList ul li:nth-child(2n) .detBox {padding:0 0 0 30px;}
+    .uiuxList ul li a.readMore {font-size:15px; padding:7px 15px;}
+    .solutionTop {font-size:18px; padding-bottom:20px;}
+    .solutionList {padding-bottom:20px;}
+    .solutionList ul li {width:23%; margin:0 2.5% 20px -4px; font-size:16px;}
+    .solutionList ul li:nth-child(5n) {margin-right:2.5%;}
+    .solutionList ul li:nth-child(4n) {margin-right:0;}
+    .ourClientList ul li {width:19.6%; margin:0 .5% .5% -4px;}
+    .ourClientList ul li:nth-child(7n) {margin-right:.5%;}
+    .ourClientList ul li:nth-child(5n) {margin-right:0;}
+    .solutionTab {height:52px;}
+    .solutionTab ul li:after {height:42px; top:5px;}
+    .solutionTab ul li a {font-size:16px; height:52px; padding:14px 0 0 0;}
+    .content p {font-size:16px; line-height:22px;}
+    .checkTxt li.half {float:none; width:100%; padding-right:0px;}
+    .smllHd {padding-bottom:10px;}
+    a.itLinks {font-size:20px; height:70px; line-height:70px; padding-left:80px;}
+    a.itLinks .img {width:60px;}
+    .adsCon {padding:20px 0;}
+    .adsLIst li {margin:20px 2.5% 0 0; padding:20px;}
+    .adsLIst li h2 {font-size:17px;}
+    .adsLIst li img {margin:0 auto 10px auto;}
+    .technologicalCom {padding:20px 0;}
+    .techologySlider {padding:10px 25px;}
+    .donainExpertise {padding:20px 0;}
+    .expertiseSlider {padding:20px 25px;}
+    .expertiseSlider .item a {font-size:16px;}
+    .pdLifeCycle {padding:20px 0;}
+    .cycleCon {width:100%; margin:10px auto;}
+    .hexagonGray {width:100%; height:auto; background:#fff;}
+    .hexagonGray:before {display:none;}
+    .hexagonGray:after {display:none;}
+    .hexagonWht {width:100%; height:auto; position:static;}
+    .hexagonWht:before {display:none;}
+    .hexagonWht:after {display:none;}
+    .hexagonWht .hd {font-size:35px; padding-top:0; line-height:normal;}
+    .hexagonWht .hd span {display:inline;}
+    .cycleCon .textBox {position:static; width:33.33%; float:left; padding-top:10px; text-align:left !important;}
+    .cycleCon .textBox .line {display:none;}
+    .cycleCon .textBox .hd {font-size:22px; padding:7px 0 0 0 !important;}
+    .cycleCon .textBox ul li {font-size:17px; padding:4px 0 4px 10px !important;}
+    .cycleCon .textBox ul li span {margin-right:0; position:absolute; left:0 !important; top:5px !important;}
+    .cycleCon .development {clear:both;}
+    .benefitCon {padding:20px 0;}
+    .benefitList {padding-top:20px;}
+    .benefitList li {font-size:17px; margin-bottom:30px; padding-left:64px;}
+    .benefitList li img {width:55px;}
+    .botPfCon {padding:20px 0;}
+    .botPfCon .lft {float:none; width:100%;}
+    .csSlider {background:#efefef; padding:30px 30px 0 30px;}
+    .csSlider .owl-prev {background:url(../images/prev_arrow.png); width:13px; height:27px; opacity:.3; position:absolute; left:7px; top:50%; overflow:hidden; text-indent:-200px;}
+    .csSlider .owl-next {background:url(../images/next_arrow.png); width:13px; height:27px; opacity:.3; position:absolute; right:7px; top:50%; overflow:hidden; text-indent:-200px;}
+    .csSlider .item {max-height:240px; overflow:hidden; position:relative; opacity:.3;}
+    .csSlider .owl-item.active .item {opacity:1;}
+    .csSlider .namePF {top:inherit; bottom:0; height:auto; display:block; padding:15px; background:rgba(0,0,0,.7); text-align:center;}
+    .csSlider .namePF .namePFInner {display:block;}
+    .csSlider .namePF span {font-size:16px; padding:0; display:block; text-align:center;}
+    .csSlider .item:hover .pfHd, .csSlider .item:hover .pfBot  {display:none;}
+    .csSlider .item:hover .namePF {display:block;}
+    .csSlider .namePF span a {color:#fff;}
+    .botPfCon .rgt {float:none; width:100%; padding:20px 0;}
+    .botPfCon .rgt .client-video {position:static; width:auto;}
+    .botPfCon .rgt .client-video ul li {padding:0; margin:0 25px 20px 0; display:inline-block;}
+    .videoPopup {right:inherit; left:0; top:15px; width:400px; padding-left:0;}
+    .wdList li {width:48%; margin:40px 4% 0 0; padding-left:95px;}
+    .wdList li img {width:80px;}
+    .wdList li .hd {font-size:20px;}
+    .technicalExpertise {padding:20px 0;}
+    .tbletBox {border-radius:20px; padding:50px 70px;}
+    .tbletBox:before {left:10px;}
+    .tbletBox:after {right:20px;}
+    .expertiseTab li {line-height:30px; font-size:20px;}
+    .expertiseTab li a {height:160px;}
+    .expertiseBox {min-height:inherit; padding:20px;}
+    .expertiseLinks {float:none; width:100%; padding:20px 0 0 0;}
+    .expertiseLinks.half {width:100%;}
+    .expertiseLinks span {font-size:18px;}
+    .expertiseLinks ul li {display:inline-block; font-size:16px; margin-right:25px; padding-bottom:5px;}
+    .modelList li .img {width:150px; height:131px; background-size:cover; padding-top:25px;}
+    .modelList li .img img {width:80px;}
+    .modelList li .txt {font-size:17px;}
+    .videoCon {padding:15px;}
+    .videoRgt {padding:0 10px 0 15px;}
+    .videoLink li {font-size:17px;}
+    .videoLink li a {padding:10px 10px 10px 45px;}
+    .videoLink li a:after {width:24px; height:24px; left:10px; top:10px;}
+    .customerRating {padding:15px; font-size:16px;}
+    .customerRating .hd {font-size:18px;}
+    .techTopList li {margin:20px 4% 0 0; padding:20px;}
+    .techTopList li span {font-size:18px;}
+    .ourExpertise {padding:20px 0;}
+    .expertiseList > li {width:48%; margin:20px 4% 0 0;}
+    .expertiseList li .hd {padding:20px; font-size:20px;}
+    .expertiseList li .content {padding:20px;}
+    .arrowTxt {padding:10px 0 0 0;}
+    .arrowTxt li {background:url(../images/blc_arrow.png) no-repeat 0 15px;}
+    .ckyList > li {padding:15px 0;}
+    .ckyList > li .hd {float:none; display:block; width:100%; font-size:18px; padding-bottom:10px;}
+    .ckyList > li .bulletList {width:100%; float:none;}
+    .ckyList > li .bulletList li {width:33.33%; font-size:17px;}
+    .dimondBg {padding:20px 0;}
+    .techBotList > li {width:48%; margin:0 4% 20px 0; padding:20px;}
+    .dedicatedHd {font-size:22px;}
+    .dedicatedTxt {font-size:17px; line-height:28px;}
+    .statsList li {padding:10px 10px 10px 45px; margin-top:20px; font-size:17px;}
+    .statsList li span {left:10px; top:-2px; font-size:50px;}
+    .certificationList li img {float:none; margin:0 0 5px 0;}
+    .allianceList ul li {width:33%; margin:0 .5% 0.66% -4px;}
+    .allianceList ul li:nth-child(4n) {margin-right:.5%;}
+    .allianceList ul li:nth-child(3n) {margin-right:0;}
+    .acBox li img {max-height:40px;}
+    .jobList > li {padding-bottom:10px;}
+    .jpbHd {padding:10px 190px 10px 10px; font-size:18px;}
+    .jpbHd span {top:8px;}
+    .jobDet {padding:10px; font-size:15px;}
+    .listBullet li:after {top:10px;}
+    .careerTop .hd {font-size:30px; top:0; background:rgba(0,0,0,.2); padding:10px;}
+    .careerTop .hd  br {display:none;}
+    .careerTop .txt {background:rgba(0,0,0,.2); bottom:0px; font-size:18px; padding:20px;}
+    .careerTop .txt a {padding:6px 5px; font-size:17px;}
+    .careerList li {width:48%; padding:15px; margin-right:4%; margin-top:20px;}
+    .careerList li .hd {font-size:22px; line-height:25px;}
+    .careerList li a.link {margin-top:20px;}
+    .formField.quli {width:100%; margin-right:0; float:none;}
+    .formField.srp {width:100%; margin-right:0; float:none;}
+    .formField.tech {width:100%; float:none;}
+    .threeColList li {width:48%; margin-right:4%; margin-top:20px;}
+    .threeColList li:nth-child(3n) {margin-right:4%;}
+    .threeColList li:nth-child(2n) {margin-right:0;}
+    .threeColList li .hd {font-size:22px;}
+    .expertiseCon {padding:20px 0 0 0;}
+    .expertiseTxt {padding:20px; font-size:17px; line-height:25px;}
+    .expertiseTxt span {font-size:22px;}
+    
+    .expertiseTxt.new {padding:20px;}
+    .expertiseTxt.new ul li {padding:11px 0 11px 60px; font-size:19px;}
+    .expertiseTxt.new ul li img {width:44px;}
+    
+    
+    .deLft .inner {padding:20px;}
+    .deLinks li {margin:10px 4% 0 0; font-size:16px;}
+    .deLinks li a {padding:10px 5px 10px 55px; min-height:65px;}
+    .deLinks li.single a {padding:20px 5px 10px 55px;}
+    .deLinks li a img {width:40px; left:5px; top:12px;}
+    .deRgt .inner {padding:20px;}
+    .deRgt .inner.mac {padding:20px;}
+    .dimondBox {width:auto; padding:20px;}
+    .dimondBox:before {display:none;}
+    .dimondBox:after {display:none;}
+    .dimondBox .icon img {margin-top:0;}
+    .whySlider {margin-top:20px;}
+    .pfDetTop {padding:10px;}
+    .pfDetHd {font-size:22px; padding-bottom:10px;}
+    .detToLft {width:55%;}
+    .detBigImg {float:none; width:100%;}
+    .detInfo {float:none; width:100%; padding:10px 0 0 0;}
+    .detInfoBox span {font-size:12px; padding:6px;}
+    .detInfoBox span:hover {background:#51c336;}
+    #thumbSlider {display:none;}
+    .detToRgt {width:45%;}
+    .detToRgt .reqForm {padding:15px;}
+    .detBigImg .owl-nav {display:block;}
+    .detBigImg .owl-prev {background:rgba(255,255,255,.7) url(../images/prev_ar.png) no-repeat center; background-size:17px auto; width:35px; height:50px; position:absolute; left:0px; top:50%; margin-top:-25px; overflow:hidden; text-indent:-200px; border-radius:0 3px 3px 0;}
+    .detBigImg .owl-next {background:rgba(255,255,255,.7) url(../images/next_ar.png) no-repeat center; background-size:17px auto; width:35px; height:50px; position:absolute; right:0px; top:50%; margin-top:-25px; overflow:hidden; text-indent:-200px; border-radius:0 3px 3px 0;}
+    .detPfLft {width:60%;}
+    .pfwebSlider .homePfOver .info .name {font-size:15px;}
+    .detPfRgt {width:40%; padding:0;}
+    .mobDetfeedback {padding:10px;}
+    .bradcrumb .lft {font-size:13px;}
+    .mobPfDetTop {margin-bottom:30px;}
+    .mobDetTop .application {float:none; width:100%;}
+    .mobDetTop .industry {float:none; width:100%; padding:10px 0 0 0;}
+    .mobDetTop .techology {float:none; width:100%; padding:10px 0 0 0;}
+    .mobDetSliderOut {width:280px;}
+    .mobDetSlider {margin-top:40px;}
+    .mobDetSliderOut .mobCover {margin-left:-100px; top:-12px;}
+    .mobDetSliderOut .mobCover img {width:200px;}
+    .mobDetTop .tag {font-size:12px; padding:5px;}
+    .newsHd {min-height:70px; position:relative; padding:0 0 10px 62px;}
+    .newsHd a {font-size:22px;}
+    .newsHd .date {top:5px;}
+    .whyChooseCon {padding:20px 0;}
+    .whyList {margin-top:0px;}
+    .whyList li {font-size:16px; padding:20px 10px 20px 50px;}
+    .whyList li span {left:15px; top:12px; font-size:45px;}
+    .fourColList li {width:48%; margin-right:4%; margin-top:20px;}
+    .fourColList li:nth-child(2n) {margin-right:0;}
+    .fourColList li .hd {font-size:18px;}
+    .dmList li {padding:10px;}
+    .dmList li h2 {font-size:17px;}
+    .dmExpertseList {padding:20px 0; width:auto; text-align:center;}
+    .dmExpertseList li {width:25%; float:none; display:inline-block; margin-left:-5px;}
+    .dmExpertseList li:nth-child(2n) {padding-top:0;}
+    .dmExpertseBox {margin:0;}
+    .transformList {margin:20px 0 40px 0;}
+    .transformList li {padding:5px 10px;}
+    .strengthList li {padding:5px 20px;}
+    .strengthList li span {position:static; font-size:40px; display:block;}
+    .strengthList li br {display:none;}
+    .grayTxtBox {font-size:18px; padding:20px; line-height:25px;}
+    .seotfList > li {padding:5px 15px;}
+    .seotfList > li .hd {font-size:20px;}
+    .competenceBox {float:none; width:100%; padding:0 0 30px 0;}
+    .planTextBox {float:none; width:100%; padding:25px;}
+    .planTextBox .txt {padding-bottom:20px;}
+    .planTextBox .hd {font-size:20px; padding-bottom:20px;}
+    .feaTab:after {left:459px;}
+    .feaTab ul li a {padding:0 0 0 60px; background-position:25px center;}
+    .feaTab ul li.active a:before {left:453px;}
+    .feaTab ul li.active a::after {width:89px;}
+    .feaTab ul li a .count {left:0px;}
+    .feaDet .lft {float:none; padding:20px 0 0 0; width:100%;}
+    .feaDet .rgt {float:none; width:100%; padding:0;}
+    .mobileExpertise {padding:30px 0 0 0;}
+    .mobileExpertise li {width:33.33%; padding-bottom:20px;}
+    .mobBusiness li {font-size:16px; line-height:18px;}
+    .mobBusiness li span {font-size:60px; padding:0 10px;}
+    .helpBusiness li {width:23%; margin-right:2.66%; font-size:17px; padding:20px 10px;}
+    .helpBusiness li img {margin:0 auto;}
+    .mobileAdvantage li {padding:100px 10px 0 10px; font-size:17px; line-height:20px;}
+    .platformList li {padding:10px;}
+    .platformList li span {font-size:20px;}
+    .platformExpertise {padding-bottom:20px;}
+    .platformExpertise li {width:33.33%; font-size:18px; min-height:50px; padding:0 10px 0 60px;}
+    .platformExpertise li img {width:50px;}
+    .mobileInfo {padding-bottom:25px;}
+    .mobileInfo ul li {width:33.33%; padding:25px 20px 0 36px; font-size:16px;}
+    .mobileInfo ul li .count {font-size:40px; top:20px;}
+    .bigdataList > ul > li {padding:20px 70px;}
+    .bigdataList > ul > li:nth-child(2n) {margin-right:0;}
+    .bigdataIcon {width:160px; height:185px; background-size:cover; margin:-111px 0 0 -80px; padding-top:42px;}
+    .bigdataList ul li .mainHd {font-size:23px;}
+    .ssFront {display:none;}
+    .ssOver {-webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); transform:scale(1);}
+    .ssBox.four {margin-top:0;}
+    .bigdataEx {padding:10px 0 0 0;}
+    .bigdataEx li {float:none; width:100%; padding:20px 0; border-right:none; border-bottom:1px solid #a7a7a7;}
+    .webSlider.dbS .item {min-height:80px;}
+    .bigdataInfo {margin:20px 0 0 0;}
+    .bigdataInfo ul li {width:50%; padding:20px 10px 20px 50px;}
+    .bigdataInfo ul li:last-child {border:none;}
+    .bigdataInfo ul li:nth-child(3), .bigdataInfo ul li:nth-child(4) {border-top:1px solid #dcdcdc;}
+    .bigdataInfo ul li:nth-child(2) {border-right:none;}
+    .bigdataInfo ul li span {top:11px;}
+    .autonationInfo ul li {font-size:15px; height:70px; padding:0 5px; float:left; margin:0; width:33.33%; border-bottom:1px solid #e3e3e3;}
+    .autonationInfo ul li span {font-size:26px;}
+    .autonationInfo ul li:nth-child(3n+1) {border-left:none;}
+    .autonationInfo ul li:nth-child(4), .autonationInfo ul li:nth-child(5), .autonationInfo ul li:nth-child(6) {border-bottom:none;}
+    .cloudBox {background:#fff; width:32%; height:auto; display:block; float:left; padding:15px; margin-bottom:20px;}
+    .cloudBox .content {padding:0;}
+    .cloudBoxBig {background:#fff; width:32%; float:left; height:auto; display:block; margin:0 2% 20px 2%; padding:15px;}
+    .cloudBoxBig .content {padding:0; font-size:15px;}
+    .cloudBoxBig .hd {font-size:17px;}
+    .cloudEcpertise li {width:19%; margin-right:1.25%; padding:20px 5px;}
+    .cloudPartnerList li {padding:0 15px;}
+    .wearableExpertise li {font-size:18px;}
+    .outsourcingBox .rgt {float:none; width:100%; text-align:center;}
+    .outsourcingBox .lft {float:none; width:100%;}
+    .globalLinks li {width:50%;}
+    .globalLinks li:nth-child(3n+1) {border-left:1px solid #ececec;}
+    .globalLinks li:nth-child(2n+1) {border-left:none;}
+    .globalLinks li:nth-child(3) {border-top:1px solid #ececec;}
+    .globalLinks li:nth-child(3n+1) .iconBx {left:25px;}
+    .globalLinks li:nth-child(2n+1) .iconBx {left:0;}
+    .globalLinks li:nth-child(3n+1) a {padding-left:90px;}
+    .globalLinks li:nth-child(2n+1) a {padding-left:65px;}
+    .globalLinks li:nth-child(3n+1) a:after {left:90px;}
+    .globalLinks li:nth-child(2n+1) a:after {left:65px;}
+    .itServicesList li {width:50%; margin-bottom:20px;}
+    .parkList li .image {padding:10px;}
+    .parkList li .desc {display:block; position:static; height:auto;}
+    .partnerAdv li {width:32%; margin:0 2% 10px 0;}
+    .partnerAdv li:nth-child(4n) {margin-right:2%;}
+    .partnerAdv li:nth-child(3n) {margin-right:0;}
+    .bigdataList.imList > ul > li {padding:15px;}
+    .bigdataList.imList > ul > li .content {padding:0;}
+    .threeBoxList > li {padding:10px 15px;}
+    .bullet li {font-size:17px; padding:4px 0 4px 20px;}
+    .bullet li:before {border:2px solid #dedede; width:10px; height:10px; top:9px;}
+    .keyCapabilities li {font-size:18px; padding:15px 20px;}
+    .mobAppList li {width:32%; margin-right:2%;}
+    .mobAppList li span {font-size:20px;}
+    .threeList li {width:32%; margin:20px 2% 0 0;}
+    .threeList li span {font-size:20px;}
+    .strengthList li.thr {padding-left:20px;}
+    .strengthList li.fur {padding-left:20px;}
+    .bdExpertise li {margin:20px 8% 0 0; width:46%;}
+    .bdExpertise li:nth-child(3n) {margin-right:8%;}
+    .bdExpertise li:nth-child(2n) {margin-right:0;}
+    .dedicatedTeamMod img {margin:0 5px 10px 5px; height:42px;}
+    .dtmAdvantage li {width:48%; margin:20px 4% 0 0; font-size:18px; padding:0 0 0 35px;}
+    .dtmAdvantage li span {top:-8px; font-size:45px;}
+    .bigdataList.iotService > ul > li {padding:10px 15px;}
+    .bigdataList.iotService ul li .mainHd {font-size:20px;}
+    .midHd {font-size:20px;}
+    .webSolutionList {padding:20px 0 0 0;}
+    .webSolutionList li {width:15%; margin-right:2%;}
+    .legacyAdvate li {margin:20px 0 0 0; padding:10px 10px 10px 40px; font-size:15px;}
+    .legacyAdvate li span {left:10px; top:0px; font-size:48px;}
+    .chooseBox {padding:20px; margin-bottom:20px;}
+    .engagingist li {width:33%;}
+    .engageAdvatge li {width:49%; margin:10px 2% 0 0;}
+    .engageAdvatge li:nth-child(2n) {margin-right:0;}
+    .midRgt #recaptcha1, .midRgt #recaptcha1 > div {transform:scale(0.67); -webkit-transform:scale(0.67); margin-bottom:-25px;}
+    .clientSlider .owl-prev {right:16px; top:-36px;}
+    .clientSlider .owl-next {right:-6px; top:-36px;}
+    
+    .contactSlider {display:block !important; position:relative; padding:0 15px;}
+    .contactSlider .contactPopup {width:100%; border-radius:0; position:relative; background:#fff; z-index:1000; left:inherit; bottom:inherit; -moz-box-shadow:none; -o-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; display:block;}
+    .contactSlider .contactPopup:after {display:none;}
+    .contactSlider .contactPopup:before {display:none;}
+    .contactSlider .contactPopup .lft {background:#fff;}
+    .contactSlider .contactPopup .hd img {width:30px !important; display:inline-block !important; background:#fff;}
+    .contactSlider .contactPopup .hd {font-size:15px;}
+    .contactSlider .contactPopup .phone {font-size:12px;}
+    .contactSlider .contactPopup .fax {font-size:12px;}
+    .contactSlider .contactPopup .email {font-size:12px;}
+    .contactSlider .contactPopup .address {padding:5px 10px; font-size:12px;}
+    .contactSlider .contactPopup .hd {padding:5px 10px;}
+    .contactSlider .contactPopup .bot {padding:5px;}
+    .contactSlider .dialBefore {display:none;}
+    .contactSlider .owl-prev {background:url(../images/smll_prev_arrow.png); width:10px; height:19px; opacity:.3; overflow:hidden; text-indent:-200px; position:absolute; top:50%; left:0; margin-top:-10px;}
+    .contactSlider .owl-next {background:url(../images/smll_next_arrow.png); width:10px; height:19px; opacity:.3; overflow:hidden; text-indent:-200px; position:absolute; top:50%; right:0; margin-top:-10px;}
+    .officeTime.borNone {border:none;}
+    .gitList li {width:48%; margin-bottom:20px;}
+    .gitList li:nth-child(3n+1) {padding:0 0 0 90px; border-left:1px solid #ccc; width:48%;}
+    .gitList li:nth-child(2n+1) {padding:0 0 0 60px; border-left:none; width:52%;}
+    .gitList li:nth-child(3n+1) .icon {left:30px;}
+    .gitList li:nth-child(2n+1) .icon {left:0;}
+    
+    .listIcon li {background:url(../images/bullet_icon.png) no-repeat 0 8px; font-size:16px;}
+    .content.me {font-size:16px; line-height:24px;}
+    .pfList ul li:nth-child(3n+1) {clear:inherit;}
+    .pfList ul li:nth-child(2n+1) {clear:both;}
+    .sdTopList > li {min-height:inherit;}
+    .sdTopList > li .imgBox {border:5px solid #fff; width:100px;}
+    .sdTopList > li .imgBox img {width:80%;}
+    .sdTopList > li .detBox {padding:5px 10px 10px 110px;}
+    .sdTopList > li .detBox  span {font-size:22px;}
+    .qatList li .top .hd {font-size:17px;}
+    .testingPlatform {padding:20px 0;}
+    .testingPlList li {padding:20px; font-size:17px; margin:10px 2% 0 0; width:32%;}
+    .testingPlList li span {padding-bottom:10px; font-size:23px;}
+    .cognitiveDEList li {padding:30px; font-size:17px; line-height:24px;}
+    .cognitiveDEList li span {font-size:30px;}
+    .aiMidCon ul li {font-size:16px; line-height:24px; padding:0 0 0 120px;}
+    .aiMidCon ul li img {width:100px;}
+    .aiMidCon ul li span {font-size:24px;}
+    .topPad40 {padding-top:20px;}
+    
+    .contactAddress li {padding:15px;}
+    .contactAddress.three li:nth-child(2) {padding:15px;}
+    .contactAddress li .hd {font-size:20px;}
+    .contactAddress li .address {font-size:15px;}
+    .contactAddress li .phone {font-size:16px; background-position:6px 3px;}
+    .contactFormNew {padding:15px;}
+    
+    .dtList li .hd {font-size:20px;}
+    .dtList li {width:50%; margin:20px 0 0 0;}
+    .dteList {margin:0 -5px;}
+    .dteList li {padding:5px; width:33.33%;}
+    .dteList li a .hd {font-size:18px; padding-bottom:5px;}
+    .dteList li a .txt {font-size:15px;}
+    .dtwhyList li {padding:20px 10px 20px 45px; font-size:15px;}
+    .dtwhyList li span {font-size:40px; left:10px; top:13px;}
+    
+    .solMidCon {margin-top:0px;}
+    .banTxt {font-size:14px; line-height:20px; width:60%;}
+    .banTxt .txt {padding:10px;}
+    .banTxt span {font-size:20px; padding-bottom:10px;}
+    .solTSLft {padding:0 20px 0 0;}
+    .solDERgt {padding:0 0 0 20px;}
+    .solBanImg {padding-top:20px;}
+    a.solBPBox {margin-top:20px;}
+    a.solBPBox .txt {font-size:13px; padding:5px 10px;}
+    .solListLink {width:48%;}
+    .solListLink li {font-size:15px;}
+    .solListLink li a {padding:14px 0 14px 24px;}
+    .solListLink li a:before {top:16px; width:14px; height:14px;}
+    .solListLink li a:after {top:20px; left:5px;}
+    .busSolLink {padding:0;}
+    .busSolLink > li {font-size:15px;}
+    .busSolLink > li > a, .busSolLink > li > span {padding:14px 0 14px 24px;}
+    .busSolLink > li > a:before, .busSolLink > li > span:before {top:16px; width:14px; height:14px;}
+    .busSolLink > li > a:after, .busSolLink > li > span:after {top:20px; left:5px;}
+    .subLink {padding-left:20px;}
+    .subLink li {font-size:15px;}
+    .subLink li a {padding:14px 0 14px 24px;}
+    .subLink li a:after {top:20px; left:0;}
+    .phoneNumberList li {font-size:13px;}
+    
+    .iotBanner .lft {font-size:17px;}
+    .iotBanner .lft h1 {font-size:32px;}
+    .iotSolLft {padding:0 30px 0 0; width:38%;}
+    .iotSolLft .mainHd:after {width:150px; height:3px;}
+    .iotSolRgt {padding:0 0 0 30px; width:62%;}
+    .iotHIW {margin:0 auto;}
+    .iotHIW li {width:25%; padding:20px 10px  10px; height:auto; background:none !important;}
+    .iotHIW li .iconBox {margin:auto;}
+    .iotHIW li .number {position:static; padding:5px 0; font-size:24px;}
+    .iotHIW li .text {position:static; font-size:14px;}
+    .iotHIW li .text br {display:none;}
+    .iotHIW li .text:before {display:none;}
+    .iotHIW li .text:after {display:none;}
+    .iotIndustry li {padding:10px; width:19%; margin:15px 1.25% 0 0; font-size:16px;}
+    .iotIndustry li img {width:60px;}
+    .iotCasestudy .lft {float:none; width:100%;}
+    .iotCasestudy .rgt {float:none; width:100%; padding:10px 0 0 0; margin-top:0;}
+    .iotCasestudy .rgt .hdSub {font-size:20px;}
+    .blockchainHIW {width:100%; margin:auto; text-align:center;}
+    .blockchainHIW li {height:auto; width:33.33%; float:none; padding:30px 10px 0 10px; display:inline-block; margin-left:-4px;}
+    .blockchainHIW li .roundBox {display:none;}
+    .blockchainHIW li:before {display:none;}
+    .blockchainHIW li:after {display:none;}
+    .blockchainHIW li .roundBox .dot {display:none;}
+    .blockchainHIW li .iconBox {position:static; margin-left:0; text-align:center; margin-bottom:5px;}
+    .blockchainHIW li .iconBox img {height:100px;}
+    .blockchainHIW li .text {position:static; width:100%;}
+    .mainBigHd {font-size:28px;}
+    .biHIW {text-align:center;}
+    .biHIW li {float:none; display:inline-block; width:33.33%; margin-left:-4px; vertical-align:top;}
+    .biHIW li .hd {height:60px; font-size:16px;}
+    .biHIW li .txt {font-size:14px; line-height:20px; padding-top:15px;}
+    .biHIW li .arrow {display:none;}
+    .blockchainSol {padding:50px 0 0 0;}
+    .blockchainSol li {width:280px; margin-bottom:50px;}
+    .blockchainSolIcon {width:150px; height:150px; margin:-75px 0 0 -75px; -moz-box-shadow:0 0 0 10px rgba(23,21,21,.3); -webkit-box-shadow:0 0 0 10px rgba(23,21,21,.3); box-shadow:0 0 0 10px rgba(23,21,21,.3);}
+    .blockchainSolIcon img {width:100px;}
+    .biSolList li {margin-top:25px;}
+    .biSolList li span {font-size:19px;}
+    
+    .contactFormNew .captchaHd {display:block; padding-bottom:5px;}
+    .midRgt .videpPopup {float:none; width:100%;}
+    .midRgt .videoList ul {padding:10px; text-align:center; float:none; width:100%;}
+    .midRgt .videoList ul li {display:inline-block; margin:0 5px;}
+    .midRgt .videoList ul li a {width:45px; display:inline-block;}
+    .midRgt .videoList ul li a.active:before {border-left:6px solid transparent; border-right:6px solid transparent; border-bottom:6px solid #bababa; left:50%; top:-11px; margin:0 0 0 -6px;}
+    .pfLft {width:34%;}
+    .pfRgt {width:66%;}
+    .newPflist li .imageBg {height:125px;}
+    .newPfDet .tagBx {display:none;}
+    .newPfDet .tagBx.technologies {display:block; padding-bottom:0;}
+    .newPfDet .txt {display:none;}
+    .newPfDet .hd {font-size:15px;}
+    .newPflist li:nth-child(5n-2) {height:260px !important;}
+    .newPflist li:nth-child(5n-2) .imageBg {height:260px;}
+    .newPflist li:nth-child(5n-1) {height: 140px !important;}
+    .newPflist li:nth-child(5n-1) .imageBg {height: 140px;}
+    .newPflist li:nth-child(5n) {height: 140px !important;}
+    .newPflist li:nth-child(5n) .imageBg {height: 140px;}
+    
+    .expBulletList li {font-size:15px; line-height:24px;}
+    .devopsExRgt .text {padding:10px; font-size:17px;}
+    .devopsBenLft {padding:20px;}
+    .devopsBenList li {font-size:17px;}
+    .devopsBenList li span {font-size:20px;}
+    .devopsBenRgt {padding:20px;}
+    .devopsWorkImg img {max-width:80%;}
+    .whyDevopsLft {padding:20px;}
+    .whyDevopsLft li {padding:8px 0 8px 30px; font-size:15px;}
+    .whyDevopsLft li:before {top:7px;}
+    .whyDevopsLft li:after {top:14px;}
+    .whyDevopsRgt li {font-size:15px; padding:6px 0 6px 15px;}
+    .whyDevopsRgt li:before {top:12px;}
+    .iotCasestudy .lft img {width:100%;}
+    
+    .pfBannerHd h1 {font-size:36px; padding:0 20px 20px 20px;}
+    .pfDetTopTxt {font-size:18px; line-height:26px;}
+    .detStats li > div {padding:20px; font-size:24px;}
+    .detStats li > div span {font-size:45px;}
+    .pfDetNewHd {font-size:22px; padding-bottom:10px;}
+    .pfDetContent {font-size:16px; line-height:21px;}
+    .pfDetContent.businessNeedsBg ul li:before {top:10px;}
+    .pfDetContent strong {font-size:17px;}
+    .pfDetContent.successCon {font-size:18px; line-height:26px;}
+    .techLogoList {padding:20px 0;}
+    .techLogoList li {padding:5px;}
+    .pfClinetList {padding:20px;}
+    .pfClinetList .lft {width:28%;}
+    .pfClinetList .lft .clImg {border:2px solid #fff;}
+    .pfClinetList .lft .clName {font-size:16px;}
+    .pfClinetList .lft .clName span {font-size:13px;}
+    .pfClinetList .rgt {width:72%; padding:0 0 0 15px;}
+    .pfClinetList .rgt .hd {font-size:18px; padding-bottom:10px;}
+    .pfClinetList .rgt .text {font-size:16px; line-height:24px;}
+    
+    .pfFront .item .mobImg {display:block;}
+    .pfFront .item .mobImg img {width:100%;}
+    .pfFront .item .rgt {display:none;}
+    .pfFront .item .lft {width:100%; padding:20px 0 0 0;}
+    /*.pfBannerHd .banTags {font-size:20px;}
+    .banExp .hd {font-size:28px;}
+    .banInd .hd {font-size:28px;}*/
+    .pfClinetList .rgt .clientfeedHd span {font-size:20px;}
+    
+    .madTopList li a {font-size:17px;}
+    .madTopList li a span {font-size:24px;}
+    .mobMLft {float:none; width:100%; padding-right:0;}
+    .mobMLft .content {font-size:17px; line-height:28px;}
+    .mobMRgt {float:none; width:100%; padding:20px 0 0 0;}
+    .techCom {float:none; width:100%; padding-bottom:20px;}
+    .techCom:after {width:100%; height:1px; right:0; bottom:0; background: -moz-linear-gradient(left,  rgba(30,87,153,0) 0%, rgba(210,210,210,0.44) 15%, rgba(210,210,210,1) 34%, rgba(210,210,210,1) 68%, rgba(210,210,210,0.47) 85%, rgba(125,185,232,0) 100%); background: -webkit-linear-gradient(left,  rgba(30,87,153,0) 0%,rgba(210,210,210,0.44) 15%,rgba(210,210,210,1) 34%,rgba(210,210,210,1) 68%,rgba(210,210,210,0.47) 85%,rgba(125,185,232,0) 100%); background: linear-gradient(to right,  rgba(30,87,153,0) 0%,rgba(210,210,210,0.44) 15%,rgba(210,210,210,1) 34%,rgba(210,210,210,1) 68%,rgba(210,210,210,0.47) 85%,rgba(125,185,232,0) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#007db9e8',GradientType=0 );}
+    .techComList {margin:0;}
+    .techComList li {width:25%; padding:15px 10px 0 10px;}
+    .ourExp {float:none; width:100%; padding-top:20px;}
+    .ourExpList li { margin-top:15px;}
+    .mobInfoBox {float:none; width:100%; padding-right:0px;}
+    .mobTestimonialBox {float:none; width:100%;}
+    .techStackList {height:400px;}
+    .techStackList li .hd {padding:20px; font-size:24px;}
+    .techStackList li .textBox {min-height:260px; padding:20px;}
+    .techStackList > li:nth-child(2) .hd {padding-left:20px;}
+    .techStackList > li:nth-child(3) {left: 63%; width: 37%;}
+    .techStackList > li:nth-child(3) .hd {padding-left:80px;}
+    .techStackList li .textBox li {font-size:16px;}
+    .uiTcBox {margin:20px auto 0 auto;}
+    .uiTcList {margin:0 -5px; width:48%; padding-left:0;}
+    .uiTcList li {padding:0 5px 0 65px; font-size:17px;}
+    .uideList {margin-top:20px;}
+    .uideList .icon {margin:-100px 0 0 -90px; width:180px;}
+    .uideList li > div {padding:10px 85px 10px 65px; min-height:70px; font-size:16px;}
+    .uideList li:nth-child(2n) > div {padding:10px 65px 10px 85px;}
+    .uideList li > div img {left:10px; top:10px; width:45px;}
+    .uideList li:nth-child(2n) > div img {left:inherit; right:10px;}
+    .uideList li > div span {font-size:20px;}
+    .ourCapList li {width:50%;}
+    
+    .techStackList > li:nth-child(1) .textBox .content {padding: 1px 50px 0 0;}
+    .techStackList > li:nth-child(2) .textBox .content {padding: 1px 15px;}
+    .techStackList > li:nth-child(3) .textBox .content {padding: 1px 0 0 50px;}
+    .techStackList > li .textBox .content {font-size: 15px; line-height: 24px;}
+    .salesforceSol li {width:33.33%;}
+    .rpaHelp {margin:-10px;}
+    .rpaHelp li {padding:10px;}
+    .rpaHelp li > div {padding:15px;}
+    .rpaHelp li > div h2 {font-size:20px;}
+    .industryLink li {padding:10px;}
+    .industryLink li a {font-size:17px;}
+    .whyChosserpa {margin:-10px;}
+    .whyChosserpa li {padding:10px;}
+    .whyChosserpa li > div {padding:15px;}
+    .whyChosserpa li > div h2 {font-size:20px;}
+    
+    .newsMainHd {font-size:30px;}
+    .newsContent {font-size:17px; line-height:26px;}
+    .newsTab {margin-top:25px;}
+    .newsTab li {font-size:18px; line-height:18px;}
+    .nepList {margin:-5px; padding:20px 0;}
+    .nepList li {padding:5px;}
+    .nepList li > div {min-height:280px; padding:50px 20px;}
+    .nepList li > div .hd {padding:12px 15px 12px 20px; font-size:14px;}
+    .nepList li > div:hover .hd {padding:12px 20px 12px 25px;}
+    .nepList li > div .date {left:20px; bottom:10px;}
+    .nepList li > div:hover .date {left:30px;}
+    .nepList li > div .newsText {font-size:18px; line-height:26px;}
+    .nepList li > div .newsText a {font-size:16px;}
+    .nepList li:nth-child(4n+1) > div .newsText {right:-70px; width:66%; font-size:17px; line-height:26px; padding:20px 110px 20px 90px;}
+    .nepList li:nth-child(4n+1) > div .newsText a {font-size:15px;}
+    .newsSubscribe {padding:25px;}
+    .newsSubscribe .hd {font-size:30px;}
+    .socialList li {width:50%;}
+    
+    .leaderSlider {margin-top:-220px;}
+    .leaderSlider .inner {height:600px; margin-bottom:60px;}
+    .leaderBox {height:600px; width:100%; left:0;}
+    .leaderTab {width:100%; height:auto; position:absolute; left:0; top:100%; padding:10px 0; background:none;}
+    .leaderBox .info {left:0; width:100%; min-height:inherit;}
+    .leadershipHd {display:none;}
+    .leaderTab .menu {text-align:center;}
+    .leaderTab .menu li {margin:4px; display:inline-block; padding:0; width:12px; height:12px; background:#ccc; overflow:hidden; border-radius:100%; text-indent:-500px;}
+    .leaderTab .menu li:hover, #leadershipCon .leaderTab .menu li.active {background:#e14a25;}
+    .leaderTab .menu li:after {display:none;}
+    
+    .testimonialList {margin-bottom:20px;}
+    .testimonialList li {padding:15px;}
+    .testimonialList li .contentTxt {font-size:15px; line-height:20px;}
+    .testimonialList li .clientName {font-size:13px;}
+    .testimonialList li .clientName span.hd {font-size:16px;}
+    .testimonialList li .clientName span.hd span {font-size:14px;}
+    .testimonialTop {font-size:18px; line-height:30px; margin-bottom:20px;}
+    
+    .newTestmonial.botTM .top {min-height:55px; padding-left:70px;}
+    .newTestmonial.botTM .top img {width:55px !important; height:55px;}
+    .newTestmonial.botTM .top span.hd {font-size:19px;}
+    .newTestmonial.botTM .top span.hd span {font-size:15px;}
+    .newTestmonia.botTMl .top small {font-size:15px;}
+    .newTestmonial.botTM p {font-size:16px; line-height:24px;}
+    
+    .newTMCon {padding:0;}
+    .newTMCon .container {padding:0;}
+    .newTMCon .mobInfoBox {position:relative; padding:20px;}
+    .newTMCon .wcBg {width:100%;}
+    .newTMCon .mobTestimonialBox {position:relative; padding:20px;}
+    .newTMCon .tmBg {width:100%;}
+    .newTMCon .whtBox {padding:20px;}
+    
+    .oscBox {margin:-10px;}
+    .oscBox .lft {padding:10px;}
+    .cdeBox {min-height:380px;}
+    .cdeBox .text {padding:20px; font-size:14px; line-height:22px;}
+    .cdeBox .text span {font-size:24px;}
+    .oscBox .rgt {padding:10px;}
+    .edeBox {margin-bottom:4%;}
+    .edeBox .text {padding:20px; font-size:14px; line-height:22px;}
+    .edeBox .text span {font-size:24px;}
+    .pdeBox .text {padding:20px; font-size:14px; line-height:22px;}
+    .pdeBox .text span {font-size:24px;}
+    .pbidcList li > div {padding:10px;}
+    .meantopList li {width:50%;}
+    .indExpertise .inner {padding:20px; font-size:16px; line-height:23px;}
+    .indExpertise span {font-size:21px;}
+    .aboutStats {padding: 25px 15px;}
+        .ourHistoryTop {height: 280px;}
+        .ourHistoryHd {font-size: 30px;}
+        .historyBox .icon.first img {width: 130px;}
+        .historyBox .icon.first span {top: 60px;}
+        .historyBox .icon.second img {width: 145px;}
+        .historyBox .icon.second span {top: 48px;}
+        .historyBox .icon.third img {width: 160px;} 
+        .historyBox .icon.third span {top: 50px;}
+        .historyBox .icon.four img {width: 180px;}
+        .historyBox .icon.four span {font-size: 25px; top: 60px;}
+    
+        .bsHd {font-size: 30px; padding-bottom: 10px;}
+        .solutionTxt {font-size: 18px; line-height: 24px;}
+        .aboutApproch {margin: -10px;}
+        .aboutApproch li {width: 100%; padding: 10px;}
+        .aboutApproch li > div {padding: 25px 25px 25px 220px; min-height: 210px;}
+        .aboutApproch li .icon {left: 25px; top: 25px;}
+        .partnerShow li .lft img {width: 150px;}
+        .partnerShow li .rgt { padding: 20px; font-size: 18px; line-height: 26px;}
+        .accreditationsShow li {padding: 10px;}
+        .accreditationsShow li .lft {font-size: 18px; line-height: 26px;}
+        .accreditationsShow li .lft span {font-size: 22px; padding-bottom: 10px;}
+        .accreditationsShow li .rgt img {max-width: 200px; width: auto; max-height: 120px; height: auto;}
+        .listIndustry li {width: 50%;}
+        .solBox {margin-top: 20px; padding: 20px;}
+        .solBox .sfLft {width: 40%; padding: 0px 80px 0 0;}
+        .solBox .sfRgt {width: 60%; padding: 0;}
+        .solLft {padding-right: 10px;}
+        .solRgt {padding-left: 10px;}
+        .pfListNew li > a .hd {font-size: 18px; line-height: 26px;}
+        .serviceRgt {width: 60%;}
+        .serviceLft {width: 40%;}
+        .serviceTxt {font-size: 18px;}
+        .newServiceLink li {width: 50%;}
+        .industryInner {padding:20px 10px;}
+    .solutionInner {padding:20px 10px;}
+    .isHd {font-size:22px;}
+    .isTxt {font-size:17px; line-height:20px;}
+    .isLinks li {font-size:15px;}
+    .sitemapLinks li {width:33.33%;}
+    
+    .pfClinetList .lft .clImg img {min-height:auto;}
+    .ourClientListNew ul li span {height:150px;}
+    .ourClientListNew ul li span img {min-width:inherit; width:90%; max-width:180px;}
+    .cloudServiceList {margin: -15px -10px;}
+    .cloudServiceList li { padding: 15px 10px;}
+    .whwf .lft {width:100%; padding:0;}
+    .whwf .rgt li {height: 45px; margin:10px 10px 0 0;}
+    .whwf .rgt li:first-child {margin-left:0;}
+    .whwf .rgt li img {max-height:90%; max-width:100%;}
+    .ecosystem > li > div {padding: 20px 10px;}
+    .ecosystem li .det {padding: 20px 0 0 0; font-size: 15px; line-height: 22px;}
+    .ecosystem li .det span {padding-top: 15px; font-size: 14px;}
+    .modelsList {margin:-5px;}
+    .modelsList li {width: 50%; padding: 5px;}
+    
+    .storyBox {margin:-5px;}
+    .storyBox .lftBox {padding:5px;}
+    .storyBox .lftBox a.innerBox {height:400px;}
+    .storyBox .rgtBox {padding:5px; margin:-5px 0;}
+    .storyBox .rgtBox .rgtInner {padding:5px 0;}
+    .storyBox a.innerBox .det {padding:15px;}
+    .storyBox a.innerBox .det .ind {font-size:14px;}
+    .storyBox a.innerBox .det .hd {font-size:20px; line-height:24px}
+    .storyBox a.innerBox .det .text {font-size:15px; line-height:24px;}
+    .sapCap {padding:10px;}
+    .sapCapinner {padding:5px;}
+    .sapCapinner .box {padding:10px; width:50%;}
+    .platformLogo {justify-content:center;}
+    .blockchainCapinner {padding:0 20px 20px 20px;}
+    .blockchainCapinner ul li {width:32%; padding:20px 0 15px 0; font-size:13px;}
+    .blockchainCapinner ul li .hd {font-size:17px; line-height:22px;}
+    .keyFocusList {margin:-5px;}
+    .keyFocusList > li {padding:5px;}
+    .keyFocusList li .inner {font-size:15px; line-height:22px;}
+    .keyFocusList li .img {padding:2px;}
+    .keyFocusList li .det {padding:15px;}
+    .keyFocusList li .det .hd {font-size:22px; line-height:24px; padding-bottom:10px;}
+    .keyFocusList li .list {padding:10px 0 0 0;}
+    .keyFocusList li .list li {font-size:15px; line-height:22px;}
+    .workForYou {margin:0 -5px;}
+    .workForYou > li {padding:45px 5px 0 5px;}
+    .workForYou li .inner {font-size:15px; line-height:22px; padding:0 15px 15px 15px;}
+    .workForYou li .icon img {margin-top:-25px;}
+    .workForYou li .hd {font-size:19px; line-height:26px; padding:10px 0;}
+    
+    .salesforceIconTop .icon {width: 60px; position: static; text-align: center; display: block; margin:0 auto 5px auto;}
+    }
+    @media(min-width:768px){
+        
+    .mobText {display:none !important;}
+    }
+    @media(max-width:767px){
+    .innerHeading {padding:90px 0 30px 0; font-size:16px; min-height:350px; line-height:24px; display:flex; flex-direction: column;}
+    .innerHeading br {display:none;}
+    .innerHeading h1 {padding-bottom:30px; font-size:32px;}
+    .innerHeading h1:after {width:60px; bottom:15px; margin-left:-30px;}
+    .bradcrumb {background:#f2f2f2; height:auto; padding-bottom:10px;}
+    .bradcrumb .rgt {padding-bottom:10px;}
+    .mainHd {font-size:20px;}
+    .hireTab {border-bottom:none; height:auto; margin-bottom:30px;}
+    .hireTab ul li {width:16.66%; border-bottom:1px solid #dfdfdf;}
+    .hireTab ul li i {display:none; width:600%; background:#00a6e9 ; position:absolute; left:0; top:100%; padding:0; text-align:center; color:#fff; font-style:normal; height:30px; line-height:30px;}
+    .hireTab ul li:nth-child(2) i {left:-100%;}
+    .hireTab ul li:nth-child(3) i {left:-200%;}
+    .hireTab ul li:nth-child(4) i {left:-300%;}
+    .hireTab ul li:nth-child(5) i {left:-400%;}
+    .hireTab ul li:nth-child(6) i {left:-500%;}
+    .hireTab ul li.active i {display:block;}
+    .hireTab ul li a {overflow:hidden; text-indent:-500px;}
+    .hireTab ul li:nth-child(1) a {background:url(../images/feat-icon.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(1) a {background:#00a6e9 url(../images/feat-icon-over.png) no-repeat center;}
+    .hireTab ul li:nth-child(2) a {background:url(../images/service-icon1.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(2) a {background:#00a6e9 url(../images/service-icon1-over.png) no-repeat center;}
+    .hireTab ul li:nth-child(3) a {background:url(../images/service-icon2.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(3) a {background:#00a6e9 url(../images/service-icon2-over.png) no-repeat center;}
+    .hireTab ul li:nth-child(4) a {background:url(../images/service-icon3.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(4) a {background:#00a6e9 url(../images/service-icon3-over.png) no-repeat center;}
+    .hireTab ul li:nth-child(5) a {background:url(../images/service-icon4.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(5) a {background:#00a6e9 url(../images/service-icon4-over.png) no-repeat center;}
+    .hireTab ul li:nth-child(6) a {background:url(../images/service-icon6.png) no-repeat center;}
+    .hireTab ul li.active:nth-child(6) a {background:#00a6e9 url(../images/service-icon6-over.png) no-repeat center;}
+    .hireTab ul li.active:after {background:#00a6e9;}
+    .hireTab ul li a:hover::before, .hireTab ul li.active a::before {display:none;}
+    
+    .hireLink.tech li {width:50%;}
+    .hireLink li a {font-size:17px; height:50px; padding:5px 10px 0 60px;}
+    .hireLink li a img {width:50px;}
+    .freeConsultation {font-size:18px; background:#ff9700; color:#fff; padding-top:50px; padding-bottom:50px;}
+    .freeConsultation span {text-decoration:none; font-size:35px; font-weight:700; border-bottom:none;}
+    .freeConsultation a {display:block; margin:20px auto 0 auto; width:200px; border:1px solid #fff; color:#fff; background:none; font-family:"helioscond"; font-size:21px; padding:8px 15px; text-transform:none; font-weight:700;}
+    .freeConsultation a:hover {background:#fff; color:#ff9700;}
+    .freeConsultation i {display:none;}
+    .freeConsultation br {display:inline;}
+    
+    .industryList li {width:48%; margin:0 4% 20px 0;}
+    .industryList li:nth-child(3n) {margin-right:4%;}
+    .industryList li:nth-child(2n) {margin-right:0;}
+    .midLft {width:100%; float:none; padding:0 0 20px 0;}
+    .midRgt {width:100%; float:none;}
+    .subHd {font-size:18px;}
+    .infoList li br {display:none;}
+    .mpLft {float:none; width:100%; text-align:center;}
+    .mpLft .hd {font-size:26px; line-height:30px;}
+    .mpLft .hd br {display:none;}
+    .mpLft .hd span {font-size:30px; line-height:34px;}
+    .mpRgt {float:none; width:100%; padding:0;}
+    .processCon ul li {width:50%; }
+    .engagingUsList > li {width:100%; float:none;}
+    .pfSearchBox {width:100%; float:none; margin-bottom:5px;}
+    .hireTab.techo ul li {width:16.66%;}
+    .hireTab.techo ul li:nth-child(4) {width:16.66%;}
+    .hireTab.techo ul li:nth-child(2) a {background:url(../images/techo-icon1.png) no-repeat center;}
+    .hireTab.techo ul li.active:nth-child(2) a {background:#00a6e9 url(../images/techo-icon1-over.png) no-repeat center;}
+    .hireTab.techo ul li:nth-child(3) a {background:url(../images/techo-icon2.png) no-repeat center;}
+    .hireTab.techo ul li.active:nth-child(3) a {background:#00a6e9 url(../images/techo-icon2-over.png) no-repeat center;}
+    .hireTab.techo ul li:nth-child(4) a {background:url(../images/service-icon3.png) no-repeat center;}
+    .hireTab.techo ul li.active:nth-child(4) a {background:#00a6e9 url(../images/service-icon3-over.png) no-repeat center;}
+    .hireTab.techo ul li:nth-child(5) a {background:url(../images/techo-icon4.png) no-repeat center;}
+    .hireTab.techo ul li.active:nth-child(5) a {background:#00a6e9 url(../images/techo-icon4-over.png) no-repeat center;}
+    .hireTab.techo ul li:nth-child(6) a {background:url(../images/techo-icon5.png) no-repeat center;}
+    .hireTab.techo ul li.active:nth-child(6) a {background:#00a6e9 url(../images/techo-icon5-over.png) no-repeat center;}
+    
+    .uiuxList ul li .imgBox {float:none; width:100%;}
+    .uiuxList ul li .detBox {float:none; text-align:center; width:100%; padding:20px 0 0 0;}
+    .uiuxList ul li:nth-child(2n) .imgBox {float:none;}
+    .uiuxList ul li:nth-child(2n) .detBox {float:none; padding:20px 0 0 0;}
+    .solutionTop {font-size:16px;}
+    .solutionList ul li {width:32%; margin:0 2% 20px -4px; font-size:15px;}
+    .solutionList ul li:nth-child(5n) {margin-right:2%;}
+    .solutionList ul li:nth-child(4n) {margin-right:2%;}
+    .solutionList ul li:nth-child(3n) {margin-right:0;}
+    .solutionList ul li a {padding:20px 5px;}
+    .solutionList ul li a img {margin:0 auto 10px auto;}
+    .ourClientList ul li {width:33%;}
+    .ourClientList ul li:nth-child(5n) {margin-right:.5%;}
+    .ourClientList ul li:nth-child(3n) {margin-right:0;}
+    .ourClientList ul li span {padding:20px 10px;}
+    .solutionTab ul li {width:28%;}
+    .solutionTab ul li:last-child {width:44%;}
+    .solutionTab ul li a {font-size:14px; padding:16px 0 0 0;}
+    .smllHd {font-size:16px;}
+    .adsLIst li {width:48%; margin:20px 4% 0 0;}
+    .adsLIst li:nth-child(3n) {margin-right:4%;}
+    .adsLIst li:nth-child(2n) {margin-right:0;}
+    .cycleCon .textBox {width:50%; padding-right:10%;}
+    .cycleCon .planning {clear:both;}
+    .cycleCon .development {clear:inherit;}
+    .cycleCon .initiation {clear:both;}
+    .benefitList li {width:50%;}
+    .botPfCon .rgt .client-video {display:inline-block;}
+    .csSlider .namePF span {font-size:14px;}
+    .wdList li {width:100%; float:none; min-height:80px; margin:20px 0 0 0; padding-left:70px;}
+    .wdList li img {width:60px;}
+    .tbletBox {padding:20px; margin-top:0;}
+    .tbletBox:before {display:none;}
+    .tbletBox:after {display:none;}
+    .expertiseTab li {width:100%; float:none; border-right:none; border-bottom:1px solid #000; line-height:normal; font-size:16px;}
+    .expertiseTab li a {display:block; height:auto; padding:10px; text-align:center;}
+    .expertiseTab li.active:after {display:none;}
+    .expertiseTab li a br {display:none;}
+    .expertiseTab li a span {display:block;}
+    .expertiseBox {padding:0 10px 10px 10px;}
+    .modelList li {width:50%; padding:10px 0;}
+    .modelList li .txt {font-size:15px;}
+    .videoLft {float:none; width:100%; margin-bottom:20px;}
+    .videoRgt {float:none; width:100%; padding:0 10px 0 0; height:200px !important;}
+    .techTopList li {float:none; margin:20px 0 0 0; width:100%;}
+    .expertiseList > li {float:none; margin:20px 0 0 0; width:100%;}
+    .ckyList > li .hd {font-size:16px;}
+    .ckyList > li .hd img {width:40px;}
+    .ckyList > li .bulletList li {width:50%;}
+    .techBotList > li {float:none; width:100%; margin:0 0 20px 0;}
+    .statsList li {width:50%;}
+    .statsList li:nth-child(3), .statsList li:nth-child(4) {width:50%;}
+    .statsList li:nth-child(2) {border-right:1px solid #ccc;}
+    .certificationList li {padding:10px 10px 0 10px;}
+    .certificationList li p {padding-bottom:10px;}
+    .jpbHd {padding:10px; font-size:17px;}
+    .jpbHd span {position:static; display:block; text-align:right; padding-top:5px;}
+    .acBox li img {max-height:inherit;}
+    .careerTop .txt {font-size:17px;}
+    .careerTop .txt a {padding:6px 5px; margin-top:10px; width:220px;}
+    .threeColList li .hd {font-size:18px;}
+    .expertiseTxt {font-size:15px; line-height:22px; padding:10px;}
+    .expertiseTxt span {font-size:18px; padding-bottom:5px;}
+    .deLft {float:none; width:100%;}
+    .deRgt {float:none; width:auto;}
+    .whySlider .item .content span {font-size:18px; padding-bottom:5px;}
+    footer .clientList {padding:0;}
+    .foottransBg .container {padding-top:20px;}
+    footer .client-Right {display:none;}
+    footer .client-Left {border:none;}
+    
+    /*.pfTab {background:#f5f5f5; border-bottom:1px solid #d9dbde; text-align:center; padding:10px 0;}
+    .pfTab ul li {float:none; display:inline-block; border:none;}
+    .pfTab ul li a {display:inline-block; float:none; padding:5px 10px;}
+    .pfTab ul li a:hover, .pfTab ul li a.active {background:none; text-decoration:underline; color:#575757;}
+    .pfTab ul li a:hover:after, .pfTab ul li a.active:after {display:none;}
+    */
+    .detToLft {width:100%; float:none;}
+    .pfDetHd {font-size:18px;}
+    .detToRgt {width:100%; float:none; padding:0 0 0 0; display:none;}
+    .resultList li {width:100%; float:none; margin:20px 0 0 0; padding:15px; font-size:20px; line-height:25px;}
+    .resultList li span {font-size:50px;}
+    .resultList li:first-child {margin-top:0;}
+    .seoTable {padding:20px 0 0 0;}
+    .seoTable .googleHd {padding:10px;}
+    .seoTable td {padding:10px; font-size:15px;}
+    .tableTab ul li {width:32%;}
+    .tableTab ul.double li {width:64%;}
+    .tableTab ul li:first-child {width:36%;}
+    .tableTab ul li span {font-size:15px;}
+    .tableTab ul li a {font-size:14px;}
+    .detPfLft {width:100%; float:none; height:auto !important; padding-right:0;}
+    .detPfRgt {width:100%; padding:0; float:none; height:auto !important;}
+    .mobPfDetTop {margin-bottom:0;}
+    .mobPfDetTop .detToRgt {padding:50px 0 20px 0;}
+    .whyList li {width:50%;}
+    .dmList li {width:48%; margin:15px 4% 0 0;}
+    .dmList li:nth-child(2n) {margin-right:0;}
+    .dmExpertseList li {width:33.33%;}
+    .dmExpertseBox {width:150px; height:131px; padding-top:50px;}
+    .dmExpertseBox img {width:100px;}
+    .transformList li {float:none; width:100%; border-left:none; border-bottom:2px solid #ccc; padding:10px 20px; text-align:center;}
+    .transformList li .hd {font-size:18px;}
+    .transformList li:before {top:inherit; bottom:-6px; left:0;}
+    .transformList li:after {bottom:-6px; left:inherit; right:0;}
+    .transformList li:nth-child(1) {border-bottom:2px solid #00ccff; border-left:none;}
+    .transformList li:nth-child(2) {border-bottom:2px solid #51c336; border-left:none;}
+    .transformList li:nth-child(3) {border-bottom:2px solid #255ccc; border-left:none;}
+    .transformList li:nth-child(4) {border-bottom:2px solid #f96057; border-left:none;}
+    .transformList li:nth-child(5) {border-bottom:2px solid #ff9700; border-left:none;}
+    .strengthList li {font-size:13px; padding:0 10px;}
+    .strengthList li span {font-size:35px;}
+    .seotfList {margin:10px 0;}
+    .seotfList > li {float:none; width:100%; border-left:none; border-bottom:2px solid #ccc; padding:15px;}
+    .seotfList > li:before {top:inherit; bottom:-6px; left:0;}
+    .seotfList > li:after {bottom:-6px; left:inherit; right:0;}
+    .seotfList li.blue {border-left:none; border-bottom:2px solid #00ccff;}
+    .seotfList li.green {border-left:none; border-bottom:2px solid #51c336;}
+    .seotfList li.red {border-left:none; border-bottom:2px solid #f96057;}
+    .seotfList li ul li:before {top:15px;}
+    .advantageList li {width:100%; margin:20px 0 0 0; padding:0 0 0 35px;}
+    .advantageList li .hd {font-size:20px;}
+    .advantageList li span {top:-5px; font-size:45px;}
+    .competenceList li .dmExpertseBox {width:150px; height:131px; padding-top:46px;}
+    .planTextBox {font-size:16px;}
+    .planTextBox .hd {font-size:18px;}
+    .planTextBox a {width:180px; height:40px;}
+    .competenceList {text-align:center;}
+    .competenceList li {float:none; width:50%; display:inline-block; margin-left:-4px;}
+    .tcList li {padding:25px 0 0 28px; font-size:20px;}
+    .tcList li span {font-size:35px; top:13px;}
+    .ourExpertiseList li {padding:15px 5px; font-size:17px;}
+    .feaTab {padding:0 10px; overflow:visible;}
+    .feaTab:after {display:none;}
+    .feaTab ul li {padding:0 0 10px 0;}
+    .feaTab ul li a {height:auto; background:#eee; font-size:16px; line-height:normal; padding:10px 0 10px 50px;}
+    .feaTab ul li.active a:before {display:none;}
+    .feaTab ul li.active a:after {display:none;}
+    .feaTab ul li a .count {width:40px; height:100%; left:0; top:0; font-size:18px; line-height:40px; border-radius:0;}
+    .feaDet .lft {padding:0;}
+    .feaDet {padding:0 10px;}
+    .dmExpertseBox.mobile img {width:auto;}
+    .competenceList li .dmExpertseBox.mobile {padding-top:28px;}
+    .emList li {width:50%; padding:20px 10px 0 10px;}
+    .mobileExpertise {padding:20px 0 0 0;}
+    .mobileExpertise li {font-size:16px;}
+    .mobBusiness {border-right:1px solid #d7d7d7; padding:20px 0 0 0;}
+    .mobBusiness li {width:50%; border-bottom:1px solid #d7d7d7; font-size:16px; line-height:18px; padding:0 10px 20px 10px;}
+    .mobBusiness li:nth-child(3), .mobBusiness li:nth-child(4) {border-bottom:none;}
+    .helpBusiness {padding:20px 0 0 0;}
+    .helpBusiness li {width:48%; margin-right:4%; font-size:16px; margin-bottom:20px;}
+    .helpBusiness li img {display:block; margin:0 auto 10px auto;}
+    .helpBusiness li:nth-child(2n) {margin-right:0;}
+    .mobileAdvantage {border-top:none; margin:0;}
+    .mobileAdvantage li {width:33.33%;  padding:20px 0 0 0; font-size:16px; line-height:20px;}
+    .mobileAdvantage li .number {width:90px; height:90px; font-size:35px; line-height:90px; position:static; margin:0 auto 10px auto; background-size:cover !important;}
+    .mobileAdvantage li .line {display:none;}
+    .platformList {padding:20px 0 0 0;}
+    .platformList li {width:50%; border-bottom:1px solid #d6d6d6;}
+    .platformList li:nth-child(2n) {border-right:none;}
+    .platformList li:nth-child(3) {border-bottom:none;}
+    .platformList li img {width:80px;}
+    .platformExpertise {padding-bottom:20px;}
+    .platformExpertise li {padding:10px 0; width:33.33%; font-size:14px; text-align:center; margin:0; display:block; line-height:18px;}
+    .platformExpertise li span {display:inline-block;}
+    .platformExpertise li img {display:block; margin:auto; position:static;}
+    .mobileInfo ul li {font-size:15px; padding:25px 20px 0 30px;}
+    .expertiseTxt ul li {padding:2px 0 2px 12px;}
+    .expertiseTxt ul li::before {top:12px;}
+    .offerList ul li {width:50%; padding:0 0 20px 40px;}
+    .offerList ul li img {width:35px;}
+    .bigdataList > ul > li {float:none; width:100%; margin:0 0 20px 0; padding:15px;}
+    .bigdataIcon {display:none;}
+    .ssBox.five {margin-top:0px;}
+    .mobAppList {padding:20px 0 0 0;}
+    .mobAppList li {float:none; width:100%; margin-right:0;}
+    .mobAppList li span {font-size:19px;}
+    .bpaFeaturesList li {width:100%; float:none; margin:15px 0 0 0;}
+    .bpaFeaturesList li span {font-size:18px; padding-bottom:0;}
+    .autonationInfo ul li {font-size:13px; padding:0;}
+    .cloudBox {float:none; width:100%;}
+    .cloudBoxBig {float:none; width:100%; margin:0 0 20px 0;}
+    .cloudPartner {margin-top:20px; padding:20px 0 0 0;}
+    .cloudPartnerList {margin:0; border-left:none;}
+    .cloudPartnerList li {float:none; width:100%; border-right:none; border-top:1px solid #dcdcdc; padding:10px;}
+    .cloudEcpertise {text-align:center;}
+    .cloudEcpertise li {float:none; display:inline-block; width:28%; margin:0 2% 10px 2% !important;}
+    .wearableExpertise {padding:0;}
+    .wearableExpertise li {width:50%; margin-top:20px; padding:0 10px 0 25px; font-size:15px;}
+    .wearableExpertise li span {font-size:38px;}
+    .roiList li .box {padding:5px 10px 5px 50px;}
+    .roiList li .box span {width:40px; background-size:30px;}
+    .threeBoxList > li {padding:10px 15px; float:none; width:100%; margin:10px 0 0 0;}
+    .keyCapabilities li {font-size:16px; padding:15px; width:50%;}
+    .threeList li {width:48%; margin:10px 4% 0 0;}
+    .threeList li:nth-child(3n) {margin-right:4%;}
+    .threeList li:nth-child(2n) {margin-right:0;}
+    .strengthList li.thr {padding-left:10px;}
+    .strengthList li.fur {padding-left:10px;}
+    .bdExpertise li {font-size:16px;}
+    .dtmAdvantage li {width:100%; float:none; margin:20px 0 0 0;}
+    .dtmAdvantage li {font-size:15px;}
+    .dtmAdvantage li span {top:-10px;}
+    .midHd {padding-bottom:5px; font-size:18px;}
+    .midHd br {display:none;}
+    .webSolutionList li {width:30%; margin:0 5% 10px 0;}
+    .webSolutionList li:nth-child(3n) {margin-right:0;}
+    .legacyAdvate li {padding:0 10px 0 40px; width:50%;}
+    .legacyAdvate li span {top:-12px;}
+    .legacyAdvate li:nth-child(2n) {border-right:1px solid #dcdcdc;}
+    .mainHd.uppcase {font-size:22px;}
+    .engageAdvatge li {padding:10px;}
+    .engageAdvatge li span {font-size:18px;}
+    .engageAdvatge li.blueBor {border-top:5px solid #00ccff;}
+    .engageAdvatge li.greenBor {border-top:5px solid #51c336;}
+    .engageAdvatge li.darkblueBor {border-top:5px solid #255ccc;}
+    .engageAdvatge li.redBor {border-top:5px solid #f96057;}
+    .techBotList.margBotNone > li {margin-bottom:20px;}
+    .thanksBox {margin:20px auto; padding-bottom:20px;}
+    .thnaksTxt {padding:15px; font-size:15px;}
+    .thnaksTxt span {font-size:20px;}
+    .thnaksBtn {padding:10px;}
+    .errorHd {font-size:45px; padding:20px 10px;}
+    .errorTxt {font-size:15px; text-align:center; padding:0 10px 40px 10px;}
+    .errorBot {font-size:15px; padding:40px 0 20px 0; margin-top:-30px;}
+    .errorImg img {width:200px;}
+    .planTable {width:100%; overflow:auto;}
+    .planTable table {min-width:768px;}
+    .reqBox {padding:10px; font-size:17px; height:auto; line-height:normal;}
+    .reqBox a {display:block; position:static; width:180px; height:40px; margin:10px auto 0 auto; line-height:40px; border-radius:3px;}
+    .goProtable {border:3px solid #eee;}
+    .goProtable li {padding:6px 30px 6px 30px;}
+    .goProtable li span {width:30px;}
+    .goProtable li:last-child div {margin-right:0;}
+    .goProtable li:last-child span {font-size:18px;}
+    .reasonBox {padding:10px;}
+    .reasonBox ul li {width:100%; float:none; margin-right:0;}
+    .midRgt #recaptcha1, .midRgt #recaptcha1 > div {transform:scale(0.92); -webkit-transform:scale(0.92); margin-bottom:-5px;}
+    .midRgt .rgtForm {display:none;}
+    .midRgt.showMobile {display:block;}
+    .midRgt {display:none;}
+    .midRgt.ispMidRgt {display:block;}
+    .midRgt.ispMidRgt .rgtBtns {display:none;}
+    .midRgt.ispMidRgt .rgtLinks {display:none;}
+    .midRgt.ispMidRgt .importantLinks {display:none;}
+    .midRgt.ispMidRgt .rghForm {display:none;}
+    .pfTab  {margin-bottom:25px;}
+    .pfTab ul li:nth-child(3), .pfTab ul li:nth-child(4), .pfTab ul li:nth-child(5) {display:none;}
+    .pfTab ul li a i {display:block; font-style:normal;}
+    .pfTab ul li a span {display:none;}
+    .pfSearchCon  {display:none;}
+    .trendingList .item a {border:1px solid #d0d0d0;}
+    .trendingList .item a img {-webkit-filter: grayscale(0); filter: grayscale(0); opacity:1;}
+    .gitHd > span {margin-bottom:20px;}
+    .eightColList li {width:50%; font-size:16px; padding:15px 10px;}
+    .eightColList li span { font-size:20px;}
+    .hrContacts {display:block;}
+    .viewPFLik {right:0; bottom:-4px; font-size:13px;}
+    .pcCon {padding:20px 0; font-size:15px; line-height:22px;}
+    .pcCon span {font-size:22px;}
+    .listIcon li {float:none; width:100%;}
+    .sdTopList > li {width:100%; float:none; margin:0 0 20px 0;}
+    
+    .qatList li {width:100%; margin:20px 0 0 0;}
+    .testingPlList li {float:none; width:100%; margin:10px 0 0 0;}
+    .approchList li {float:none; width:100%; margin:20px 0 0 0;}
+    .approchList li .hd {font-size:18px;}
+    .ourProcessList {margin-top:20px;}
+    .ourProcessList li {width:50%; padding:10px; font-size:17px;}
+    .testingPlList li span {font-size:20px; padding-bottom:5px;}
+    .cognitiveDEList {margin-top:0;}
+    .cognitiveDEList li {float:none; width:100%; margin:10px 0 0 0; padding:20px;}
+    .cognitiveDEList li span {font-size:22px;}
+    
+    .aiMidCon ul {margin:0;}
+    .aiMidCon ul li {float:none; width:100%; margin-right:0; text-align:center; min-height:inherit; padding:20px 0;}
+    .aiMidCon ul li img {position:static;}
+    .aiMidCon ul li span {font-size:20px;}
+    .aiMidCon ul li:nth-child(2n):before {height:1px; width:100%; left:0; top:0; margin-left:0;}
+    
+    .mewCListFoot {padding:20px 0;}
+    .midRgt.contct {display:block;}
+    
+    .contactTab {margin-top:20px;}
+    .contactTab ul {border:1px solid #d1d1d1;}
+    .contactTab ul li {font-size:15px; border-right: 1px solid #d1d1d1;}
+    .contactTab ul li a {text-transform:uppercase;}
+    .contactTab ul li a span {display:none;}
+    .contactTab ul li a span.mob {display:block;}
+    .contactTab ul li a {height:40px; line-height:40px;}
+    .contactTab ul li.active a {-moz-box-shadow:0 0 0 1px #31363f; -o-box-shadow:0 0 0 1px #31363f; -webkit-box-shadow:0 0 0 1px #31363f; box-shadow:0 0 0 1px #31363f;}
+    .contactAddress li {padding:10px; padding-left:0;}
+    .contactAddress li:last-child {padding-left:10px;}
+    .contactAddress li .address br {display:none;}
+    .contactImgSlider {float:none; width:100%;}
+    .contactMapBx {float:none; width:100%;}
+    .contactAddress li {border-right:1px solid #ebecee;}
+    .contactMapBx {height:200px !important;}
+    .dteList li {width:50%;}
+    .expertiseList.col3 > li {width:100%; margin-right:0%;}
+    .expertiseList.col3 > li:nth-child(2n) {margin-right:0%;}
+    .dtwhyList li {width:50%;}
+    .solTSRgt {float:none; width:100%;}
+    .banTxt {position:static !important; width:100%;}
+    .solBanImg {padding-top:1px;}
+    .banTxt span {font-size:18px; padding-bottom:5px;}
+    .solTSLft {width:100%; float:none; padding:0 !important; margin:0 -1%;}
+    a.solBPBox {float:left; width:48%; margin:10px 1% 0 1%;}
+    .busSolLink > li {font-size:15px; width:100%; float:none; margin:0;}
+    .busSolLink.new > li {width:50%; float:left;}
+    .solDELft {float:none; width:100%;}
+    .solDERgt {float:none; width:100%; padding:0!important; margin:0 -1%;}
+    .trendingListNew .owl-dots  {display:none !important;}
+    .phoneNumberList li {font-size:18px;}
+    .iotBanner .lft {float:none; width:100%; text-align:center; padding:65px 0 10px 0; height:auto !important;}
+    .iotBanner .rgt {width:200px; margin:auto; float:none; padding:0 0 10px 0; height:auto !important;}
+    .iotBanner .lft h1 {font-size:26px;}
+    .iotSolLft {float:none; width:100%; padding:0 0 15px 0; text-align:center; height:auto !important;}
+    .iotSolLft .mainHd {padding-top:10px;}
+    .iotSolLft .mainHd:after {right:50%; margin-right:-75px;}
+    .iotSolRgt {float:none; padding:15px 0 0 0; width:100%;}
+    .iotSolRgt:before {width:100%; height:1px; background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(223,223,223,1) 50%, rgba(125,185,232,0) 100%); background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(223,223,223,1) 50%,rgba(125,185,232,0) 100%);background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(223,223,223,1) 50%,rgba(125,185,232,0) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#007db9e8',GradientType=0 );}
+    .iotSolRgt li {padding:5px 10px;}
+    .iotSolRgt li span {font-size:18px;}
+    .iotHIW li {width:50%; padding:20px 10px 0 10px;}
+    .iotHIW li .iconBox {width:80px; height:80px;}
+    .iotHIW li .iconBox img {width:40px;}
+    .iotIndustry li {width:32%; margin:15px 2% 0 0;}
+    .iotIndustry li:nth-child(5n) {margin-right:2%;}
+    .iotIndustry li:nth-child(3n) {margin-right:0;}
+    .blockchainHIW li {width:50%;}
+    .biHIW li {width:50%;}
+    .aiHIW li {width:50%;}
+    .aiHIW li:nth-child(5) {width:50%;}
+    .iotCasestudy .rgt .heading {font-size:18px;}
+    .aiTransformationList li {float:none; width:100%; margin:0 0 10px 0; padding:15px;}
+    .aiTransformationList li:nth-child(2n) {text-align:left; padding:15px;}
+    .aiTransformationList li span {font-size:18px;}
+    .aiCenIcon {width:120px; height:65px; position:relative; top:0; left:0; margin:45px auto;}
+    .aiCenIcon img {height:65px;}
+    .aiCenIcon:before {border-left:60px solid transparent; border-right:60px solid transparent; border-bottom:40px solid #fff;}
+    .aiCenIcon:after {border-left:60px solid transparent; border-right:60px solid transparent; border-top:40px solid #fff;}
+    .mainBigHd {font-size:20px;}
+    .blockchainSol {padding:20px 0 0 0;}
+    .blockchainSol li {width:100%; float:none; margin-bottom:20px; font-size:14px; padding-right:15px;}
+    .blockchainSol li:nth-child(2n) {float:none; padding-left:15px;}
+    .blockchainSol li span {font-size:20px;}
+    .blockchainSolIcon {position:relative; left:0; top:0; margin:20px auto 0 auto;}
+    
+    .biSolList {float:none; width:100%; padding:0;}
+    .biSolImg {width:100%; margin:auto; float:none; padding:20px 0 0 0; max-width:250px;}
+    .iotCasestudy .lft .tags {padding:10px;}
+    .iotCasestudy .lft .tags span {margin:3px; font-size:13px;}
+    .formField.traFee {padding-left:0px;}
+    .pfLft {width:100%; float:none; margin-bottom:20px; border:none;}
+    .pfLft.is-affixed .inner-wrapper-sticky {position:static !important; transform: inherit !important; border:1px solid #aeaeae;}
+    .pfLftHd.active {cursor:pointer;}
+    .pfLftHd.active:after {display:none;}
+    .pfLeftMenu {display:none;}
+    .pfRgt {width:100%; float:none; padding:0;}
+    
+    .devopsExLft {float:none; width:100%;}
+    .devopsExRgt {float:none; padding:20px 0 0 0; width:100%;}
+    .devopsBenLft {float:none; width:100%; margin-top:0;}
+    .devopsBenRgt {float:none; width:100%;}
+    .devopsBenLft {padding:10px;}
+    .devopsBenRgt {padding:10px;}
+    .devopsYechList li {width:33.33%;}
+    .devopsWorkImg {padding-top:0;}
+    .whyDevopsLft {width:100%; padding:10px; float:none;}
+    .whyDevopsRgt {width:100%; padding:10px 0 0 0; float:none;}
+    
+    .bradcrumb .lft.pfBradcrumb {padding-bottom:10px;}
+    .pfBannerHd h1 {font-size:27px; padding:0 0 20px 0;}
+    /*.banExp {float:none; width:100%; padding:0 0 10px 0; text-align:center;}
+    .banExp:before {content:''; border-left:4px solid transparent; border-right:4px solid transparent; border-bottom:4px solid #fff; position:absolute; bottom:2px; right:50%; margin-right:-4px;}
+    .banExp:after {content:''; background:rgba(255,255,255,.2); height:1px; width:100%; position:absolute; bottom:0; right:1px; top:inherit;}
+    .banExp .hd {font-size:20px; padding-bottom:0;}
+    .banExp .iner {float:none;}
+    .banInd .iner {float:none;}
+    .banInd {float:none; width:100%; padding:10px 0 0 0; text-align:center;}
+    .banInd:before {content:''; border-left:4px solid transparent; border-right:4px solid transparent; border-top:4px solid #fff; position:absolute; top:1px; left:50%; margin-left:-4px;}
+    .banInd .hd {font-size:20px; padding-bottom:0;}
+    .pfBannerHd .banTags {font-size:18px;}
+    */
+    .pfDetTopTxt {font-size:16px; line-height:24px;}
+    .detStats li {float:none; width:100%; padding:5px;}
+    .pfDetContent.businessNeedsBg ul li {float:none; width:100%;}
+    .pfDetContent.successCon {font-size:16px; line-height:24px;}
+    .pfScreenSlider .owl-item.center {-moz-transform:scale(1); -o-transform:scale(1); -webkit-transform:scale(1); transform:scale(1);}
+    .pfScreenSlider.owl-carousel .owl-stage-outer {padding:0;}
+    .orangeBg:after {display:none;}
+    .techLogoList {float:none; width:100%; border-bottom:1px solid rgba(255,255,255,.2)}
+    .pfClinetList {float:none; width:100%; padding-left:0;}
+    
+    .reProjectHd {font-size:22px; padding-bottom:10px;}
+    .relProjectCon .slick-prev {display:none !important;}
+    .relProjectCon .slick-next {display:none !important;}
+    .pfCover {padding:15px;}
+    .pfFront .item {padding:15px;}
+    .pfFront .item .hd {font-size:20px;}
+    .pfFront .item a.fcsBtn {font-size:15px;}
+    .pfClinetList {padding:20px 0;}
+    
+    .indRelProjectCon {position:relative; line-height:normal;}
+    .indRelProjectCon .slick-prev {display:none !important;}
+    .indRelProjectCon .slick-next {display:none !important;}
+    .indRelProjectCon .pfCover {padding:15px;}
+    .madTopList li {width:100%;}
+    .madTopList li a {padding:10px 10px 10px 75px; font-size:16px;}
+    .madTopList li a img {left:10px; top:15px;}
+    .madTopList li a span {font-size:20px;}
+    .mobMLft .content {font-size: 16px; line-height: 24px;}
+    .mobMRgt ul li {font-size: 17px; padding:6px 0 6px 35px; background: url(../images/red_check.png) no-repeat 0 7px;}
+    .techComList li {width:50%;}
+    .techComList li img {width:140px;}
+    .ourExpList li img {width:50px;}
+    .ourExpList li {font-size:17px; padding:0 10px 0 70px; min-heig45px;}
+    .mobTestimonialBox {padding:20px;}
+    .mobTestimonialBox .clientfeedHd span {font-size:22px;}
+    .mobTestimonialBox .testImg {width:80px !important; max-height:80px;}
+    .mobTestimonialBox .testTxt {font-size:17px; line-height:24px;}
+    .mobTestimonialBox .name {font-size:18px;}
+    .mobTestimonialBox .name span {font-size:15px;}
+    .techStackList {height:auto;}
+    .techStackList > li:nth-child(1) {position:static; width:100%;}
+    .techStackList > li:nth-child(2) {position:static; width:100%; -moz-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg); border:5px solid #fff; border-left:none; border-right:none;}
+    .techStackList > li:nth-child(3) {position:static; width:100%;}
+    .techStackList li .hd {padding:12px 15px; font-size:18px; height:auto;}
+    .techStackList li .hd span {display:inline-block;}
+    .techStackList li .textBox {min-height:230px; padding:20px;}
+    .techStackList > li:nth-child(2) .hd {padding-left:15px;}
+    .techStackList > li:nth-child(2) .textBox ul {-moz-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg); margin-left:0;}
+    .techStackList > li:nth-child(2) .hd .inner {-moz-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg);}
+    .techStackList > li:nth-child(3) .hd {padding-left:15px;}
+    .techStackList > li:nth-child(3) .textBox ul {margin-left:0;}
+    .verStList {margin:20px 0 0 0;}
+    .verStList li {width:100%; margin:0 0 10px 0; padding:0;}
+    .verStList li a {height:auto; padding:15px; font-size:18px;}
+    .verStList li a:hover {opacity:1;}
+    .uiTcBox:after{display:none;}
+    .uiTcList {width:100%; float:none !important; position:relative;}
+    .uiTcList.fl {margin-bottom:10px;}
+    .uiTcList.fl:after {content:''; width:100%; height:1px; position:absolute; left:0; top:100%; background: -moz-linear-gradient(left,  rgba(30,87,153,0) 0%, rgba(210,210,210,0.44) 15%, rgba(210,210,210,1) 34%, rgba(210,210,210,1) 68%, rgba(210,210,210,0.47) 85%, rgba(125,185,232,0) 100%); background: -webkit-linear-gradient(left,  rgba(30,87,153,0) 0%,rgba(210,210,210,0.44) 15%,rgba(210,210,210,1) 34%,rgba(210,210,210,1) 68%,rgba(210,210,210,0.47) 85%,rgba(125,185,232,0) 100%); background: linear-gradient(to right,  rgba(30,87,153,0) 0%,rgba(210,210,210,0.44) 15%,rgba(210,210,210,1) 34%,rgba(210,210,210,1) 68%,rgba(210,210,210,0.47) 85%,rgba(125,185,232,0) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#007db9e8',GradientType=0 );}
+    .uiTcList li {margin-bottom:10px;}
+    .uideList {margin-top:10px;}
+    .uideList .icon{display:none;}
+    .uideList li {width:100%;}
+    .uideList li > div {padding:10px 10px 10px 70px;}
+    .uideList li:nth-child(2n) > div {padding:10px 10px 10px 70px; text-align:left;}
+    .uideList li:nth-child(2n) > div img {left:10px; right:inherit;}
+    .threeColList li .hd br {display:none;}
+    .ourCapList {margin:-5px;}
+    .ourCapList li {padding:5px;}
+    .ourCapList li > div {font-size:16px; padding:15px;}
+    .ourCapList li > div span {font-size:20px; padding-bottom:5px;}
+    .indExpertise {margin-bottom:10px;}
+    .indExpertise .inner {padding:15px; font-size:16px; line-height:22px;}
+    .indExpertise span {font-size:20px; padding-bottom:5px;}
+    .techStackList > li .textBox .content {font-size: 16px; line-height: 26px;}
+    .techStackList > li:nth-child(1) .textBox .content {padding:10px;}
+    .techStackList > li:nth-child(2) .textBox .content {padding:10px; transform: skewX(0deg);}
+    .techStackList > li:nth-child(3) .textBox .content {padding:10px;}
+     .salesforceSol li {width:50%;}
+        .salesforceSol li > div .content {display: none;}
+        .salesforceSol li > div .hd {font-size: 20px; margin-bottom: 0;}
+        .salesforceSol li > div .hd img {vertical-align: middle;margin: 0 5px 0 0;}
+    .contactAddress.four li {width:50%; padding:15px;}
+    .contactAddress.four li:nth-child(2n) {border-right:none;}
+    .rpaHelp {margin:-5px; padding-top:5px;}
+    .rpaHelp li {padding:5px; width:50%;}
+    .rpaHelp li > div {padding:10px;}
+    .rpaHelp li > div h2 {font-size:17px; padding-bottom:5px;}
+    .industryLink {margin:-5px;}
+    .industryLink li {width:50%; padding:5px;}
+    .industryLink li a {font-size:15px; padding:15px 5px;}
+    .whyChosserpa {margin:-5px; padding-top:5px;}
+    .whyChosserpa li {padding:5px; width:50%;}
+    .whyChosserpa li > div {padding:10px;}
+    .whyChosserpa li > div img {width:60px;}
+    .whyChosserpa li > div h2 {font-size:18px; padding:5px 0;}
+    
+    .newsMainHd {font-size:24px;}
+    .newsContent {font-size: 14px; line-height: 22px;}
+    .newsTab li {font-size:15px; padding:0 6px;}
+    .newsTab li:last-child {padding-right:0;}
+    .nepList li {width:100%;}
+    .nepList li > div {min-height:inherit; padding:60px 10px 40px 10px;}
+    .nepList li > div .newsText {font-size:15px; line-height:24px;}
+    .nepList li > div .date {left:10px;}
+    .nepList li > div:hover .date {left:10px;}
+    .nepList li:nth-child(4n+1) > div .newsText {background:rgba(0,0,0,.65); position:static; width:100%; font-size:15px; line-height:24px; -moz-transform:none; -webkit-transform:none; transform:none; padding:10px;}
+    .nepList li:nth-child(4n+1) > div .newsText a {font-size:14px;}
+    .nepList li:nth-child(4n+1) > div:hover .newsText {padding-left:20px; padding-right:20px;}
+    .nepList li:nth-child(4n+1) > div .newsText div {-moz-transform:none; -webkit-transform:none; transform:none;}
+    
+    .flexsySocial {padding-top:30px; display:none;}
+    .newsSubscribe {margin-top:30px; padding:20px; display:block; text-align:center;}
+    .newsSubscribe .hd {font-size:24px; padding-bottom:15px;}
+    .newsSubscribe .hd br {display:none;}
+    .newsSubscribe a.btn {font-size:15px; padding:10px 30px;}
+    
+    .testimonialList li {width:100%;}
+    .testimonialTop {font-size:15px; line-height:24px;}
+    .testimonialTop .lft {width:100%; float:none; padding:0;}
+    .testimonialTop .rgt {width:100%; float:none; display:none;}
+    
+    .oscBox .lft {width:100%;}
+    .cdeBox {min-height:300px;}
+    .oscBox .rgt {width:100%;}
+    .edeBox {min-height:20px; margin-bottom:20px;}
+    .pdeBox {min-height:20px;}
+    
+    .threeColumn li {width:100%;}
+    .pbidcList {margin:-5px;}
+    .pbidcList li {width:100%; padding:5px;}
+    .capabilitiesList li {width:100%;}
+    a.reqBtn {font-size:16px;}
+    
+    .mb30 {margin-bottom:20px;}
+    .reqBoxNew {margin:20px auto 0 auto; font-size:17px; line-height:normal; padding:15px;}
+    .reqBoxNew a {position:static; display:block; margin:10px auto 0 auto;}
+    
+    .featureList > li {width:100%; border-right:none; border-bottom:1px solid #fff;}
+    .leadHd {font-size: 26px;}
+    .leadList li {width: 50%;}
+    .bsHd {font-size: 24px;}
+        .overviewBox .lft {width: 100%; padding: 0;}
+        .overviewBox .rgt {margin: 20px 0 0 0; width: 260px;}
+        .overviewBox .rgt a {height: 80px; font-size: 16px; line-height: 21px; padding: 30px 15px 30px 80px;}
+        .overviewBox .rgt a img {top: 16px; left: 15px;}
+        .overviewBox .rgt a br {display: none;}
+        .aboutList li {margin-top: 20px; padding: 0 0 0 70px; font-size: 14px; line-height: 22px;}
+        .aboutList li img {width: 55px;}
+        .aboutList li span {padding-bottom: 2px;}
+        .solutionTxt {font-size: 16px; line-height: 22px;}
+        .aboutStats {width: 100%; padding: 15px;}
+        .aboutStats ul li {padding: 10px 5px;}
+        .aboutStatsImg {width: 100%; margin-top:20px;}
+        .aboutStatsImg:after {right: -40%;}
+        .aboutApproch li > div {padding: 15px; text-align: center;}
+        .aboutApproch li .icon {position: relative; left: initial; top: initial; width: 130px; height: 130px; border: 6px solid #e6e6e6; margin: 0 auto 15px auto;}
+        .aboutApproch li .hd {font-size: 22px; padding-bottom: 5px;}
+        .ourHistoryTop {height: auto; padding-bottom: 20px;}
+        .ourHistoryBot {padding: 0; border: none;}
+        .ourHistoryBot:after {display: none;}
+        .historyBox {width: 100%; border-top: 10px solid #e5e5e5;}
+        .historyBox .icon {position: static; padding: 10px; margin-bottom: 10px !important;}
+        .historyBox .icon span {position: static; font-size: 16px !important; line-height:normal !important;}
+        .historyBox .icon span br {display: none;}
+        .historyBox .icon img {display: none;}
+        .historyBox .icon.first {background: #f25022;}
+        .historyBox .icon.second {background: #7fba00;}
+        .historyBox .icon.third {background: #01a4ef;}
+        .historyBox .icon.four {background: #ffb901;}
+        .partnerTab li {font-size: 20px;}
+        .partnerShow li .lft {width: 100%; padding: 10px;}
+        .partnerShow li .rgt {width: 100%; padding: 0 10px 10px 10px;}
+        .accreditationsShow li {flex-direction: column-reverse;}
+        .accreditationsShow li .lft {width: 100%; padding: 15px 0 0 0;}
+        .accreditationsShow li .rgt {width: 100%;}
+        .listIndustry li {width: 50%;}
+        .solBox {font-size: 16px; line-height: 24px;}
+        .solBox .sfLft {width: 100%; padding: 0; text-align: left;}
+        .solBox .sfRgt {width: 100%; padding: 20px 0 0 0;}
+        .solLft {width: 100%; padding: 0;}
+        .solRgt {width: 100%; padding: 0;}
+        .solBox .odooLft {width: 100%; text-align: left;}
+        .solBox .odooRgt {width: 100%; padding: 20px 0 0 0;}
+        .solBox .maHd {margin-bottom: 20px;}
+        .pfListCov .pfLft {height: auto;}
+        .pfListNew li {width: 100%;}
+        .pfListNew li > a .imgBox {max-height: 260px;}
+        .serviceTxt {position: static; font-size: 16px; line-height: 24px; padding: 10px;}
+        .serviceTopC .serviceRgt {width: 100%; display: block;}
+        .serviceGB .serviceRgt {width: 100%; display: block;}
+        .serviceLft {width: 100%; padding: 0; display: none;}
+        .serviceTxt.green {position: static; width: 100%;}
+        .serviceTxt.red {position: static; width: 100%;}
+        .serviceGB .serviceRgt {padding-top: 0;}
+        .serviceGB .serviceLft {padding: 0;}
+        .storySliderCon .bsHd {font-size: 24px;}
+        .aboutStats.new {padding:20px 15px;}
+        .aboutStats.new .bsHd {font-size:24px; padding-bottom:15px;}
+        .industryBox {float:none; width:100%;}
+    .solutionBox {float:none; width:100%;}
+    .innerHeading.portfolioDet h1 {font-size:27px;}
+    .sitemapLinks li {width:50%; padding-right:5px;}
+    .ecosystem li {width: 50%;}
+    .blockchainCapinner ul li {width: 48%; padding: 15px 0;}
+    .blockchainWHWF li {padding: 25px 10px 0 10px;}
+    .keyFocusList > li {width: 100%;}
+    .workForYou > li {width: 50%;}
+    .cloudServiceList {margin: -5px;}
+    .cloudServiceList li {padding:5px; width:50%;}
+    .cloudServiceList > li > div {position:relative; box-shadow:0 0 5px rgba(0,0,0,.1); overflow:hidden;}
+    .cloudServiceList li .innerBox {position:relative; box-shadow:0 0 5px rgba(0,0,0,.1); overflow:hidden; margin-bottom:10px;}
+    .cloudServiceList li .img {position:absolute; left:0; top:0; height:100%; display:none;}
+    .cloudServiceList li .img img {width: 100%; height: 100%;}
+    .cloudServiceList li .det {position: relative; padding:0; z-index:2; background:rgba(0,0,0,.5); height:100%; font-size:14px;}
+    .cloudServiceList li .det .hd {color:#fff; padding:8px 15px; position:relative; font-size:18px;}
+    .cloudServiceList li .det .hd span {position:relative; z-index:10; border-bottom:2px solid #fff;}
+    .cloudServiceList li .det .hd:before {content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url(../home-images/home_over_bg.jpg); background-size: cover;}
+    .cloudServiceList li .det .inner {padding:10px 15px; background:#fff; color:#000;}
+    .whwf .lft {text-align:center;}
+    .whwf .rgt {padding-top:10px; width:100%;}
+    .whwf .rgt li {width:23%; margin:1% !important; justify-content:center;}
+    .ecosystem {margin:0;}
+    .ecosystem li {padding:0;}
+    .ecosystem > li > div {padding:10px; box-shadow: 0 0 0 1px #eee;}
+    .ecosystem li .det {display:none;}
+    .desktopText {display:none !important;}
+        .mobText {display:block;}
+    .serviceSlider .slick-dots {display:flex !important; justify-content:center; position:relative;}
+    .serviceSlider .slick-dots li {width:auto;}
+    .serviceSlider .slick-dots li button {width:12px; height:12px; border-radius:100%; overflow:hidden; text-indent:-500px; background:#fff; border:1px solid #ccc;}
+    .serviceSlider .slick-dots li.slick-active button {background:#e14125; border:1px solid #e14125;}
+    .serviceSlider {padding:15px 0 0 0;}
+    .serviceSlider:before {content:''; width:calc(100% + 30px); height:calc(100% + 15px); position:absolute; left:-15px; top:0; background: url(../home-images/service_bg.jpg) no-repeat left top; background-size: cover;}
+    
+    .serviceSlider .slick-arrow {position:absolute; top:-5px; z-index:10; background:#ccc; width:20px; height:20px; overflow:hidden; border:none; text-indent:-500px;}
+    .serviceSlider .slick-arrow.slick-prev {right:27px; background:#ccc url(../images/prev_ar.png) no-repeat center; background-size:7px auto;}
+    .serviceSlider .slick-arrow.slick-next {right:5px; background:#ccc url(../images/next_ar.png) no-repeat center; background-size:7px auto;}
+    
+    .integrationBox {padding:0;}
+    .integrationBox .inner {padding:15px; background:rgba(255,255,255,.8);}
+    .integrationBox ul li  {font-size:14px; line-height:22px; padding-left:55px;}
+    .integrationBox ul li .icon {width:40px; height:40px;}
+    .integrationBox ul li .icon img {width:16px;}
+    .integrationBox ul li span {font-size:22px; line-height:30px;}
+    .slaList {margin:-10px;}
+    .slaList li {padding:10px; width:100%;}
+    .slaList li .inner {position:relative; padding-left:55px; font-size:14px; line-height:24px;}
+    .slaList li .inner .icon {width:40px; height:40px;}
+    .slaList li .inner .icon img {width:16px;}
+    .slaList li .inner span {font-size:22px; line-height:30px;}
+    .blockchainCapinner ul li .text {display:none;}
+    }
+    
+    @media(max-width:479px){
+    .hireCon {margin:10px 0;}
+    .hireLink li {float:none; width:100%;  padding:5px 0;}
+    .hireLink.tech li {width:50%; float:left; padding-right:5px;}
+    .industryList li {margin-right:4%;}
+    .industryList li:nth-child(2n) {margin-right:0;}
+    .infoList li {width:100%; float:none; font-size:15px; border-right:none; padding:15px 10px 15px 40px;}
+    .infoList li span {font-size:40px;}
+    .infoList li:nth-child(2n) {padding:15px 10px 15px 40px;}
+    .infoList li:nth-child(2) {border-top:1px solid #dcdcdc;}
+    .infoList li:nth-child(2n) span {left:0;}
+    .mpRgt ul li {padding:0; text-align:center;}
+    .mpRgt ul li .icon {position:static; margin:0 auto 10px auto; display:block;}
+    .processCon ul li {width:100%; float:none;}
+    .formField.half {width:100%;}
+    .timeList li {width:50%; font-size:15px; padding:0 5px; text-align:center;}
+    .timeList li img {position:static; margin:0 auto 5px auto; display:block;}
+    .timeList li:last-child {width:50%; padding-left:5px;}
+    .timeList li span {display:none;}
+    .pfList ul li {width:100%; margin-right:0; margin-bottom:5px;}
+    .mobPFList ul li {width:100%; margin-right:0; margin-bottom:5px;}
+    .techBg {padding:20px 5px 0 5px;}
+    .hireLink.tech li a {font-size:14px;}
+    .solutionList ul li {width:48%; margin:0 4% 20px -4px;}
+    .solutionList ul li:nth-child(5n) {margin-right:4%;}
+    .solutionList ul li:nth-child(3n) {margin-right:4%;}
+    .solutionList ul li:nth-child(2n) {margin-right:0;}
+    .solutionList ul li a {padding:20px 5px;}
+    .solutionList ul li a img {margin:0 auto 10px auto;}
+    .solServices ul li {float: none; width: 100%;}
+    .adsLIst li {width:100%; margin:20px 0 0 0 !important;}
+    .benefitList li {margin-bottom:20px; padding:0 5px; text-align:center; font-size:15px;}
+    .benefitList li img {position:static; display:block; margin:auto;}
+    .videoPopup {width:100%;}
+    .botPfCon .rgt .client-video ul li {margin:0 10px 20px 0;}
+    .erpList ul li {width:100%; float:none; margin:0 0 25px 0;}
+    .wsww .lft {float:none; width:100%;}
+    .wsww .rgt {float:none; width:100%;}
+    .statsList li {width:100%; float:none; border-bottom:1px solid #ccc; border-left:none; padding-bottom:10px; margin:0;}
+    .statsList li:nth-child(3), .statsList li:nth-child(4) {width:100%;}
+    .statsList li:nth-child(2) {border-right:none;}
+    .allianceList ul li {width:49.5%; margin:0 1% 1% -4px;}
+    .allianceList ul li:nth-child(3n) {margin-right:1%;}
+    .allianceList ul li:nth-child(2n) {margin-right:0;}
+    .careerTop .hd {font-size:20px; width:100%;}
+    .careerTop .txt {width:100%; padding:10px;}
+    .careerTop .txt a:hover {background:#bd3210;}
+    .careerList li {width:100%; margin-right:0;}
+    .threeColList li {float:none; margin:20px 0 0 0 !important; width:100%;}
+    .deLinks li {font-size:14px;}
+    .deLinks li a img {width:30px;}
+    .deLinks li a {padding:10px 5px 10px 44px; min-height:60px;}
+    .deLinks li.single a {padding:18px 5px 10px 44px;}
+    .newsHd a {font-size:18px;}
+    .whyList li {width:100%;}
+    .fourColList li {width:100%; float:none; margin-right:0;}
+    .dmList li {float:none; width:100%; margin:10px 0 0 0;}
+    .dmExpertseList li {width:50%;}
+    .strengthList li {width:50%; border-bottom:1px solid #dcdcdc;}
+    .strengthList li:nth-child(3), .strengthList li:nth-child(4) {border-bottom:none;}
+    .tcList li {width:50%;}
+    .techWeuse {padding:20px 0 0 0;}
+    .techWeuse ul {border-top:1px solid #f4f4f4;}
+    .techWeuse ul li {float:left; width:50%; border:1px solid #f4f4f4; border-top:none; border-right:none; padding:10px;}
+    .techWeuse ul li:last-child {border-right:1px solid #f4f4f4;}
+    .techWeuse ul li:nth-child(2n) {border-right:1px solid #f4f4f4;}
+    .techWeuse ul.four li {width:50%;}
+    .mobileExpertise li {width:50%; font-size:14px;}
+    .mobBusiness li {font-size:14px;}
+    .mobBusiness li span {font-size:50px;}
+    .mobBusiness li br {display:none;}
+    .helpBusiness {padding:20px 0 0 0;}
+    .helpBusiness li {font-size:14px;}
+    .mobileAdvantage li {width:50%;}
+    .platformList li {float:none; width:100%; border-right:none;}
+    .platformList li:nth-child(3n) {border-bottom:1px solid #d6d6d6;}
+    .platformExpertise li {width:50%;}
+    .mobileInfo ul li {width:50%; padding:15px 10px 0 30px;}
+    .mobileInfo ul li .count {top:9px;}
+    .ssBox {width:300px; height:345px; margin:0 0;}
+    .bigdataInfo ul li {width:100%; border-right:none; padding:10px 10px 10px 50px;}
+    .bigdataInfo ul li span {top:1px;}
+    .bigdataInfo ul li:nth-child(2) {border-top:1px solid #dcdcdc;}
+    .autonationInfo ul li {width:50%; height:60px;}
+    .autonationInfo ul li:nth-child(3n+1) {border-left:1px solid #e3e3e3;}
+    .autonationInfo ul li:nth-child(2n+1) {border-left:none;}
+    .autonationInfo ul li:nth-child(4) {border-bottom:1px solid #e3e3e3;}
+    .globalLinks li {font-size:13px;}
+    .globalLinks li a {padding:10px 0 0 60px;}
+    .globalLinks li a:after {left:60px;}
+    .globalLinks li a .iconBx {width:40px; left:10px; top:12px;}
+    .globalLinks li:nth-child(2n+1) a {padding-left:60px;}
+    .globalLinks li:nth-child(2n+1) a::after {left:60px;}
+    .globalLinks li:nth-child(3n+1) .iconBx {left:10px;}
+    .globalLinks li:nth-child(2n+1) .iconBx {left:0;}
+    .globalLinks li:nth-child(3n+1) a {padding-left:60px;}
+    .globalLinks li:nth-child(2n+1) a {padding-left:50px;}
+    .globalLinks li:nth-child(3n+1) a:after {left:60px;}
+    .globalLinks li:nth-child(2n+1) a:after {left:50px;}
+    .trademarkLogo {padding:30px;}
+    .trademarkLogo img {width:100%;}
+    .itServicesList li .box {width:140px; height:140px; font-size:18px; line-height:24px; padding:0 10px;}
+    .parkList li {width:100%; margin:0 0 10px 0 !important; float:none;}
+    .parkList li:last-child {margin-bottom:0 !important;}
+    .partnerAdv li {width:49%; margin:0 2% 10px 0; font-size:13px;}
+    .partnerAdv li:nth-child(3n) {margin-right:2%;}
+    .partnerAdv li:nth-child(2n) {margin-right:0;}
+    .keyCapabilities li {width:100%; float:none;}
+    .threeList li {width:100%; float:none; margin:10px 0 0 0 !important;}
+    .strengthList li {padding-bottom:10px;}
+    .bdExpertise li {float:none; width:100%; margin:10px 0 0 0 !important;}
+    .engagingist li {float:none; width:100%;}
+    .engagingist li::before {top:11px;}
+    .engageAdvatge li {width:100%; float:left; margin:0 0 10px 0;}
+    .engageAdvatge li span br {display:none;}
+    .statsList li:last-child {border-right:none;}
+    .formField #recaptcha1 > div {max-width: 100%; transform:scale(0.85); -webkit-transform:scale(0.85); transform-origin: left top; -webkit-transform-origin: left top; margin-bottom:-10px;}
+    .formField .g-recaptcha > div {max-width: 100%; transform:scale(0.85); -webkit-transform:scale(0.85); transform-origin: left top; -webkit-transform-origin: left top; margin-bottom:-10px;}
+    .formField #recaptcha3 > div {max-width: 100%; transform:scale(0.85); -webkit-transform:scale(0.85); transform-origin: left top; -webkit-transform-origin: left top; margin-bottom:-10px;}
+    
+    .cliList ul li {width:20%;}
+    .cliList ul li a, .cliList ul li span {width:96%; margin:0 2% 5px 2%; height:50px; position:relative;}
+    .cliList ul li a img, .cliList ul li span img {max-width:80%; position:absolute; left:0; top:0; right:0; bottom:0; margin:auto;}
+    .client-Left .cliList li:nth-child(5) {display:block;}
+    .homePfOver .info .name {padding:10px 20px;}
+    homePfOver .info .tags {padding:0 20px;}
+    
+    .gitList li {width:48%; margin-bottom:20px; padding:0 0 0 45px; font-size:12px; line-height:14px; min-height:28px;}
+    .gitList li .icon {width:95%; left:10px;}
+    .gitList li:nth-child(3n+1) {padding:0 0 0 45px; border-left:1px solid #ccc; width:48%;}
+    .gitList li:nth-child(2n+1) {padding:0 0 0 35px; border-left:none; width:52%;}
+    .gitList li:nth-child(3n+1) .icon {left:10px;}
+    .gitList li:nth-child(2n+1) .icon {left:0;}
+    .afjList {font-size:15px;}
+    .pfList ul li:nth-child(2n+1) {clear:inherit;}
+    .contactAddress li .address {min-height:60px;}
+    #tab4 .contactAddress li .address {min-height:75px;}
+    .dtList li {width:100%;}
+    .dteList li {width:100%;}
+    .dtwhyList li {width:100%;}
+    .solListLink {width:100%; padding-top:0;}
+    a.solBPBox {float:none; width:100%; margin:10px 0 0 0;}
+    .solTSLft {margin:0;}
+    .solDERgt {margin:0;}
+    
+    .iotIndustry li {width:48%; margin:15px 4% 0 0;}
+    .iotIndustry li:nth-child(5n) {margin-right:4%;}
+    .iotIndustry li:nth-child(3n) {margin-right:4%;}
+    .iotIndustry li:nth-child(2n) {margin-right:0;}
+    .blockchainHIW li {width:100%; display:block; margin-left:0; padding:20px 0 0 0;}
+    .biHIW li {float:none; width:100%; display:block; padding:15px 0 0 0; margin-left:0;}
+    .aiHIW li {width:100%; display:block; margin-left:0;}
+    .aiHIW li:nth-child(5) {width:100%;}
+    .aiHIW li .hd {height:auto; padding:12px;}
+    .aiHIW li .hd br {display:none;}
+    .aiHIW li .smllRoundBox {height:auto; padding:12px;}
+    .aiHIW li .smllRoundBox br {display:none;}
+    
+    .newPflist li {float:none; width:100%;}
+    .newPflist li .imageBg {height:180px;}
+    .newPflist li:nth-child(5n-4) {padding:0; width:100%;}
+    .newPflist li:nth-child(5n-3) {padding:0; width:100%;}
+    
+    .newPflist li:nth-child(5n-2) {height:auto !important; padding:0;}
+    .newPflist li:nth-child(5n-2) > div {border:1px solid #aeaeae;}
+    .newPflist li:nth-child(5n-2) .imageBg {height:180px;}
+    .newPflist li:nth-child(5n-2) .imageBg:after {display:none;}
+    .newPflist li:nth-child(5n-2) .newPfDet {padding:10px; position:static;}
+    .newPflist li:nth-child(5n-2) .newPfDet .hd {color:#020a17; font-size:15px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .hd a {color:#020a17;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx strong {color:#020a17; font-size:14px;}
+    .newPflist li:nth-child(5n-2) .newPfDet .tagBx span {font-size:13px;}
+    
+    .newPflist li:nth-child(5n-1) {width:100%; height:auto !important; padding:0;}
+    .newPflist li:nth-child(5n-1) > div {border:1px solid #aeaeae;}
+    .newPflist li:nth-child(5n-1) .imageBg {height:180px;}
+    .newPflist li:nth-child(5n-1) .imageBg:after {display:none;}
+    .newPflist li:nth-child(5n-1) .newPfDet {padding:10px; position:static;}
+    .newPflist li:nth-child(5n-1) .newPfDet .hd {color:#020a17; font-size:15px;}
+    .newPflist li:nth-child(5n-1) .newPfDet .hd a {color:#020a17;}
+    .newPflist li:nth-child(5n-1) .newPfDet .tagBx strong {font-size:14px; color:#020a17;}
+    .newPflist li:nth-child(5n-1) .newPfDet .tagBx span {font-size:13px; display:inline-block;}                                        
+                         
+    .newPflist li:nth-child(5n) {width:100%; height:auto !important; padding:0;}
+    .newPflist li:nth-child(5n) > div {border:1px solid #aeaeae;}
+    .newPflist li:nth-child(5n) .imageBg {height:180px;}
+    .newPflist li:nth-child(5n) .imageBg:after {display:none;}
+    .newPflist li:nth-child(5n) .newPfDet {padding:10px; position:static;}
+    .newPflist li:nth-child(5n) .newPfDet .hd {color:#020a17; font-size:15px;}
+    .newPflist li:nth-child(5n) .newPfDet .hd a {color:#020a17;}
+    .newPflist li:nth-child(5n) .newPfDet .tagBx strong {font-size:14px; color:#020a17;}
+    .newPflist li:nth-child(5n) .newPfDet .tagBx span {font-size:13px; display:inline-block;} 
+    .offerList ul li {width:100%; padding:1px 0 15px 40px;}
+    .offerList ul li img {width:auto; height:22px; top:0;}
+    .offerList ul li span {display:inline-block;}
+    .mobInfoBox .infoList li:nth-child(2n) {padding:20px 15px 20px 40px;}
+    .mobInfoBox .infoList li span {top:4px; font-size:40px;}
+    .ourCapList li {width:100%;}
+    .salesforceSol {margin:-5px;}
+    .salesforceSol li {width:100%; padding:5px;}
+    
+    .socialList li {width:100%;}
+    
+    .leaderSlider {margin-top:-110px; padding:0 10px;}
+    .leaderSlider .inner {height:280px;}
+    .leaderBox {height:280px;}
+    .leaderBox .info .hd {font-size:22px; padding-bottom:0;}
+    .leaderBox .info .hd img {width:20px;}
+    .leaderBox .info .hd span {font-size: 15px; padding-top: 5px;}
+    .leaderBox .info .text {display:none;}
+    .deLinks li a span {display:inline;}
+    .meantopList li {width:100%;}
+    
+    .leadList li {width: 100%;}
+    .listIndustry li {width: 100%;}
+    .ourClientListNew ul {margin:-1px;}
+    .ourClientListNew ul li {padding:1px;}
+    .ourClientListNew ul li span {height:100px;}
+    .cloudServiceList li {width:100%;}
+    .modelsList li {width: 100%;}
+    .storyBox .lftBox {width:100%;}
+    .storyBox .lftBox a.innerBox {height:320px;}
+    .storyBox a.innerBox {height:220px;}
+    .storyBox .rgtBox {width:100%;}
+    .sapCap {padding:10px;}
+    .sapCapinner .box {width:100%;}
+    .workForYou > li {width: 100%;}
+    .blockchainCapinner ul li {width: 100%; padding: 10px 0;}
+    .blockchainCapinner ul li .hd {margin-bottom:0;}
+    .whwf .rgt li {width:48%;}
+    .platformLogo li span {padding:5px;}
+        .platformLogo li span img {max-height: 40px;}
+    }

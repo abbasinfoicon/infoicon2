@@ -1,0 +1,1300 @@
+{
+    "homeSlider":[
+        {
+            "id": 1,
+            "title":"Artificial Intelligence and Robotics in Smart City Strategies and Development",
+            "desc":"10000+ Solutions has been delivered at various platforms. 12+ successful years in Business. NASSCOM/ ISO 9001:2015 certified company. Providing Offshore services to more than 25 countries.",
+            "img":"assets/img/slider/slider1.jpg"
+        },
+        {
+            "id": 2,
+            "title":"Machine intelligence is the last invention that humanity will ever need to make.",
+            "desc":"There are many application development services to choose from. A number of factors set us apart from our competition including: We always strive for perfectionism. We are client oriented and client satisfaction is our number one goal. We assure return on investment.",
+            "img":"assets/img/slider/slider2.jpg"
+        },
+        {
+            "id": 3,
+            "title":"We Implement Innovating Techniques for Your Enhanced Business Presence.",
+            "desc":"Create a proper planning to implement the aspects for your project Completion. Care for your suggestions and implement them with proper understanding. Positive prospects and assistance from experts to get the things completed on-time.",
+            "img":"assets/img/slider/slider3.jpg"
+        },
+        {
+            "id": 4,
+            "title":"Digital transformation is a fundamental reality for businesses today.",
+            "desc":"Infoicon is a diversified IT outsourcing company. We assist our clients to achieve their business objectives by successfully outsourcing their non-core business processes and functions in the areas of technology and digital marketing.",
+            "img":"assets/img/slider/slider4.jpg"
+        },
+        {
+            "id": 5,
+            "title":"Professionals assistance for creating the best solutions",
+            "desc":"Java/J2EE, .NET Development, Mobile Apps Development, Digital Marketing, AWS Migration, Big Data Implementation &amp; Consulting, Cross Platform, ERP, HRM, CRM customizations, CMS Design, Database programming, BPM, Sugar CRM Development, UI &amp; DB Design. Best AI Solutions &amp; Data Transformation, Node.js, Vue.js, React.js, Angular.js, Ruby &amp; rails, Python ,MongoDB, Augmentation reality, Virtual Reality, Window app development company in India",
+            "img":"assets/img/slider/slider5.jpg"
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "img": "assets/img/blog/img1.jpg",
+            "banner": "",
+            "title": "SwiftUI – An Interactive and Revolutionary UI Framework Equipped with Futuristic Features!",
+            "slug": "swiftui-an-interactive-and-revolutionary-ui-framework-equipped-with-futuristic-features",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 2,
+            "img": "assets/img/blog/img2.jpg",
+            "banner": "",
+            "title": "Sneak Peek Of The Development Process Undertaken To Deliver Popular Video Streaming App Like Netflix",
+            "slug": "sneak-peek-of-the-development-process-undertaken-to-deliver-popular-video-streaming-app-like-netflix",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 3,
+            "img": "assets/img/blog/img3.jpg",
+            "banner": "",
+            "title": "5 Unique Methods Through Which Artificial Intelligence Is Modernizing the Mobile Economy",
+            "slug": "5-unique-methods-through-which-artificial-intelligence-is-modernizing-the-mobile-economy",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 4,
+            "img": "assets/img/blog/img4.jpg",
+            "banner": "",
+            "title": "Gear Up To Boost Your Conversion Rate With Strategic Mobile App Redesigning!",
+            "slug": "gear-up-to-boost-your-conversion-rate-with-strategic-mobile-app-redesignin",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 5,
+            "img": "assets/img/blog/img5.jpg",
+            "banner": "",
+            "title": "Advantages That Make Long Tail Keyword an Optimal SEO Solution!",
+            "slug": "advantages-that-make-long-tail-keyword-an-optimal-seo-solution",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 6,
+            "img": "assets/img/blog/img6.jpg",
+            "banner": "",
+            "title": "Android vs iOS - A Comparison To Decide The Better Option For Getting An App Developed",
+            "slug": "android-vs-ios-a-comparison-to-decide-the-better-option-for-getting-an-app-developed",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 7,
+            "img": "assets/img/blog/img7.jpg",
+            "banner": "",
+            "title": "Know How IoT Technologies Can Be helpful in Building A Connected Business Future",
+            "slug": "know-how-iot-technologies-can-be-helpful-in-building-a-connected-business-future",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 8,
+            "img": "assets/img/blog/img8.jpg",
+            "banner": "",
+            "title": "Big Data Analytics Solution - Advantageous Option To Expand Your Business",
+            "slug": "big-data-analytics-solution-advantageous-option-to-expand-your-business",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 9,
+            "img": "assets/img/blog/img9.jpg",
+            "banner": "",
+            "title": "Know About Some Common Facts of Effective Digital Marketing Services",
+            "slug": "know-about-some-common-facts-of-effective-digital-marketing-services",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        },
+        {
+            "id": 10,
+            "img": "assets/img/blog/img10.jpg",
+            "banner": "",
+            "title": "Searching for Reliable IT Consulting Services? Get to Know About Some Common Facts!!!",
+            "slug": "searching-for-reliable-it-consulting-services-get-to-know-about-some-common-facts",
+            "date": "26 November 2022",
+            "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+        }
+    ],
+    "portfolio": {
+        "homePortfolio": [
+            {
+                "id": 1,
+                "bgimg": "assets/img/quickdent-img.jpg",
+                "logo": "assets/img/quickdent-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            },
+            {
+                "id": 2,
+                "bgimg": "assets/img/bonjob-img.jpg",
+                "logo": "assets/img/bonjob-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            },
+            {
+                "id": 3,
+                "bgimg": "assets/img/amco-img.jpg",
+                "logo": "assets/img/amco-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            },
+            {
+                "id": 4,
+                "bgimg": "assets/img/mayesh-img.jpg",
+                "logo": "assets/img/mayesh-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            },
+            {
+                "id": 5,
+                "bgimg": "assets/img/dam-itcanada-img.jpg",
+                "logo": "assets/img/dam-itcanada-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            },
+            {
+                "id": 6,
+                "bgimg": "assets/img/latiniusa-img.jpg",
+                "logo": "assets/img/latiniusa-logo.png",
+                "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione, sit odit dolor est omnis in dolorem non minus deleniti eum libero quas.",
+                "title": "View case Study"
+            }
+        ],
+        "portfolioList": [
+            {
+                "id": 1,
+                "name": "Eurothek",
+                "service": "Advanced Web Developement",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Technologies"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Joomla",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 2,
+                "name": "Sigi Renner Friseure",
+                "service": "Mobile App Development",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Media and Entertainment"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Informational"
+                    }
+                ],
+                "technologies": "Wordpress",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 3,
+                "name": "Speedy Sydney Removalist",
+                "service": "Digital Marketing & SEO",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Business"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Magento",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 4,
+                "name": "Eolas Technology",
+                "service": "Social Networking",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Restaurant"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Real Estate"
+                    }
+                ],
+                "technologies": "Vue",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 5,
+                "name": "Sensatia",
+                "service": "SalesForce",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Consulting"
+                    },
+                    {
+                        "id": 2,
+                        "list": "Job Portal"
+                    }
+                ],
+                "technologies": "Codinitor",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 6,
+                "name": "Entire IT Solutions",
+                "service": "Advanced Web Developement",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Automotive"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Shopify",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 7,
+                "name": "DJ Magic",
+                "service": "Mobile App Development",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Travel and Hospitality"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Woo Commerce",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 8,
+                "name": "Super Pages",
+                "service": "Digital Marketing & SEO",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Technologies"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "ASP.Net",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 9,
+                "name": "Automakler Frankfurt",
+                "service": "Social Networking",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Technologies"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Opencart",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            },
+            {
+                "id": 10,
+                "name": "Latiniusa",
+                "service": "SalesForce",
+                "img": "assets/img/portfolio/img.jpg",
+                "link": "https://www.eurothek.net/",
+                "industries": [
+                    {
+                        "id": 1,
+                        "list": "Technologies"
+                    },
+                    {
+                        "id": 2,
+                        "list": "E-Comerce"
+                    }
+                ],
+                "technologies": "Custom CMS",
+                "desc": "At WWDC Developer Conference 2019, Apple launched a plethora of innovative frameworks, tools, features, and technologies, but the one that mesmerized each developer in the seminar was none other than Swift UI ! Swift UI an abbreviation for Swift User Interface is a revolutionary, yet interactive framework that will enable the Apple coders to develop an application for all the platforms including iOS, MacOS, and tvOS. The innovative framework has received maximum praise for it's most awaited addition of Swift Programming Language. This is something that provides developers with the APIs and tools to bring their optimum iPhone app solution on Mac, as well as, other Apple devices that too by saving time and pivotal resources required."
+            }
+        ]
+    },
+    "career": [
+        {
+            "id": 1,
+            "title": "Project Manager IT/Software",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 2,
+            "title": "Team Leader - PHP",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 3,
+            "title": "Developer / Sr. Software Developer",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 4,
+            "title": "Technical Support Engineer",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 5,
+            "title": "AVP (International Sales)",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 6,
+            "title": "Business Development Manager",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 7,
+            "title": "Team Leader-Online Marketing",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 8,
+            "title": "PHP Developer",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 9,
+            "title": "IOS Developer",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        },
+        {
+            "id": 10,
+            "title": "Android Developer",
+            "experience": "8-11 Years (at least 5 years in software development & 3 years in project management)",
+            "salary": "Negotiable",
+            "vacancy": 2,
+            "qualification": "MCA/B.Tech/M.Tech",
+            "skills": "Project Management Open Source Javascript MySQL PHP Technical Leadership Technical Architecture Project Coordination, Joomla, wordpress, opencart, wordpress, CI, YII, Cake",
+            "desc": "Infoicon Technologies Pvt Ltd is looking for a highly talented, motivated and drive individual with sound knowledge and expertise in project management."
+        }
+    ],
+    "testimonial": [
+        {
+            "id": 1,
+            "name": "Niki",
+            "city": "Denmark",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "_9qXB2W_efM",
+            "text": ""
+        },
+        {
+            "id": 2,
+            "name": "Phil Rawden",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "ZMjbj2FMsPI",
+            "text": ""
+        },
+        {
+            "id": 3,
+            "name": "Dr. Tomas",
+            "city": "Spain",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "xw5ONF_nIMY",
+            "text": ""
+        },
+        {
+            "id": 4,
+            "name": "Randy L. Markham",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "VKkAAKWPG2k",
+            "text": ""
+        },
+        {
+            "id": 5,
+            "name": "Ken Noroozi",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "v5Kkvbp8V8E",
+            "text": ""
+        },
+        {
+            "id": 6,
+            "name": "Olafur",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "q5sURR9fvvk",
+            "text": ""
+        },
+        {
+            "id": 7,
+            "name": "Mohamed Al-lami",
+            "city": "France",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "N2FIa8isDts",
+            "text": ""
+        },
+        {
+            "id": 8,
+            "name": "Martha",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "kEZ7i2RCBcM",
+            "text": ""
+        },
+        {
+            "id": 9,
+            "name": "Holger",
+            "city": "Germany",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "dD4QjsEZ4JM",
+            "text": ""
+        },
+        {
+            "id": 10,
+            "name": "Randy",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "BD6nZ_JSpR4",
+            "text": ""
+        },
+        {
+            "id": 11,
+            "name": "Robert Foster Naples",
+            "city": "Florida",
+            "img": "assets/img/client/img1.jpg",
+            "video": "",
+            "text": "I recently used Infoicon Technologies to build a website for my gated community in Naples, Florida, USA, and was extremely happy with the results. Vineet and his staff are very skilled in their craft, and they were able to design our website to our specifications that met our needs in every way at a very reasonable price."
+        },
+        {
+            "id": 12,
+            "name": "Steve Dee",
+            "city": "UK",
+            "img": "assets/img/client/img2.jpg",
+            "video": "",
+            "text": "I'm still amazed at the quality of work of this team. The interaction was smooth, the work was fast, and the result was very professional. The experience was so pleasant that I will work again with Infoicon Technologies.continue with this good work. You guys are really good at what you do."
+        },
+        {
+            "id": 13,
+            "name": "Maria Rodriguez",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "I am very satisfied with the work performed by them and the results they delivered. Excellent communication with the clients and on-time completion of project. I look forward to working together for my future projects."
+        },
+        {
+            "id": 14,
+            "name": "John Smith",
+            "city": "AU",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "Infoicon Technologies performed my task quickly and proficiently. Communication was excellent, and I received frequent updates about the progress of on my project. The work delivered by the company was extremely satisfactory and I would definitely recommend Infoicon Technologies to others."
+        },
+        {
+            "id": 15,
+            "name": "James Johnson",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "Infoicon Technologies is a very skilled company. Their professionals gave me the best assistance and handled my project in a great way. I am very satisfied with the end product. The look and functionality is excellent. I will surely like to work with Infoicon Technologies for the similar types of projects in future."
+        },
+        {
+            "id": 16,
+            "name": "Jayden",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "am very happy with the work performed by the team of Infoicon Technologies. The project was delivered on time, with excellent quality and communication. I look forward to work with Infoicon Technologies for the long term."
+        },
+        {
+            "id": 17,
+            "name": "Aiden",
+            "city": "Canada",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "We have done many projects with Infoicon Technologies and they have delivered great results. We did not have any issue with their work. The team of Infoicon Technologies is very responsive, proficient, reliable and hard working. We are pleased to work with them and looking forward to work together again in future."
+        },
+        {
+            "id": 18,
+            "name": "Maria Garcia ",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "Great understanding of web standards, excellent quality of work, very responsive. Look forward to work with them again. Thank you."
+        },
+        {
+            "id": 19,
+            "name": "Luke Churcher",
+            "city": "UK",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "We have been using InfoIcon Technologies now for the past 2 years on a number of web development projects as well as their Search Engine Optimisation skills & services. We have been impressed with their outstanding knowledge in website technologies and coding standards and their SEO skills has seen us climb the ranks of major search engines over time, giving our business an edge over our competitors. Overall i have to say their team are very dedicated in providing a professional approach to each task, being extremely friendly, always going that extra mile to deliver when promised. We are very pleased with the quality and work ethic that Infoicon Technologies provide us and in which we are more than happy to continue using their services in the near future!!!"
+        },
+        {
+            "id": 20,
+            "name": "David Smith",
+            "city": "USA",
+            "img": "assets/img/client/blank-img.jpg",
+            "video": "",
+            "text": "Offered great expertise for HTML5 and JavaScript applied mobile web development. Delivered the results on-time and was very responsive to requirements for any changes or clarifications. Very professional to work with."
+        }
+    ],
+    "contact": {
+        "address": [
+            {
+                "id": 1,
+                "address": "E-32, Sector 8, Noida (U.P.) India - 201301",
+                "map": "https://www.google.co.in/maps/place/Infoicon+Technologies+Pvt.Ltd./@28.595422,77.3214343,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce50681005277:0x765237187ebbcbd9!8m2!3d28.595422!4d77.323623"
+            },
+            {
+                "id": 2,
+                "address": "354 Franklin Ave Franklin Square, NY 11010 (+1 31 5688 7243)",
+                "map": "https://www.google.co.in/maps/place/354+Franklin+Ave,+Franklin+Square,+NY+11010,+USA/@40.6987219,-73.6845647,17z/data=!3m1!4b1!4m5!3m4!1s0x89c26316c8b31bd3:0xd8b0948ab3e112e2!8m2!3d40.6987219!4d-73.682376"
+            }
+        ],
+        "location": [
+            {
+                "id": 1,
+                "country": "India",
+                "flag": "assets/img/india-flag.png",
+                "img": "assets/img/indiagate-img.jpg",
+                "desc": "Call or e-mail our sales department to place an order or for pricing, product information, pre-sales advice and sales information.",
+                "sales": "+91-120-402-1757",
+                "enquiry": "+91-120-413-9662",
+                "hr": "+91-729-193-6692",
+                "phone": "+91-120-413-9663",
+                "mobile": "+91-9560149646",
+                "email": "sales@infoicontechnologies.com"
+            },
+            {
+                "id": 2,
+                "country": "USA",
+                "flag": "assets/img/usa-flag.png",
+                "img": "assets/img/usa-img.jpg",
+                "desc": "Wants to become a member of Infoicon Family, or keeps full energy to go with new trend and technologies",
+                "sales": "+91-120-402-1757",
+                "enquiry": "+91-120-413-9662",
+                "hr": "+91-729-193-6692",
+                "phone": "+1 31 5688 7243",
+                "mobile": "",
+                "email": "hr@infoicontechnologies.com"
+            },
+            {
+                "id": 3,
+                "country": "UK",
+                "flag": "assets/img/uk-flag.png",
+                "img": "assets/img/uk-img.jpg",
+                "desc": "We have a range of IT Solutions to keep you up to date with specific software needs.",
+                "sales": "+91-120-402-1757",
+                "enquiry": "+91-120-413-9662",
+                "hr": "+91-729-193-6692",
+                "phone": "+44 20 3289 2658",
+                "mobile": "",
+                "email": "info@infoicontechnologies.com"
+            }
+        ],
+        "social":[
+            {
+                "id":1,
+                "name": "facebook",
+                "link": "https://www.facebook.com/InfoiconTech/",
+                "icon": "fab fa-facebook-f"
+            },
+            {
+                "id":2,
+                "name": "twitter",
+                "link": "https://twitter.com/infoicontech",
+                "icon": "fab fa-twitter"
+            },
+            {
+                "id":3,
+                "name": "instagram",
+                "link": "https://www.instagram.com/infoicon_technologies",
+                "icon": "fab fa-instagram"
+            },
+            {
+                "id":4,
+                "name": "linkedin",
+                "link": "https://www.linkedin.com/company/infoicon-technologies",
+                "icon": "fab fa-linkedin-in"
+            },
+            {
+                "id":5,
+                "name": "rss",
+                "link": "https://rss.com/",
+                "icon": "fas fa-rss"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "id": 1,
+            "name": "News",
+            "img": "assets/img/team/img1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "15 August",
+            "img": "assets/img/team/img2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "News",
+            "img": "assets/img/team/img3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "News",
+            "img": "assets/img/team/img4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "News",
+            "img": "assets/img/team/img5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "News",
+            "img": "assets/img/team/img6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "News",
+            "img": "assets/img/team/img7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "News",
+            "img": "assets/img/team/img8.jpg"
+        },
+        {
+            "id": 9,
+            "name": "News",
+            "img": "assets/img/team/img9.jpg"
+        }
+    ],
+    "award": [
+        {
+            "id": 1,
+            "img": "assets/img/nasscom-logo.png",
+            "name": "nasscom",
+            "link":"https://www.infoicontechnologies.com/Member-Certificate-NSCM.pdf"
+        },
+        {
+            "id": 2,
+            "img": "assets/img/iso-certified-logo.png",
+            "name": "iso-certified",
+            "link":"https://www.infoicontechnologies.com/ISO-9001-2015-certified.pdf"
+        },
+        {
+            "id": 3,
+            "img": "assets/img/dmca-logo.png",
+            "name": "dmca",
+            "link":"https://www.dmca.com/Protection/Status.aspx?ID=9e441b9a-efe3-413e-a1e2-2313e82a624c&amp;refurl=https://www.infoicontechnologies.com"
+        },
+        {
+            "id": 4,
+            "img": "assets/img/magento-certified-logo.png",
+            "name": "magento-certified",
+            "link":"https://www.credly.com/users/noshad-ali.m2cert/badges"
+        },
+        {
+            "id": 5,
+            "img": "assets/img/google-partner-logo.png",
+            "name": "google-partner",
+            "link":"https://skillshop.exceedlms.com/profiles/e0a73a8324fb4a27be8cfd042962f925"
+        },
+        {
+            "id": 6,
+            "img": "assets/img/microsoft-marketing-partner-logo.png",
+            "name": "microsoft-partner",
+            "link":"https://learninglab.about.ads.microsoft.com/certification/membership-profile/id/368050/infoicon-technologies"
+        },
+        {
+            "id": 7,
+            "img": "assets/img/google-adword-logo.png",
+            "name": "google-adword",
+            "link":"#"
+        },
+        {
+            "id": 8,
+            "img": "assets/img/amazon-web-services-logo.png",
+            "name": "amazon-web",
+            "link":"#"
+        },
+        {
+            "id": 9,
+            "img": "assets/img/microsoft-badge.png",
+            "name": "microsoft-badge",
+            "link":"https://www.credly.com/users/infoicon-technologies/badges"
+        }
+    ],
+    "store": [
+        {
+            "id": 1,
+            "title": "Mobile Development Store",
+            "slug": "mobile-development-store",
+            "icon": "assets/img/store/mobile-app-white.png",
+            "desc": "We strive to design applications that delight our customers. We have been providing seamless services of mobile application development for various platforms. We have created number of robust and feature-rich mobile apps that helps building your business success in the competitive market. Infoicon Technologies has a pool of mobile app developers who have expertise in building apps for all the major platforms, such as iOS, Android and Windows phone.",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Flutter App Development",
+                    "slug": "flutter-app-development",
+                    "icon": "assets/img/store/flutter-icon.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 2,
+                    "title": "React Native",
+                    "slug": "react-native",
+                    "icon": "assets/img/store/react-native-icon.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 3,
+                    "title": "iPhone Apps Development",
+                    "slug": "iphone-app-development",
+                    "icon": "assets/img/store/iPhone.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 4,
+                    "title": "Apple Smart TV App Development",
+                    "slug": "apple-smart-tv-app-development",
+                    "icon": "assets/img/store/apple_tv.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 5,
+                    "title": "iPad Apps Development",
+                    "slug": "ipad-apps-development",
+                    "icon": "assets/img/store/tab.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 6,
+                    "title": "Apps Development Process",
+                    "slug": "apps-development-process",
+                    "icon": "assets/img/store/app_dev.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 7,
+                    "title": "Android Application Development",
+                    "slug": "android-application-development",
+                    "icon": "assets/img/store/android.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 8,
+                    "title": "Android Smart TV App Development",
+                    "slug": "android-smart-tv-app-development",
+                    "icon": "assets/img/store/android_tv.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 9,
+                    "title": "Mobile Games Development",
+                    "slug": "mobile-games-development",
+                    "icon": "assets/img/store/game_app.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 10,
+                    "title": "Windows App Development",
+                    "slug": "windows-app-development",
+                    "icon": "assets/img/store/window-icon.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Web development store",
+            "slug": "web-development-store",
+            "icon": "assets/img/store/web-development.png",
+            "desc": "We provide you complete assistance to come up with breakthrough software in this competitive world. We offer web development and designing amenities for your networking, marketing, communication and business needs with support of our highly qualified team of professionals with innovative ideas, passion and dedication for your web based solutions, surprising the marketplace.",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Wordpress Development",
+                    "slug": "wordpress-development",
+                    "icon": "assets/img/store/wp-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 2,
+                    "title": "Joomla Development",
+                    "slug": "joomla-development",
+                    "icon": "assets/img/store/joomla-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 3,
+                    "title": "Magento Development",
+                    "slug": "magento-development",
+                    "icon": "assets/img/store/magento-logo.pn",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 4,
+                    "title": "YII Development",
+                    "slug": "yii-development",
+                    "icon": "assets/img/store/yii-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 5,
+                    "title": "Codeigniter Development",
+                    "slug": "codeigniter-development",
+                    "icon": "assets/img/store/codeigniter-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 6,
+                    "title": "OpenCart Development",
+                    "slug": "opencart-development",
+                    "icon": "assets/img/store/opencart-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 7,
+                    "title": "Cakephp Development",
+                    "slug": "cakephp-development",
+                    "icon": "assets/img/store/cakephp-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 8,
+                    "title": "PHP-MVC Development",
+                    "slug": "php-mvc-development",
+                    "icon": "assets/img/store/php-mvc-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 9,
+                    "title": "Drupal Development",
+                    "slug": "drupal-development",
+                    "icon": "assets/img/store/drupal-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 10,
+                    "title": "PHP Development",
+                    "slug": "php-development",
+                    "icon": "assets/img/store/drupal-logo.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Digital Marketing Store",
+            "slug": "digital-marketing-store",
+            "icon": "assets/img/store/digital-marketing.png",
+            "desc": "We believe that a digital marketing strategy is an essential part of marketing strategy in todays scenario. We at Infoicon technologies provide effective digital marketing services by understanding the clients needs and their goals. Our Digital Marketing Experts will analyze the market on-going strategies and implement them for your business success as well as growth.",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "SEO Services",
+                    "slug": "seo-services",
+                    "icon": "assets/img/store/seo-service.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 2,
+                    "title": "Reputation and Brand Management",
+                    "slug": "reputation-and-brand-management",
+                    "icon": "assets/img/store/reputation-and-brand.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 3,
+                    "title": "Social Media Marketing",
+                    "slug": "social-media-marketing",
+                    "icon": "assets/img/store/social-media-marketing.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 4,
+                    "title": "App Store Optimization",
+                    "slug": "app-store-optimization",
+                    "icon": "assets/img/store/app-store-optimization.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 5,
+                    "title": "Pay Per Click Services",
+                    "slug": "pay-per-click-services",
+                    "icon": "assets/img/store/pay-per-click.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 6,
+                    "title": "SMO Likers",
+                    "slug": "smo-likers",
+                    "icon": "assets/img/store/SMO-likers.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 7,
+                    "title": "YouTube Channel Promotion",
+                    "slug": "youtube-channel-promotion",
+                    "icon": "assets/img/store/youtube-channel-promotion.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 8,
+                    "title": "Unnatural Or Toxic Link Removal",
+                    "slug": "unnatural-or-toxic-link-removal",
+                    "icon": "assets/img/store/unnatural-toxic.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 9,
+                    "title": "PPC Plans",
+                    "slug": "ppc-plans",
+                    "icon": "assets/img/store/ppc-plane.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 10,
+                    "title": "SMO Plans",
+                    "slug": "smo-plans",
+                    "icon": "assets/img/store/SMO-plans.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Software development store",
+            "slug": "software-development-store",
+            "icon": "assets/img/store/software-development.png",
+            "desc": "We offer a full range of software development services for a wide variety of business domains. Our expert developers have great expertise in building high performance software products and applications, while satisfying the specific business needs of the customers. With an extensive experience in providing exceptional software development solutions and high quality standards, we can help you develop solutions that give your business an edge over your competitors.",
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Custom Software Development",
+                    "slug": "custom-software-development",
+                    "icon": "assets/img/store/custom-software-development.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 2,
+                    "title": "Internet Software Development",
+                    "slug": "internet-software-development",
+                    "icon": "assets/img/store/internet-software-development.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 3,
+                    "title": "Microsoft Development",
+                    "slug": "microsoft-development",
+                    "icon": "assets/img/store/microsoft-development.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 4,
+                    "title": "DNN Development Services",
+                    "slug": "dnn-development-services",
+                    "icon": "assets/img/store/DNN-dev.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 5,
+                    "title": "SugarCRM Development",
+                    "slug": "sugarcrm-development",
+                    "iocn": "assets/img/store/sugarCRM.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 6,
+                    "title": "Offshore Development Center",
+                    "slug": "offshore-development-center",
+                    "iocn": "assets/img/store/offshore-dev-center.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 7,
+                    "title": "Quality Control Services",
+                    "slug": "quality-control-services",
+                    "iocn": "assets/img/store/quality-control.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 8,
+                    "title": "IT Consulting",
+                    "slug": "it-consulting",
+                    "iocn": "assets/img/store/IT-consulting.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 9,
+                    "title": "Knowledge Management",
+                    "slug": "knowledge-management",
+                    "iocn": "assets/img/store/knowledge-management.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                },
+                {
+                    "id": 10,
+                    "title": "Application Migration",
+                    "slug": "application-migration",
+                    "iocn": "assets/img/store/application-migration.png",
+                    "heading": "Flutter a Cross-Platform Framework -Save a Lot of Time and Give Peace and Satisfaction",
+                    "img": "assets/img/store/flutter-icon.png",
+                    "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
+                }
+            ]
+        }
+    ],
+    "pages": [
+        {
+            "id": 1,
+            "name": "About us",
+            "resulation": 1,
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Corporate Info",
+                    "sub_categories": [
+                        {
+                            "id": 1,
+                            "name": "About Company"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Services",
+            "resulation": 1
+        },
+        {
+            "id": 3,
+            "name": "Experties",
+            "resulation": 1
+        },
+        {
+            "id": 4,
+            "name": "Infra Services",
+            "resulation": 1
+        },
+        {
+            "id": 5,
+            "name": "Industries",
+            "resulation": 1
+        },
+        {
+            "id": 6,
+            "name": "Custom Solutions",
+            "resulation": 1
+        },
+        {
+            "id": 7,
+            "name": "Products",
+            "resulation": 0
+        },
+        {
+            "id": 8,
+            "name": "Big Data Analytics Solution",
+            "resulation": 0
+        },
+        {
+            "id": 9,
+            "name": "Software Testing",
+            "resulation": 0
+        },
+        {
+            "id": 10,
+            "name": "Digital Marketing",
+            "resulation": 0
+        },
+        {
+            "id": 11,
+            "name": "Cloud Computing",
+            "resulation": 0
+        },
+        {
+            "id": 12,
+            "name": "AWS Migration",
+            "resulation": 0
+        },
+        {
+            "id": 13,
+            "name": "Testimonials",
+            "resulation": 0
+        },
+        {
+            "id": 14,
+            "name": "Contact us",
+            "resulation": 0
+        }
+    ]
+}
