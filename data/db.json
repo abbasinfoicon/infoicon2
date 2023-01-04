@@ -712,6 +712,102 @@
             }
         ]
     },
+    "about": {
+        "id": 1,
+        "name": "About us",
+        "desc": "Infoicon Technologies is a next generation global leader in IT industry enabling 3000+ clients from different countries viz U.S., Australia, Canada, and Europe to maneuver their digital transformation. With over 10 years of experience, we proficiently navigate our clients throughout their digital journey. All we can do by empowering the venture with our unmatched solution that helps prioritize the execution of the revolution. We also strengthen the business via employing innovative strategies and always-on leaning approach to deliver customer delight. In this journey of empowering the businesses, we have embraced majorly four idea - scaling agile digital, empowering the core, upskilling the workforce and augmenting localization. The digital framework that we utilize drives optimal solution for our clients across five areas including Insight, Innovate, Experience, Accelerate, and Assure. In fact, this will also guide our efforts and ambitions to build digital proficiency. Improving the skills of our manpower is something that allows us to deliver our clients' expectations. Beyond the business, we have established Infoicon Technologies as the optimal IT solution to bridge digital gap. Here we provide assistance to numerous enterprises in order to take them to the next level of success!",
+        "img": "assets/img/about/fb-bg1.jpg",
+        "banner": "assets/img/slider/inner-banner.jpg",
+        "desc1": "Infoicon Technologies has proved its expertise in the major domains like manufacturing industry, wireless and telecommunications, the retail industry, travel, education, and transportations. Infoicon Technologies also imbibes a reputed collaboration with SAP and Microsoft. Today, Infoicon Technologies is rapidly expanding its practices with the clients settled in Europe and U.S. We are also planning supplementary regional and global offices within the next couple of year.",
+        "ourService": [
+            {
+                "id": 1,
+                "name": "Web Development",
+                "img": "assets/img/about/web-dev-icon.png",
+                "desc": "With holding 10+ Years Of Experience and possessing significant skills, we have delivered myriad custom websites satisfying all our clients from different countries such as U.S., Australia, Europe, and Canada. Our dedicated professionals majorly focus on offering result-oriented and cost-competitive solutions to empower your businesses."
+            },
+            {
+                "id": 2,
+                "name": "Software Development",
+                "img": "assets/img/about/software-dev-icon.png",
+                "desc": "Since 2005, we have developed various software for a wide range of businesses via employing our client-oriented approach. Yes, for a successful Software Development, communication is one of the most crucial elements. Therefore, we strive to listen to you carefully so that we can not only know about all your specific requirements but also fulfill them!"
+            },
+            {
+                "id": 3,
+                "name": "Digital Marketing",
+                "img": "assets/img/about/digital-marketing-icon.png",
+                "desc": "Being a paramount Digital Marketing Company, Infoicon Technologies is offering unmatched services to take your business to the next level of success. Whether you want to grow the customer base or increase sales, our talented and dynamic workforce are always ready to attain your business goal. You just wish, we are here to make it possible!"
+            },
+            {
+                "id": 4,
+                "name": "Mobile Application Development",
+                "img": "assets/img/about/mobile-app-icon.png",
+                "desc": "A mobile app is an unsurpassed solution to grow your business and create a distinctive brand image! Nevertheless, to make the most out of this, you must seek assistance from an industry expert having proven experience to deliver unmatched results. It is for this reason that Infoicon Technologies has for years been the number one choice for thousands of clients based in USA, Canada, Europe and Australia."
+            },
+            {
+                "id": 5,
+                "name": "Amazon Cloud Migration",
+                "img": "assets/img/about/cloud-migration-icon.png",
+                "desc": "As the demand for agility as well as flexibility is increasing, companies are rapidly moving their traditional in-house IT systems and applications to the cloud. This is something that offers multiple benefits in terms of efficiency and profitability. Whether you are an owner of a small business or large, Amazon Cloud Migration is an ideal solution to generate high revenue. However, there are numerous companies known for offering this lucrative service to all the venerated entrepreneurs. But, when it’s about the reliable one, then Infoicon Technologies comes at the top. The in-depth knowledge and experience of our passionate professionals is enough to provide you with exceptional Amazon Cloud Migration service!"
+            },
+            {
+                "id": 6,
+                "name": "Staff Augmentation Services",
+                "img": "assets/img/about/staff-augmentation-icon.png",
+                "desc": "Hiring a highly qualified candidate is certainly not an easy task and requires a lot of effort as well as time. To find a professional with the needful proficiency can be tricky, but with effective Staff Augmentation Services this work will be greatly simplified. In fact, it is an optimal solution to efficiently deal with temporary staffing needs. For this, Infoicon Technologies is certainly a name you can rely on to maximize your resources as well as for boosting up your revenues."
+            }
+        ],
+        "aboutFeatures": [
+            {
+                "id": 1,
+                "name": "12+ Successful Years in IT/Software Industry",
+                "img": "assets/img/about/successful-years-icon.png",
+                "desc": ""
+            },
+            {
+                "id": 2,
+                "name": "Proficient & Skilled IT Professionals",
+                "img": "assets/img/about/it-professionals.png",
+                "desc": ""
+            },
+            {
+                "id": 3,
+                "name": "10000+ Solutions & 3000+ Happy Clients globally",
+                "img": "assets/img/about/happy-client.png",
+                "desc": ""
+            },
+            {
+                "id": 4,
+                "name": "Perfectionism To Maintain Repeat Business & Referrals",
+                "img": "assets/img/about/repeat-business-referrals.png",
+                "desc": ""
+            },
+            {
+                "id": 5,
+                "name": "Best In Class Industry Experience",
+                "img": "assets/img/about/class-industry-experience.png",
+                "desc": ""
+            },
+            {
+                "id": 6,
+                "name": "Well-defined Flexible Engagement Model For Efficient Solutions",
+                "img": "assets/img/about/flexible-engagement-model.png",
+                "desc": ""
+            },
+            {
+                "id": 7,
+                "name": "Flawless Communication For Cordial Relationship",
+                "img": "assets/img/about/flexible-engagement-model.png",
+                "desc": ""
+            },
+            {
+                "id": 8,
+                "name": "Well-equipped Infrastructure With Cutting Edge Technologies",
+                "img": "assets/img/about/well-equipped-infrastructure.png",
+                "desc": ""
+            }
+        ]
+    },
     "gallery": [
         {
             "id": 1,
@@ -917,7 +1013,7 @@
         },
         {
             "id": 2,
-            "title": "Web development store",
+            "title": " store",
             "slug": "web-development-store",
             "icon": "assets/img/store/web-development.png",
             "desc": "We provide you complete assistance to come up with breakthrough software in this competitive world. We offer web development and designing amenities for your networking, marketing, communication and business needs with support of our highly qualified team of professionals with innovative ideas, passion and dedication for your web based solutions, surprising the marketplace.",

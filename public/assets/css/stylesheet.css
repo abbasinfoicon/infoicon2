@@ -4220,6 +4220,7 @@ a.skype img {
 .single-flip-box {
   position: relative;
   text-align: center;
+  height: 250px;
 }
 
 .flip-box-one .front-side,
