@@ -1550,6 +1550,8 @@ header.open .menu ul li .readMoreBtn {
   border-radius: 3px;
   padding: 10px 35px;
   font-weight: 500;
+  border: none;
+  outline: none;
 }
 
 .slick-slider {
@@ -7001,4 +7003,62 @@ ul {
 }
 .testimonials .owl-dots .owl-dot span {
   display: block;
+}
+
+.colm5 .footerLink li:nth-child(5) a,
+.colm5 .footerLink li:nth-child(6) a,
+.colm5 .footerLink li:nth-child(7) a {
+  color: #fff;
+  background: #ef323a;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.colm5 .footerLink li:nth-child(5) a:hover,
+.colm5 .footerLink li:nth-child(6) a:hover,
+.colm5 .footerLink li:nth-child(7) a:hover {
+  background: #c71e25;
+}
+.colm5 .footerLink li:nth-child(5),
+.colm5 .footerLink li:nth-child(6),
+.colm5 .footerLink li:nth-child(7) {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footerLink li:before {
+  content: none;
+}
+.colm5 .footerLink li:nth-child(1):before,
+.colm5 .footerLink li:nth-child(2):before,
+.colm5 .footerLink li:nth-child(3):before,
+.colm5 .footerLink li:nth-child(4):before {
+  content: "";
+  width: 20px;
+  height: 16px;
+  background-size: 20px;
+  left: 0;
+    top: 0;
+}
+.colm5 .footerLink li{
+  position: relative;
+}
+.colm5 .footerLink li:nth-child(1):before {
+  background-image: url(../img/about/india-flag.png);
+}
+.colm5 .footerLink li:nth-child(2):before {
+  background-image: url(../img/about/usa-flag.png);
+}
+.colm5 .footerLink li:nth-child(3):before {
+  background-image: url(../img/about/uk-flag.png);
+}
+.colm5 .footerLink li:nth-child(4):before {
+  background-image: url(../img/about/gmail.png);
+}
+
+.colm5 .footerLink li:nth-child(1),
+.colm5 .footerLink li:nth-child(2),
+.colm5 .footerLink li:nth-child(3),
+.colm5 .footerLink li:nth-child(4){
+  padding-left: 25px;
 }

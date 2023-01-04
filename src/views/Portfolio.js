@@ -101,7 +101,7 @@ const Portfolio = () => {
                             <img className="img-fluid" src={item.img} />
                           </div>
                           <a href={item.link} target="_blank">
-                            Go Live{" "}
+                            Go Live
                           </a>
                         </div>
                         <div className="newPfDet">

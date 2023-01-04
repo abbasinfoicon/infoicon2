@@ -15,7 +15,7 @@ const ScrollTopToBottom = () => {
     };
   }, []);
 
-  console.log(scrollPosition);
+  // console.log(scrollPosition);
   // const scroll = document.body.scrollTop
   //   console.log(scroll);
 

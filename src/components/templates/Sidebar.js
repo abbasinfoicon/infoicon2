@@ -1,38 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import axiosCall from "../axios";
 import ModalPopup from "../parts/ModalPopup";
 
 const Sidebar = () => {
   const [IsOpen, setIsOpen] = useState(false);
+  const [sidebar, setSidebar] = useState([]);
+
+  useEffect(() => {
+    axiosCall("options").then((res) => setSidebar([...res.data]));
+  }, []);
+
+  console.log("SIDEBAR-", sidebar);
 
   return (
     <div className="rgtLinks botPad20">
       <ul>
-        <li>
-          <Link to="/">
-            <span>01</span> Why Infoicon?
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <span>02</span> Process Management
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <span>03</span> Hire Dedicated Team or Developer
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <span>04</span> Engagement Models
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
-            <span>05</span> Partnership With Us
-          </Link>
-        </li>
+        {sidebar?.map((list, index) => (
+          <li key={index}>
+            <Link to={`/${list.slug}`}>
+              <span>0{index + 1}</span> {list.name}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       <button className="readMoreBtn navClr" onClick={() => setIsOpen(true)}>
@@ -41,7 +31,7 @@ const Sidebar = () => {
         </span>
       </button>
 
-      <ModalPopup modalIsOpen={IsOpen} setIsOpen={setIsOpen}/>
+      <ModalPopup modalIsOpen={IsOpen} setIsOpen={setIsOpen} />
     </div>
   );
 };

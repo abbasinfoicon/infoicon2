@@ -959,7 +959,7 @@ const Header = () => {
                     <li>
                       <Link to="/" className="zone-btn">
                         Clients Login
-                      </Link>{" "}
+                      </Link>
                       <Link to="#" className="zone-btn">
                         Employees Login
                       </Link>
@@ -982,8 +982,8 @@ const Header = () => {
                       </li>
                       <li>
                         <Link to="mailto:sales@infoicontechnologies.com">
-                          {" "}
-                          <i className="far fa-envelope"></i>{" "}
+                          
+                          <i className="far fa-envelope"></i>
                           sales@infoicontechnologies.com
                         </Link>
                       </li>

@@ -1,34 +1,34 @@
 {
-    "homeSlider":[
+    "homeSlider": [
         {
             "id": 1,
-            "title":"Artificial Intelligence and Robotics in Smart City Strategies and Development",
-            "desc":"10000+ Solutions has been delivered at various platforms. 12+ successful years in Business. NASSCOM/ ISO 9001:2015 certified company. Providing Offshore services to more than 25 countries.",
-            "img":"assets/img/slider/slider1.jpg"
+            "title": "Artificial Intelligence and Robotics in Smart City Strategies and Development",
+            "desc": "10000+ Solutions has been delivered at various platforms. 12+ successful years in Business. NASSCOM/ ISO 9001:2015 certified company. Providing Offshore services to more than 25 countries.",
+            "img": "assets/img/slider/slider1.jpg"
         },
         {
             "id": 2,
-            "title":"Machine intelligence is the last invention that humanity will ever need to make.",
-            "desc":"There are many application development services to choose from. A number of factors set us apart from our competition including: We always strive for perfectionism. We are client oriented and client satisfaction is our number one goal. We assure return on investment.",
-            "img":"assets/img/slider/slider2.jpg"
+            "title": "Machine intelligence is the last invention that humanity will ever need to make.",
+            "desc": "There are many application development services to choose from. A number of factors set us apart from our competition including: We always strive for perfectionism. We are client oriented and client satisfaction is our number one goal. We assure return on investment.",
+            "img": "assets/img/slider/slider2.jpg"
         },
         {
             "id": 3,
-            "title":"We Implement Innovating Techniques for Your Enhanced Business Presence.",
-            "desc":"Create a proper planning to implement the aspects for your project Completion. Care for your suggestions and implement them with proper understanding. Positive prospects and assistance from experts to get the things completed on-time.",
-            "img":"assets/img/slider/slider3.jpg"
+            "title": "We Implement Innovating Techniques for Your Enhanced Business Presence.",
+            "desc": "Create a proper planning to implement the aspects for your project Completion. Care for your suggestions and implement them with proper understanding. Positive prospects and assistance from experts to get the things completed on-time.",
+            "img": "assets/img/slider/slider3.jpg"
         },
         {
             "id": 4,
-            "title":"Digital transformation is a fundamental reality for businesses today.",
-            "desc":"Infoicon is a diversified IT outsourcing company. We assist our clients to achieve their business objectives by successfully outsourcing their non-core business processes and functions in the areas of technology and digital marketing.",
-            "img":"assets/img/slider/slider4.jpg"
+            "title": "Digital transformation is a fundamental reality for businesses today.",
+            "desc": "Infoicon is a diversified IT outsourcing company. We assist our clients to achieve their business objectives by successfully outsourcing their non-core business processes and functions in the areas of technology and digital marketing.",
+            "img": "assets/img/slider/slider4.jpg"
         },
         {
             "id": 5,
-            "title":"Professionals assistance for creating the best solutions",
-            "desc":"Java/J2EE, .NET Development, Mobile Apps Development, Digital Marketing, AWS Migration, Big Data Implementation &amp; Consulting, Cross Platform, ERP, HRM, CRM customizations, CMS Design, Database programming, BPM, Sugar CRM Development, UI &amp; DB Design. Best AI Solutions &amp; Data Transformation, Node.js, Vue.js, React.js, Angular.js, Ruby &amp; rails, Python ,MongoDB, Augmentation reality, Virtual Reality, Window app development company in India",
-            "img":"assets/img/slider/slider5.jpg"
+            "title": "Professionals assistance for creating the best solutions",
+            "desc": "Java/J2EE, .NET Development, Mobile Apps Development, Digital Marketing, AWS Migration, Big Data Implementation &amp; Consulting, Cross Platform, ERP, HRM, CRM customizations, CMS Design, Database programming, BPM, Sugar CRM Development, UI &amp; DB Design. Best AI Solutions &amp; Data Transformation, Node.js, Vue.js, React.js, Angular.js, Ruby &amp; rails, Python ,MongoDB, Augmentation reality, Virtual Reality, Window app development company in India",
+            "img": "assets/img/slider/slider5.jpg"
         }
     ],
     "blog": [
@@ -679,33 +679,33 @@
                 "email": "info@infoicontechnologies.com"
             }
         ],
-        "social":[
+        "social": [
             {
-                "id":1,
+                "id": 1,
                 "name": "facebook",
                 "link": "https://www.facebook.com/InfoiconTech/",
                 "icon": "fab fa-facebook-f"
             },
             {
-                "id":2,
+                "id": 2,
                 "name": "twitter",
                 "link": "https://twitter.com/infoicontech",
                 "icon": "fab fa-twitter"
             },
             {
-                "id":3,
+                "id": 3,
                 "name": "instagram",
                 "link": "https://www.instagram.com/infoicon_technologies",
                 "icon": "fab fa-instagram"
             },
             {
-                "id":4,
+                "id": 4,
                 "name": "linkedin",
                 "link": "https://www.linkedin.com/company/infoicon-technologies",
                 "icon": "fab fa-linkedin-in"
             },
             {
-                "id":5,
+                "id": 5,
                 "name": "rss",
                 "link": "https://rss.com/",
                 "icon": "fas fa-rss"
@@ -764,55 +764,55 @@
             "id": 1,
             "img": "assets/img/nasscom-logo.png",
             "name": "nasscom",
-            "link":"https://www.infoicontechnologies.com/Member-Certificate-NSCM.pdf"
+            "link": "https://www.infoicontechnologies.com/Member-Certificate-NSCM.pdf"
         },
         {
             "id": 2,
             "img": "assets/img/iso-certified-logo.png",
             "name": "iso-certified",
-            "link":"https://www.infoicontechnologies.com/ISO-9001-2015-certified.pdf"
+            "link": "https://www.infoicontechnologies.com/ISO-9001-2015-certified.pdf"
         },
         {
             "id": 3,
             "img": "assets/img/dmca-logo.png",
             "name": "dmca",
-            "link":"https://www.dmca.com/Protection/Status.aspx?ID=9e441b9a-efe3-413e-a1e2-2313e82a624c&amp;refurl=https://www.infoicontechnologies.com"
+            "link": "https://www.dmca.com/Protection/Status.aspx?ID=9e441b9a-efe3-413e-a1e2-2313e82a624c&amp;refurl=https://www.infoicontechnologies.com"
         },
         {
             "id": 4,
             "img": "assets/img/magento-certified-logo.png",
             "name": "magento-certified",
-            "link":"https://www.credly.com/users/noshad-ali.m2cert/badges"
+            "link": "https://www.credly.com/users/noshad-ali.m2cert/badges"
         },
         {
             "id": 5,
             "img": "assets/img/google-partner-logo.png",
             "name": "google-partner",
-            "link":"https://skillshop.exceedlms.com/profiles/e0a73a8324fb4a27be8cfd042962f925"
+            "link": "https://skillshop.exceedlms.com/profiles/e0a73a8324fb4a27be8cfd042962f925"
         },
         {
             "id": 6,
             "img": "assets/img/microsoft-marketing-partner-logo.png",
             "name": "microsoft-partner",
-            "link":"https://learninglab.about.ads.microsoft.com/certification/membership-profile/id/368050/infoicon-technologies"
+            "link": "https://learninglab.about.ads.microsoft.com/certification/membership-profile/id/368050/infoicon-technologies"
         },
         {
             "id": 7,
             "img": "assets/img/google-adword-logo.png",
             "name": "google-adword",
-            "link":"#"
+            "link": ""
         },
         {
             "id": 8,
             "img": "assets/img/amazon-web-services-logo.png",
             "name": "amazon-web",
-            "link":"#"
+            "link": ""
         },
         {
             "id": 9,
             "img": "assets/img/microsoft-badge.png",
             "name": "microsoft-badge",
-            "link":"https://www.credly.com/users/infoicon-technologies/badges"
+            "link": "https://www.credly.com/users/infoicon-technologies/badges"
         }
     ],
     "store": [
@@ -1211,6 +1211,298 @@
                     "desc": "Build better web apps with Flutter! A smooth and flexible platform ideal for building web applications like PWAs or SPAs. It's a UI framework for building apps on iOS, Android, web, and desktop for high performance and high fidelity with a single codebase. With this, developers can intelligently and easily design beautiful interfaces for all different screen aspects ratios. Basically, Flutter is a UI toolkit that allows developers to design native interfaces for all sorts of screen sizes and devices. It come along with a whole bunch of pre-built widgets that make it easy to layout the app."
                 }
             ]
+        }
+    ],
+    "footerMenu": [
+        {
+            "id": 1,
+            "name": "Enlightenment",
+            "list": [
+                {
+                    "id": 1,
+                    "name": "Legal Disclaimer",
+                    "slug": "legal-disclaimer",
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Privacy Policy",
+                    "slug": "privacy-policy",
+                    "link": ""
+                },
+                {
+                    "id": 3,
+                    "name": "NON Disclosure Agreement",
+                    "slug": "non-disclosure-agreement",
+                    "link": ""
+                },
+                {
+                    "id": 4,
+                    "name": "White Label Partnership",
+                    "slug": "white-label-partnership",
+                    "link": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Payment Methods",
+                    "slug": "payment-methods",
+                    "link": ""
+                },
+                {
+                    "id": 6,
+                    "name": "About Us",
+                    "slug": "about",
+                    "link": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Contact Us",
+                    "slug": "contact",
+                    "link": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Infoicon Global",
+                    "slug": "infoicon-global",
+                    "link": "https://www.infoiconglobal.com/"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Highlights",
+            "list": [
+                {
+                    "id": 1,
+                    "name": "Career",
+                    "slug": "career",
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "name": "BPO Services",
+                    "slug": "bpo-services",
+                    "link": ""
+                },
+                {
+                    "id": 3,
+                    "name": "News and Events",
+                    "slug": "news-and-events",
+                    "link": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Cloud Computing",
+                    "slug": "cloud-computing",
+                    "link": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Amazon Cloud Migration",
+                    "slug": "amazon-cloud-migration",
+                    "link": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Google APPS Migration",
+                    "slug": "google-apps-migration",
+                    "link": ""
+                },
+                {
+                    "id": 7,
+                    "name": "IT Infrastructure Services",
+                    "slug": "it-infrastructur-services",
+                    "link": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Sitemap",
+                    "slug": "sitemap",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Glimpse",
+            "list": [
+                {
+                    "id": 1,
+                    "name": "Mobile Development Store",
+                    "slug": "mobile-development-store",
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Web Development Store",
+                    "slug": "web-development-store",
+                    "link": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Digital Marketing Store",
+                    "slug": "digital-marketing-store",
+                    "link": ""
+                },
+                {
+                    "id": 4,
+                    "name": "S/W Development Store",
+                    "slug": "s/w-development-stroe",
+                    "link": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Custom Development",
+                    "slug": "custom-development",
+                    "link": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Big Data Analytics Solution",
+                    "slug": "big-data-analytics-solution",
+                    "link": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Adobe Experience Manager",
+                    "slug": "adobe-experience-manager",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Expertise",
+            "list": [
+                {
+                    "id": 1,
+                    "name": "Mobile Apps Development",
+                    "slug": "mobile-apps-development",
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "name": "React JS",
+                    "slug": "react-js",
+                    "link": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Node js Development",
+                    "slug": "node-js-development",
+                    "link": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Vue js Development",
+                    "slug": "vue-js-development",
+                    "link": ""
+                },
+                {
+                    "id": 5,
+                    "name": "ROR Development",
+                    "slug": "ror-developement",
+                    "link": ""
+                },
+                {
+                    "id": 6,
+                    "name": "GIS Development",
+                    "slug": "gis-development",
+                    "link": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Hybris Development",
+                    "slug": "hybris-development",
+                    "link": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Metaverse Avatar Development",
+                    "slug": "metaveerse-avatar-development",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Get in Touch",
+            "list": [
+                {
+                    "id": 1,
+                    "name": "+91-120-495-7436",
+                    "slug": "",
+                    "link": "tel:+91-120-495-7436"
+                },
+                {
+                    "id": 2,
+                    "name": "+1 31 5688 7243",
+                    "slug": "",
+                    "link": "tel:+1 31 5688 7243"
+                },
+                {
+                    "id": 3,
+                    "name": "+44 20 3289 2658",
+                    "slug": "",
+                    "link": "tel:+44 20 3289 2658"
+                },
+                {
+                    "id": 4,
+                    "name": "sales@infoicontechnologies.com",
+                    "slug": "",
+                    "link": "mailto:sales@infoicontechnologies.com"
+                },
+                {
+                    "id": 5,
+                    "name": "Clients Login",
+                    "slug": "",
+                    "link": "http://www.infoicon.co.in/pms/"
+                },
+                {
+                    "id": 6,
+                    "name": "Employees Login",
+                    "slug": "",
+                    "link": "http://www.infoicon.co.in/employee-login/"
+                },
+                {
+                    "id": 7,
+                    "name": "LSD Login",
+                    "slug": "",
+                    "link": "http://www.infoicon.co.in/leadtool/"
+                }
+            ]
+        }
+    ],
+    "options": [
+        {
+            "id": 1,
+            "name": "Why Infoicon?",
+            "slug": "why-infoicon",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "name": "Process Management",
+            "slug": "process-management",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "name": "Hire Dedicated Team or Developer",
+            "slug": "hire-dedicated-team-or-developer",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "name": "Engagement Models",
+            "slug": "engagement-models",
+            "link": ""
+        },
+        {
+            "id": 5,
+            "name": "Partnership With Us",
+            "slug": "contact",
+            "link": ""
         }
     ],
     "pages": [

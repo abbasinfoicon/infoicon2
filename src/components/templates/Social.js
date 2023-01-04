@@ -14,7 +14,7 @@ const Social = () => {
       {social.map((item, index) => {
         return (
           <li key={index}>
-            <a href={item.link} target="_blank">
+            <a href={`${item.link}`} target="_blank">
               <i className={item.icon}></i>
             </a>
           </li>
