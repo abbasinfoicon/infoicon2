@@ -7,44 +7,53 @@ import Sidebar from "../components/templates/Sidebar";
 
 const Pages = () => {
   const params = useParams();
-  const [page, setPage] = useState([]);
+  const [page, setPage] = useState();
 
   useEffect(() => {
-    axiosCall("pages").then((res) => setPage([...res.params]));
-  }, []);
+    axiosCall("pages").then((res) => {
+      res.data.map((page) => {
+        if (page.slug === params.name) {
+          page.categories.map((category) => {
+            category.sub_categories.map((sub) => {
+              if (sub.slug === params.slug) {
+                setPage({ ...sub });
+              }
+            });
+          });
+        }
+      });
+    });
+  }, [params]);
 
   console.log("Page-details: ", page);
   console.log("Params-Slug", params);
 
   return (
     <>
-      <Banner
-        title={page.name}
-        banner={page.banner}
-      />
+      {page && (
+        <>
+          <Banner title={page.name} banner={page.banner} />
 
-      <Breadcrumb name={page.name} />
+          <Breadcrumb name={page.name} />
 
-      <div className="midCon">
-        <div className="container clearfix">
-          <div className="service-detail-con d-flex flex-wrap">
-            <div className="midRgt contct">
-              <Sidebar />
-            </div>
+          <div className="midCon">
+            <div className="container clearfix">
+              <div className="service-detail-con d-flex flex-wrap">
+                <div className="midRgt contct">
+                  <Sidebar />
+                </div>
 
-            <div className="midLft">
-              <div className="aboutBig">
-                {page.smallDesc}
-              </div>
-              <div className="content-wrap">
-                <div className="our_company">
-                  {page.desc}
+                <div className="midLft">
+                  <div className="aboutBig">{page.smallDesc}</div>
+                  <div className="content-wrap">
+                    <div className="our_company">{page.desc}</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </>
+      )}
     </>
   );
 };
