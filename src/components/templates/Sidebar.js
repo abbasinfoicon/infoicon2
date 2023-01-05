@@ -11,7 +11,7 @@ const Sidebar = () => {
     axiosCall("options").then((res) => setSidebar([...res.data]));
   }, []);
 
-  console.log("SIDEBAR-", sidebar);
+  // console.log("SIDEBAR-", sidebar);
 
   return (
     <div className="rgtLinks botPad20">

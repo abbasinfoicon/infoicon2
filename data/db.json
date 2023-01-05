@@ -1605,6 +1605,7 @@
         {
             "id": 1,
             "name": "About us",
+            "slug":"about",
             "resulation": 1,
             "categories": [
                 {
@@ -1654,6 +1655,7 @@
         {
             "id": 2,
             "name": "Services",
+            "slug":"services",
             "resulation": 1,
             "categories": [
                 {
@@ -1926,6 +1928,7 @@
         {
             "id": 3,
             "name": "Experties",
+            "slug":"experties",
             "resulation": 1,
             "categories": [
                 {
@@ -2353,6 +2356,7 @@
         {
             "id": 4,
             "name": "Infra Services",
+            "slug":"infra-services",
             "resulation": 1,
             "categories": [
                 {
@@ -2627,6 +2631,7 @@
         {
             "id": 5,
             "name": "Industries",
+            "slug":"industries",
             "resulation": 1,
             "categories": [
                 {
@@ -2883,6 +2888,7 @@
         {
             "id": 6,
             "name": "Custom Solutions",
+            "slug":"custom-solutions",
             "resulation": 1,
             "categories": [
                 {
@@ -2905,6 +2911,7 @@
         {
             "id": 7,
             "name": "Products",
+            "slug":"products",
             "resulation": 0,
             "categories": [
                 {
@@ -2927,6 +2934,7 @@
         {
             "id": 8,
             "name": "Big Data Analytics Solution",
+            "slug":"big-data-analytics-solution",
             "resulation": 0,
             "categories": [
                 {
@@ -2949,6 +2957,7 @@
         {
             "id": 9,
             "name": "Software Testing",
+            "slug":"software-testing",
             "resulation": 0,
             "categories": [
                 {
@@ -2971,6 +2980,7 @@
         {
             "id": 10,
             "name": "Digital Marketing",
+            "slug":"digital-marketing",
             "resulation": 0,
             "categories": [
                 {
@@ -2993,6 +3003,7 @@
         {
             "id": 11,
             "name": "Cloud Computing",
+            "slug":"cloud-computing",
             "resulation": 0,
             "categories": [
                 {
@@ -3015,6 +3026,7 @@
         {
             "id": 12,
             "name": "AWS Migration",
+            "slug":"aws-migration",
             "resulation": 0,
             "categories": [
                 {
@@ -3037,6 +3049,7 @@
         {
             "id": 13,
             "name": "Testimonials",
+            "slug":"testimonials",
             "resulation": 0,
             "categories": [
                 {
@@ -3059,6 +3072,7 @@
         {
             "id": 14,
             "name": "Contact us",
+            "slug":"contact-us",
             "resulation": 0,
             "categories": [
                 {
