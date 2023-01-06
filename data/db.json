@@ -1605,7 +1605,7 @@
         {
             "id": 1,
             "name": "About us",
-            "slug":"about",
+            "slug": "about",
             "resulation": 1,
             "categories": [
                 {
@@ -1655,7 +1655,7 @@
         {
             "id": 2,
             "name": "Services",
-            "slug":"services",
+            "slug": "services",
             "resulation": 1,
             "categories": [
                 {
@@ -1928,7 +1928,7 @@
         {
             "id": 3,
             "name": "Experties",
-            "slug":"experties",
+            "slug": "experties",
             "resulation": 1,
             "categories": [
                 {
@@ -2356,7 +2356,7 @@
         {
             "id": 4,
             "name": "Infra Services",
-            "slug":"infra-services",
+            "slug": "infra-services",
             "resulation": 1,
             "categories": [
                 {
@@ -2404,7 +2404,7 @@
                             "name": "System Administration And Virtualization",
                             "banner": "assets/img/slider/inner-banner.jpg",
                             "slug": "system-administration-and-virtualization",
-                            "img": "assets/img/page/",
+                            "img": "",
                             "smallDesc": "Infoicon Technologies is one of the top-notch companies that offers an enticed alternative that completely reduces or eliminates your need for on-site support staff by providing the entire spectrum of system administration tasks; in packages that fits your business needs.",
                             "desc": "We offer one of the most cost-effective ways to solve your IT management issues. Basically, system administration services have a substantial value in the business. System administration anticipates and prevents problems in significant downtime and data lost for which, our dedicated team handle supervisor hardware, virtual servers running Linux and windows operating systems. Our services of system administration broadly covers: Apart from system administration services, we also cater Virtualization services. Generally, virtualization is responsible for handling day to day operations and maintenance of the virtualization servers and infrastructure. With diverse and specialized technical assistance center, our team is capable of -"
                         }
@@ -2631,7 +2631,7 @@
         {
             "id": 5,
             "name": "Industries",
-            "slug":"industries",
+            "slug": "industries",
             "resulation": 1,
             "categories": [
                 {
@@ -2888,7 +2888,7 @@
         {
             "id": 6,
             "name": "Custom Solutions",
-            "slug":"custom-solutions",
+            "slug": "custom-solutions",
             "resulation": 1,
             "categories": [
                 {
@@ -2897,291 +2897,291 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Custom Software Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "custom-software-development",
+                            "img": "",
+                            "smallDesc": "If you think that you have a lot of competitors on the Internet and you have to strive a lot to show the presence, then it is easy now.",
+                            "desc": "There is an innovative technology introduced, this is custom software development. Custom software development helps you to achieve your dreams.Infoicon Technologies is a well renowned custom software development company situated in India, helping you to meet the requirements of your business. The main aim of our company is to meet the preference of the customer. For this certain steps starting from product idea to customizing software solutions are followed. Custom software development focuses on the deep knowledge of the requirements of the customer. Then emphasis is laid on business needs of the client so that innovative decisions can be taken which helps in the successful software customization services.Infoicon Technologies aims to their professional expertise of customer development software services to their optimum usage. The clients are being well treated, cooperated and coordinated with their efficient and experienced IT professionals. The source of strength of this company is their experience across the industry."
                         },
                         {
                             "id": 2,
-                            "name": "",
+                            "name": "Internet Software Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "internet-software-development",
+                            "img": "",
+                            "smallDesc": "Ever-growing requirement for Internet software solutions is determined by rapidly changing market environment and technology growth.",
+                            "desc": "To streamline your company, we address those issues with our deployable and zenith-class Internet and Intranet solutions. A company's website is the resource of up-to-date information for clients and partners, a stage for selling products and services, an ideal place for advertising and endorsement. As a web development corporation, Infoicon Technologies has capacities and experiences sufficient to create, launch and bear a website of any intricacy and scalability. We offer our clients a full circle of website growth processes. Our web developers stay efficient with newest web development technologies continuously advancing in knowledge and technique."
                         },
                         {
                             "id": 3,
-                            "name": "",
+                            "name": "Microsoft Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "microsoft-development",
+                            "img": "",
+                            "smallDesc": "From past few years, Infoicon Technologies has been the renowned outsourced Microsoft software development company which is suitable for high end outsourcing services.",
+                            "desc": "Infoicon Technologies is also specialist in Windows programming; Microsoft consulting services, offshore .NET software development, enterprise application development, web based application development, Microsoft product development, .NET product development, as well as business processing tools. The architects and consultants of Infoicon Technologies also specialise in services which includes .Net development, Microsoft .NET programming, .NET migration, .NET application migration, as well as .NET application re-engineering. We have our Microsoft development experience across different industries like e-business and e-commerce, wealth and financial management services, energy, communications, logistics and transportation, CRM and government. The teams of Infoicon Technologies deploy and develop comprehensive solutions with the use of Microsoft technologies and tools at their disposal in the Microsoft software services."
                         },
                         {
                             "id": 4,
-                            "name": "",
+                            "name": "DNN Development Services",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "dnn-development-services",
+                            "img": "",
+                            "smallDesc": "Infoicon Technologies is specialised in the development of next generation portals, sites, e-commerce sites, applications on the DotNetNuke or DNN platform.",
+                            "desc": "We have contributed to the successful engagements at pervasive stages with the help of technical expertise, creative savvy and acumen of business. We not only provide impressive return on the return on investment but also create tremendous value for our clients by providing web, innovative and dotnetnuke development services. Hence we are committed for our clients. The business is being conducted in a secured and efficient manner in the sense that we provide custom web sites, engage customers in applications, also engage suppliers, customers, partners so that a wider communication web is being formed. Infoicon Technologies also provides them the opportunities to collaborate and exchange data among themselves. Our key objective is to form a long term relationship with our clients, whenever possible providing application development services to our clients. Our basic step is to accommodate the basic need of our client and hence we follow a flexible approach to our clients so that we achieve our aim of the success of our clients. Faster project execution, lowered cost of development, outstanding quality, customer service, and reliability are the services which are being provided to the clients as a goal."
                         },
                         {
                             "id": 5,
-                            "name": "",
+                            "name": "SugarCRM Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "sugarcrm-development",
+                            "img": "",
+                            "smallDesc": "There is a customer relationship management application which is known as SugarCRM.",
+                            "desc": "There are three versions of this application which are Sugar Open Source, Sugar Enterprise and Sugar Professional. The Sugar Open Source version also contains functionalities of the commercial versions. SugarCRM have great benefits in the field of efficient management of the customer relationships and its value is also being recognised by most of the medium sized and large companies too. In order to increase the operational efficiency, productivity of customer support services, the inside sales and to streamline the inside functions, the company needs to implement SugarCRM. The Sugar Open Source version can be utilised by customising it to meet the ends. Infoicon Technologies can also be utilised in building of a powerful CRM application with some selected features at a very low cost. Our SugarCRM development team has worked for global clients over simple as well as complex projects and assignments with the expertise in PHP, MySQL, Apache and Linux."
                         },
                         {
                             "id": 6,
-                            "name": "",
+                            "name": "Offshore Development Center",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "offshore-development-center",
+                            "img": "",
+                            "smallDesc": "Infoicon Technologies provides the services of the Offshore Development Center (ODC).",
+                            "desc": "It is an effective community of software engineers who harmonize your in-house staff distantly and act as requisite by your project requirements and business requirements. ODC can carry out a variety of services linked to software development life cycle. The process of engagement with ODC is very easy. You communicate us your supplies and wishes concerning the work to be done. Jointly with you, we describe the scheme metrics and tailor up the team of software engineers. ODC starts its effort. Thus, for a permanent (as agreed upon) period, you have personnel resources and technical infrastructure at your clearance."
                         },
                         {
                             "id": 7,
-                            "name": "",
+                            "name": "Quality Control Services",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "quality-control-services",
+                            "img": "",
+                            "smallDesc": "An India-based company, Infoicon Technologies provides the best service to the client by meeting the exact requirements they have, offering brilliantly executed work which is simple, yet inspiring.",
+                            "desc": "Several Kind of Software Development Technologies provided by Infoicon Technologies are:  E-commerce Development: If you want to increase your business profits, gain strength in market or enhance your business scope, then you should be prepared to make changes, and E-commerce website development is a great way to do so. Not only are they reliable and easy, they are also exceptionally well-thought out. Choose from a wide array of several kinds of service that would take care of your special needs and help you reach your targets. Here is where Infoicon Technologies can help you by developing specific Web development application solutions to benefit your deals, and optimize your profits. Products like e-commerce development and marketing, e-commerce website designing, e-commerce software or SEO services are all part of the deal here."
                         },
                         {
                             "id": 8,
-                            "name": "",
+                            "name": "SAP",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "sap",
+                            "img": "",
+                            "smallDesc": "SAP to win a cut-throat competition among a myriad of businesses nowadays, applying “Intelligence” is of paramount significance.",
+                            "desc": "It will not only set your enterprise apart, but also makes you more predictive, proactive, and productive at the same time. This is actually the real power of an intelligent organization. As of now, many large-scale companies have multiple facets of operation is the fact that you are most likely familiar with. To keep things going in the accurate direction, all they need is to communicate with each other. Amid all, SAP an abbreviation for Systems, Applications, and Products is one of the leading ERPs i.e. Enterprise Resource Planning software enables communication in the data processing. In simpler words, it's a suite of applications which contribute to managing core business processes including Sales, Purchasing, Human Resource, Customer Support, Accounting, CRM and Inventory. The exceptional features this software possesses is what that allows companies of all sizes to reap a plethora of significant benefits. For instance, Eliminating Data Duplication, Abundance & Discontinuity Improving Services, Increasing Productivity, Sharing Information in Different Departments, and Reducing Costs. Hence, it has become one of the most preferred choices for businesses working in different verticals."
                         },
                         {
                             "id": 9,
-                            "name": "",
+                            "name": "IT Consulting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "it-consulting",
+                            "img": "",
+                            "smallDesc": "If you want to add some kind of value to your client's business then what you need to do is that avail the opportunities that we offer of strategic IT consulting services that meets the organisation objective of sustainable growth with a competition edge also.",
+                            "desc": "We also provide latest technology solutions as well as industry practised and tested, with our unrivalled expertise. The vision and experience of the industry had lead to structure the consultancy operations in a way which reduces the cost of operation, increases the satisfaction of the customer, and also adds the scope of competitive differentiation; transformation is also enabled through this to the client's business operations and processes."
                         },
                         {
                             "id": 10,
-                            "name": "",
+                            "name": "Knowledge Management",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "knowledge-management",
+                            "img": "",
+                            "smallDesc": "The knowledge management consulting services at Infoicon Technologies covers a huge range of activities which includes road map creation, strategy formulation to the development of KMS and implementation as well as coaching.",
+                            "desc": "The exercises of knowledge management are really more than the creation of knowledge management information system. The strategy of knowledge management of any company is able to achieve its objectives when the nature as well as kind of the business is kept in the mind and its objectives which are to be achieved gives a way to direction of knowledge management. Infoicon Technologies is capable of assisting the companies at the various stages of their knowledge management initiative. We usually believe that the consulting services which are being provided by us to our clients as well as to our customers are being provided to them in the way that best suits them and according to their convenience. Thus, the site consultancy as well the services which are being provided by us includes the knowledge management consulting where the deliveries are being provided by using online delivery model in which all the deliverables are managed via online delivery that helps reducing time to market and overheads for the clients for the same consulting work."
                         },
                         {
                             "id": 11,
-                            "name": "",
+                            "name": "Application Migration",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "application-migration",
+                            "img": "",
+                            "smallDesc": "The technological innovations that take place every other day in the world have pushed back several applications and software to the brink of obscurity.",
+                            "desc": "As a result there is a need to turn to newer technologies which would be adapted to the previous software used in many of the devices. The main advantage that the clients investing their finances in Infoicon enjoy is pleasure of reduced costs. In a time where inflation has squeezed out finances, this would be a welcome change. Infoicon also provides a low risk opportunity for you to migrate to newer and faster versions without compromising on your data. In addition to the customer-friendly atmosphere, we also offer help for post migration to newer services. Our company provides two fundamental reasons to invest in us: Infoicon Technologies Pvt. Ltd. has been a proven and trusted Application Migration service provider for many years. Our assistance for the different requirements of our customers has made us evolve different new platforms for web development with our distinguished services. No matter on which complex platform it is developed, we are here to make it the best and updated according to the latest scenario."
                         },
                         {
                             "id": 12,
-                            "name": "",
+                            "name": "Trading Services",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "trading-services",
+                            "img": "",
+                            "smallDesc": "Trading solutions are vital to the finances of every private company.",
+                            "desc": "The market is inundated with a large number of companies which offer very promising trading solutions but fail to deliver invariably. To add more woes to the company’s finances, their investment falls flat and they end up losing a lot of money. The permanent solution to their perpetual problem has led to many of these companies withdrawing from the market. Good trading solutions company will let you buy trading services using any kind of currency. Most of the companies are associated with the global circuit; as such there is an increased demand for the companies to use as many currencies as possible. Our company, Infoicon Technologies Private Limited provides the best trading solutions to their customers in an easy to use and user-friendly interface. The company also provides secure transactions which are of paramount importance to all seeking companies."
                         },
                         {
                             "id": 13,
-                            "name": "",
+                            "name": "Product Authentication Solution",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "product-anthentication-solution",
+                            "img": "",
+                            "smallDesc": "Everyday the world looks at a new innovation or a technology. As a matter of fact, technology has changed the face of the new millennia.",
+                            "desc": "Technology has enabled us to reach Mars, and has also helped a lot of crooks have their way. With advancements in technology, there have also been instances of Phishing, Identity Thefts and illegal account transactions. There have been increased incidences of spurious products which prove to be baneful to the customers to a large extent. The solution to this rampant problem is Product Authentication. Especially in today’s era, it has become imperative for the customer. Be it any consumable good, apparels or even electronic goods, the need for Product Authentication Solutions has become the need of the hour. Product Authentication Solution is also a crucial part which plays an important role to satisfy the customer."
                         },
                         {
                             "id": 14,
-                            "name": "",
+                            "name": "Education Software Products",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "education-software-products",
+                            "img": "",
+                            "smallDesc": "The changing face of technology and innovations have led to a sea of changes in the field of finance, banking, defense and a major part of education as well.",
+                            "desc": "The education methodology has also undergone a major makeover which has prompted many of the organizations, universities and colleges to adapt to these new means and expertise. Educational Software should have some characteristics which would help the teachers as well as the students to understand the content in a much lucid way. At Infoicon Technologies Private Limited, we value time and management. As such, we have developed software that would crunch time, but not compromise on the educational value as well."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 15,
+                            "name": "Financial Accounting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "financial-accounting",
+                            "img": "",
+                            "smallDesc": "Accounting is as diverse field. Under it come various other fields of accounting like Cost Accounting, management accounting, auditing:",
+                            "desc": "both internal and external, international accounting, and accounting for taxes as well. Financial accounting however covers the largest of all these subtopics. Financial accounting can be described as giving vital information to the customers and clients and help them make a proper decision of making an investment or choosing to take a loan or invest in a stock etc. This can be done in a number of ways, and clients should look after the company that would provide the best possible solutions and advices to choose them. We provide perfect solutions for financial accounting to our clients. Our clients are provided information via various means including:"
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 16,
+                            "name": "Artificial Intelligence",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "artificial-intelligence",
+                            "img": "",
+                            "smallDesc": "Artificial Intelligence is a rapidly growing technology which enables the machine to imitate the human behavior so to offer the same experience to the users.",
+                            "desc": "A recent Forrester Research states that the businesses which use AI will steal around $1.2 trillion P.A. from their less informed peers by 2020. Nowadays, almost every small or big sized industry is related to artificial intelligence in some or the other way. Indeed, from Microsoft Cortana to Apple’s Siri, artificial intelligence is promising a bright future. Today, the need for Artificial Intelligence (AI) in the business field has witnessed rapid growth. The main objective of artificial intelligence is to develop intelligent machines so to ease the work of humans. Today, it has created a buzz in the market and has gained wide popularity. From self-driving cars to computer games & chatbots, we depend heavily on this advanced machine learning technology. We at Infoicon Technologies Pvt. Ltd. delivers our clientele with outstanding and innovative artificial intelligence solutions, thereby, making their business smart as well as agile. In the past few years, we’ve emerged as a notable AI solution providers. We are well-known for offering effective services for text-to-speech, knowledge virtualization, and much more. Our experts always strive to provide the customers with the needed help and assist in enhancing sales operation by offering up to the minute customer experiences."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 17,
+                            "name": "Salesforce Consulting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "selesforce-consulting",
+                            "img": "",
+                            "smallDesc": "Salesforce Consulting each business is established to create its unique identity by achieving a steady growth and progress.",
+                            "desc": "Due to the leading advancements in the technology, a business demands to be more manageable and highly automated. To manage the various business process together, there is a comprehensive platform arisen into the market who benefit is taken by a large group of business owners now a days. This comprehensive platform is Salesforce. Infoicon Technologies Pvt. Ltd. Is providing the leading and forefront solutions for Salesforce Consulting."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 18,
+                            "name": "SugarCRM Consulting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "sugarcrm-consulting",
+                            "img": "",
+                            "smallDesc": "The services for SugarCRM Consulting helps your business to touch new heights.",
+                            "desc": "At Infoicon Technologies Pvt. Ltd., we are providing the best solutions to integrate and customize your business. By availing our services, you can ensure the perfect SugarCRM deployment. We have a paramount team of SugarCRM specialists and SugarCRM consultants that are highly capable of cherishing the demands for your SugarCRM requirements. The promising delivery of your requirements is our motive. With our dedicated team of technical experts and business analysts, we line up a suitable SugarCRM strategy. The extensive planning and deployment will lead to the establishment of your unique identity worldwide. We can help you out for each of query on SugarCRM is the best thing that we can do for you to improvise your business identity in the international market. The main applications of using this for your business are as follows:-"
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 19,
+                            "name": "Database Programming",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "database-programming",
+                            "img": "",
+                            "smallDesc": "Human brain monitors all the tasks that are done by our body so as is done by a database in an application.",
+                            "desc": "It stores large amount of data in it and helps the application to run smoothly. The users can fetch the required information from the database by running various queries that needs to be run on various database programming languages. Database Programming is yet not a tough task as it needs the in-depth knowledge of the programming languages and sharp mind to run the right query to get the desired results. There are numerous programming languages used by programmers such as MySQL, Oracle, MS Access, Couchbase and many more. But an application will run in a hassle free manner if it has right the Programming language complimenting the database programming language."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 20,
+                            "name": "Python Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "python-development",
+                            "img": "",
+                            "smallDesc": "Python is a dynamic programming language which is widely used to develop feature-rich software and applications.",
+                            "desc": "Being a high-level and object-oriented programming language, it provides numerous features that are extremely beneficial for the programmers as well as the customers. With extensive features of memory management and standard library, Python simplifies the web development procedure comprehensively. It also facilitates the development of cross-functional applications. By making an opulent investment on your business can bring a lot of change in performance of your IT applications with Python Development."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 21,
+                            "name": "Ruby On Rails Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "ruby-on-rails-development",
+                            "img": "",
+                            "smallDesc": "Culminating options for Ruby on Rails Development has been provided by Infoicon Technologies.",
+                            "desc": "Ruby on Rails or ROR or simply you can term it as “Rail” is a web development framework that we use to develop dynamic web applications within a fixed time frame. An acclaimed project management tool- Basecamp is an excellent example of projects developed on this framework. Some other brilliant websites developed on this framework are GitHub, Hulu, Scribd, Shopify, etc. We provide the simplified solutions for Web Application development on this amazing platform. Corresponding to other frameworks, ROR also uses the MVC (Model View Controller) pattern to fragmentize the application programming into various layers. This helps in boosting the speed of the applications and the customer gets an application that is extremely useful with all supreme features."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 22,
+                            "name": "Microsoft Dynamics",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "microsoft-dynamics",
+                            "img": "",
+                            "smallDesc": "Infoicon Technologies Pvt. Ltd. has a long-lasting partnership with the Microsoft Dynamics Services.",
+                            "desc": "We employ a focused approach in providing the aforesaid services. We are familiar with its complex terms such as CRM, AX, and NAV. Perfection is the key to our proficient services. We believe in bringing out the technology that is beyond comparison. Microsoft Dynamics is a complete package holding the capability to transform your business entirely. It is important to build of ERP (enterprise Resource Planning) and CRM (Customer Relationship Management) applications. The Microsoft Dynamics applications are provided through a wide network of reselling partners who are specialized in providing these services. Their flexible approach utilizes cost-effective procedures."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 23,
+                            "name": "Volusion Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "volusion-development",
+                            "img": "",
+                            "smallDesc": "Infoicon Technologies Pvt. Ltd. is providing Matchless Volusion Development Services with Customized Solutions.",
+                            "desc": "If you are looking for a comprehensive solution for your E-Commerce requisites, then making a choice of Volusion Platform would be a culminating option. It provides the easy management of your carts. The launching of websites with volusion is a quick process as its development hardly takes a few weeks. The flexibility provided by this platform has made it the first choice for all E-commerce service providers."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 24,
+                            "name": "OpenSource Technologies",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "opensource-techologies",
+                            "img": "",
+                            "smallDesc": "OpenSource Technologies has changed the method by which the applications are developed and utilized.",
+                            "desc": "It mainly enables developers and end-users to see as well as modify the source code. This is a transparent platform on which professionals work upon, thereby, adding, changing or enhancing application’s features. Here, Infoicon Technologies strives to deliver innovative and competent solutions by employing open source technologies. Our developers use secure and scalable solutions using Magento, Angular JS, PHP, and other technologies. We mainly help in empowering the organization with dynamic as well as high-performance applications as per your business requirement."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 25,
+                            "name": "DotNetNuke Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "dotnetnuke-development",
+                            "img": "",
+                            "smallDesc": "DotNetNuke Development is a popular content management system used to build websites and to manage content in a more persuasive manner.",
+                            "desc": "It offers an extensive list of features to simplify your digital needs with the perfect CMS Marketplace. The proper management, display, and alignment of content are very important in order to bring exposure to your website with the relevant audience. As the display of the content plays an important role to capture the viewer's attention. DotNetNuke or DNN is the perfect medium to manage the display with the user-friendly and easy changing options."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 26,
+                            "name": "Social Networking Applications",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "social-networking-applications",
+                            "img": "",
+                            "smallDesc": "Today, different social networking sites are gaining tremendous attentions of the visitors in the online world.",
+                            "desc": "This is the sole medium to interact with the rest of the world whether it is your friends, overseas family members, clients, customers, partners and others. The interaction could be for any reason; for sharing information, brand promotion, creating awareness and much more. The social networking is the only platform where mass audiences can be found easily and sharing everything is just a matter of some clicks away. The result of sharing and promotion is quite effective and result-oriented in small span of time and will boost your communication and interactions among different users, customers and clients very effectively."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 27,
+                            "name": "Content Management System",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "content-management-system",
+                            "img": "",
+                            "smallDesc": "If ever you came across the famous online phrase: “Content is King” than you must be aware of its importance in the online world.",
+                            "desc": "Where content is a perfect mirror of the whereabouts of the online page; it should be highly attractive and user-engaging. But beside that the look and feel of the content should also be considered so that the users get attracted to its appearances too. This is the reason why a content management system has gained tremendous importance in the web development area. A content management system is the most advanced computer application to create, edit, manage and publish content in an impressively organized fashion with professional belongings. This attractive application will also be composed of computer files, image media, audio files, video files, electronic documents and web contents. A content management system is also being applicable for storing, controlling, versioning and publishing industry-specific documents like news articles, technical manuals, operators' manuals, sales guides and marketing brochures."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 28,
+                            "name": "HRMS And Payroll System Design",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "hrms-and-payroll-system-design",
+                            "img": "",
+                            "smallDesc": "Infoicon Technologies brings an Open Source human resource database, providing organizations with a free, immediate and flexible Human Resource Management System (HRMS).",
+                            "desc": "At Infoicon Technologies you can find the wholesome assistance of recording and storing all your important employee information including: Infoicon Technologies brings a healthy and scalable HRM platform used to electronically store staff information, doing away with the need for paper-based personnel files. Our management sequences are easy and free to download, free to install and free of cost, with no purchase costs and license fees. The HRM software designed by our company is able to store unlimited employee records and have an unlimited number of users."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 29,
+                            "name": "HTML5 Development",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "html5-development",
+                            "img": "",
+                            "smallDesc": "HTML5 is the recent and highly demanded web development platform that takes the experience of creating web pages to a different and extreme level.",
+                            "desc": "Additionally, there are many more features comprising in HTML5. Most importantly it is on all major browsers including Firefox, Google Chrome, Internet Explorer, Opera and Safari and so on. We design and develop multiplatform apps using HTML5, JavaScript and others and create web apps and native mobile apps. To port the apps from iphone to the android, WebOs, Symbian, Windows Phone 7 & Blackberry plus HTML5 application development is the fastest and very cost effective solution. The best thing is that the HTML5 applications are compliant with entire smart phone range including iOS, Android, Blackberry, HP, Palm, Windows 7."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 30,
+                            "name": "Internet of Things",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "internet-of-things",
+                            "img": "",
+                            "smallDesc": "Internet of Things [IoT] is a technology which is now quickly and effectively giving a glimpse of the future.",
+                            "desc": "The technology focuses on connectivity to our daily lifestyle, technical and electrical products in our home leading to an efficient and convenient living with minimum efforts. A mobile phone, an automobile, a smartwatch or any man-made object which can be assigned an IP address is a part of this technology. The use of data in real-time to control equipment in remote locations is the feature making it special both for clients and businesses. Businesses can reap huge benefits incorporating the technology in their processes to strengthen both their internal and external connections. The possibilities of the technology are immense and touch almost every industry with a better understanding, control, comfort, and safety."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 31,
+                            "name": "React JS",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "react-js",
+                            "img": "",
+                            "smallDesc": "React JS is a javascript that has been in the trend for creative and dynamic user interfaces for single-page web applications.",
+                            "desc": "Irrespective of the size and complexity of web interfaces, this JS framework can work wonders for single page web applications and mobile apps as well. First developed and used in 2011 by Facebook, it has been increasingly used since then. The flexibility that it offers with the updation and the variety of design components which can be updated and are designed for each state in the application. Infoicon Technologies has helped its clients to build robust, dynamic, and simple applications for the clients for over a decade. The solutions are rendered to the clients keeping in mind, the  simplicity, scalability and also the speed of the application."
                         },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 32,
+                            "name": "Digital Transformation",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
-                            "smallDesc": "",
-                            "desc": ""
+                            "slug": "digital-transformation",
+                            "img": "",
+                            "smallDesc": "The emergence of refined digital technologies has transformed the traditional way of communication, collaboration and the way how business was done. ",
+                            "desc": " In the modern era, along with artificial intelligence, organizations must embrace the new world through the path of Digital Transformation. Today, digital consumption is at its peak and hence, to retain your top position in the market, you need to adapt the change by transforming your marketing functionality. This transformation had been in plans of many organization for years, but, if predictions are to be believed, then 2018-2020 is critical for the leaders in this industry. During this phase, this marketing alteration will be planned and implemented at an unbelievable pace. To be precise, Digital Marketing Transformation is nothing but the change in organizational thinking driven away from what that favors traditional marketing channels. Here, the main aim to prioritize Digital Media. This new change is also addressed as “Digital First” which implies eliminating the favoritism towards the conventional else traditional marketing channels. Instead, taking digital concept at the heart of your organizational reasoning and marketing techniques."
                         }
                     ]
                 }
@@ -3190,7 +3190,7 @@
         {
             "id": 7,
             "name": "Products",
-            "slug":"products",
+            "slug": "products",
             "resulation": 0,
             "categories": [
                 {
@@ -3199,10 +3199,154 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Document Management Systems",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "document-management-systems",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Task Management Systems",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "task-management-systems",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "HRM",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "hrm",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "CRM",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "crm",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "ERP",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "erp",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "Online TAXI Booking Apps",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "online-taxi-booking-apps",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "Shopping Mall management and Affiliate program",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "shopping-mall-mangement-and-affiliate-program",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 8,
+                            "name": "Mall Parking Management System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "mall-parking-management-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 9,
+                            "name": "School Bus & Vehicle Tracking system",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "school-bus-and-vehicle-tracking-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 10,
+                            "name": "Restaurant Management system",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "restaurant-management-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 11,
+                            "name": "Multiple Language Learning System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "multiple-language-learning-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 12,
+                            "name": "Shopping Cart Management Apps",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "shopping-cart-management-apps",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 13,
+                            "name": "Online Education APPS",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "online-education-apps",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 14,
+                            "name": "Cinema Booking System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cinema-booking-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 15,
+                            "name": "Employees Tracking System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "employees-tracking-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 16,
+                            "name": "Service Management System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "service-management-system",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 17,
+                            "name": "Doctor Appointment Booking System",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "doctor-appointment-booking-system",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }
@@ -3213,7 +3357,7 @@
         {
             "id": 8,
             "name": "Big Data Analytics Solution",
-            "slug":"big-data-analytics-solution",
+            "slug": "big-data-analytics-solution",
             "resulation": 0,
             "categories": [
                 {
@@ -3222,10 +3366,37 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Big Data Consulting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "big-data-consulting",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Big Data Solutions",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "big-data-solutions",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Big Data Implementation",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "big-data-implementation",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Data Science",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "data-science",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }
@@ -3236,7 +3407,7 @@
         {
             "id": 9,
             "name": "Software Testing",
-            "slug":"software-testing",
+            "slug": "software-testing",
             "resulation": 0,
             "categories": [
                 {
@@ -3245,10 +3416,262 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Outsourced Software Testing Services",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "outsourced-software-testing-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Why Our Testing Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "why-our-testing-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Our Working Process",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "our-working-process",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Component & Unit Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "component-&-unit-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "Mobile App Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "mobile-app-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "Web Application Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "web-application-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "Functional Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "functional-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 8,
+                            "name": "Automation Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "automation-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 9,
+                            "name": "Usability & Content Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "usablity-and-content-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 10,
+                            "name": "Localization Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "localization-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 11,
+                            "name": "Integration Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "integration-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 12,
+                            "name": "Security Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "seurity-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 13,
+                            "name": "Performance Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "performance-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 14,
+                            "name": "System Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "system-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 15,
+                            "name": "Database & Platform Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "database-and-platform-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 16,
+                            "name": "Cloud Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cloud-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 17,
+                            "name": "E-Commerce & Auction",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "e-commerce-and-auction",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 18,
+                            "name": "BFSI Testing Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "bfsi-testing-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 19,
+                            "name": "E Learning",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "e-learning",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 20,
+                            "name": "Cross Industry Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cross-industry-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 21,
+                            "name": "SAAS/ Cloud Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "saas-cloud-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 22,
+                            "name": "Mobile Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "mobile-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 23,
+                            "name": "Media & Publishing Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "media-and-publishing-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 24,
+                            "name": "Retail Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "retail-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 25,
+                            "name": "Gaming Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "gaming-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 26,
+                            "name": "Social Media Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "social-media-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 27,
+                            "name": "Healthcare Testing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "healthcare-testing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 28,
+                            "name": "Manufacturing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "manufacturing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 29,
+                            "name": "Telecom",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "telecom",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }
@@ -3259,7 +3682,7 @@
         {
             "id": 10,
             "name": "Digital Marketing",
-            "slug":"digital-marketing",
+            "slug": "digital-marketing",
             "resulation": 0,
             "categories": [
                 {
@@ -3268,10 +3691,172 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Digital Marketing Store",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "digital-marketing-stroe",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "SEO Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "seo-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Reputation & Brand Management",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "reputation-&-brand-mangaement",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Social Marketing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "social-marketing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "SMO Likers",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "smo-likers",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "Pay Per Click Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "pay-per-click-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "App Store Optimization",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "app-store-optimization",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 8,
+                            "name": "PPC Plans",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "ppc-plans",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 9,
+                            "name": "Unnatural Or Toxic Link Removal",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "unnatural-or-toxic-link-removal",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 10,
+                            "name": "YouTube Channel Promotion",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "youtube-channel-promotion",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 11,
+                            "name": "SMO Plans",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "smo-plans",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 12,
+                            "name": "E commerce SEO Plans",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "e-commerce-seo-plans",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 13,
+                            "name": "Facebook Paid Advertising",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "facebook-paid-advertising",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 14,
+                            "name": "E-book Writing Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "e-book-writing-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 15,
+                            "name": "Wikipedia Writing Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "wikipedia-writing-sevices",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 16,
+                            "name": "Web Content Writing",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "web-content-writing",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 17,
+                            "name": "SEO Case Study",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "seo-case-study",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 18,
+                            "name": "PPT",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "ppt",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 19,
+                            "name": "Seo Results",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "seo-results",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }
@@ -3282,7 +3867,7 @@
         {
             "id": 11,
             "name": "Cloud Computing",
-            "slug":"cloud-computing",
+            "slug": "cloud-computing",
             "resulation": 0,
             "categories": [
                 {
@@ -3291,10 +3876,37 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "Enterprise Cloud Consulting",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "enterprise-cloud-consulting",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cloud Management Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cloud-management-services",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Cloud Product Development",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cloud-product-development",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Cloud Application Development",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "cloud-application-development",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }
@@ -3305,7 +3917,7 @@
         {
             "id": 12,
             "name": "AWS Migration",
-            "slug":"aws-migration",
+            "slug": "aws-migration",
             "resulation": 0,
             "categories": [
                 {
@@ -3314,56 +3926,37 @@
                     "sub_categories": [
                         {
                             "id": 1,
-                            "name": "",
+                            "name": "AWS Cloud Migration",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "aws-cloud-magration",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "name": "Testimonials",
-            "slug":"testimonials",
-            "resulation": 0,
-            "categories": [
-                {
-                    "id": 1,
-                    "name": "",
-                    "sub_categories": [
+                        },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 2,
+                            "name": "AWS Consulting Services",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "aws-consulting-services",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "name": "Contact us",
-            "slug":"contact-us",
-            "resulation": 0,
-            "categories": [
-                {
-                    "id": 1,
-                    "name": "",
-                    "sub_categories": [
+                        },
                         {
-                            "id": 1,
-                            "name": "",
+                            "id": 3,
+                            "name": "Google APPS Migration",
                             "banner": "assets/img/slider/inner-banner.jpg",
-                            "slug": "",
-                            "img": "assets/img/page/",
+                            "slug": "google-apps-migration",
+                            "img": "",
+                            "smallDesc": "",
+                            "desc": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Microsoft Azure Web Services",
+                            "banner": "assets/img/slider/inner-banner.jpg",
+                            "slug": "microsoft-azure-web-services",
+                            "img": "",
                             "smallDesc": "",
                             "desc": ""
                         }

@@ -82,16 +82,24 @@ const Header = () => {
                           <ul className="subMenu">
                             {item?.categories?.map((cate, i) => {
                               return (
-                                <li key={i}>
-                                  <Link to="/">
-                                    <strong>{cate.name}</strong>
-                                  </Link>
+                                <li key={i} className={cate.name == "" ? ("subMenu_li_columns") :("subMenu_li")}>
+                                  {cate.name == "" ? (
+                                    ""
+                                  ) : (
+                                    <Link to="/">
+                                      <strong>{cate.name}</strong>
+                                    </Link>
+                                  )}
 
                                   <ul>
                                     {cate?.sub_categories?.map((subitem, x) => {
                                       return (
                                         <li key={x}>
-                                          <Link to={`${item.slug}/${subitem.slug}`}>{subitem.name}</Link>
+                                          <Link
+                                            to={`${item.slug}/${subitem.slug}`}
+                                          >
+                                            {subitem.name}
+                                          </Link>
                                         </li>
                                       );
                                     })}
@@ -99,6 +107,7 @@ const Header = () => {
                                 </li>
                               );
                             })}
+                            
                           </ul>
                         </div>
                       </div>
@@ -135,12 +144,12 @@ const Header = () => {
 
                   <ul className="popupMenu smll">
                     <li>
-                      <Link to="/" className="zone-btn">
+                      <a href="http://www.infoicon.co.in/pms/" className="zone-btn" target="_blank">
                         Clients Login
-                      </Link>
-                      <Link to="#" className="zone-btn">
+                      </a>
+                      <a href="http://www.infoicon.co.in/employee-login/" className="zone-btn" target="_blank">
                         Employees Login
-                      </Link>
+                      </a>
                     </li>
                   </ul>
 

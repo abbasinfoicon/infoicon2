@@ -494,9 +494,9 @@ header.open .after {
   color: #ff888d;
 }
 
-.popupMenu li a:hover {
+/* .popupMenu li a:hover {
   opacity: 0.6;
-}
+} */
 
 .popupMenu li a span {
   display: inline-block;
@@ -7039,9 +7039,9 @@ ul {
   height: 16px;
   background-size: 20px;
   left: 0;
-    top: 0;
+  top: 0;
 }
-.colm5 .footerLink li{
+.colm5 .footerLink li {
   position: relative;
 }
 .colm5 .footerLink li:nth-child(1):before {
@@ -7060,6 +7060,93 @@ ul {
 .colm5 .footerLink li:nth-child(1),
 .colm5 .footerLink li:nth-child(2),
 .colm5 .footerLink li:nth-child(3),
-.colm5 .footerLink li:nth-child(4){
+.colm5 .footerLink li:nth-child(4) {
   padding-left: 25px;
+}
+
+.menu ul li .subMenu li.subMenu_li_columns {
+  width: 100%;
+}
+
+.menu ul li .subMenu li.subMenu_li_columns ul {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+.popupMenu.smll li a {
+  margin-right: 5px;
+}
+.popupMenu li ul.dropdown-des-li li.dropdown__li ul {
+  display: none;
+  background: #c71b28;
+  margin: 10px 15px 10px;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.popupMenu li ul.dropdown-des-li li.dropdown__li ul.active {
+  display: block;
+}
+
+.popupMenu li ul.dropdown-des-li li.dropdown__li a:before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #ff888d;
+}
+.popupMenu li ul.dropdown-des-li li.dropdown__li a.active:before{
+  content: "\f107";
+}
+
+.popupMenu li ul.dropdown-des-li li.dropdown__li ul.subdropdown-ul li a:before {
+  content: none;
+}
+.popupMenu li ul.dropdown-des-li li.dropdown__li ul.subdropdown-ul li a {
+  display: block;
+  padding: 6px 10px;
+  border-bottom: 1px solid #dc2634;
+  font-size: 13px;
+}
+
+.popupMenu
+  li
+  ul.dropdown-des-li
+  li.dropdown__li
+  ul.subdropdown-ul
+  li:last-child
+  a {
+  border-bottom: none;
+}
+
+.popupMenu li.sidebar_li a {
+  display: block;
+}
+
+#sidebar-menu li.sidebar_li > a {
+  position: relative;
+}
+
+#sidebar-menu li.sidebar_li > a:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  content: "\f067";
+  font-size: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: #c51728;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-menu li.sidebar_li > a.active:after {
+  content: "\f068";
 }
