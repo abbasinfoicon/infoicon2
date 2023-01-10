@@ -1,10 +1,32 @@
 import blogModel from "../models/blogModel.js";
 
 class blogController {
-  // CREAT
-  static createData = (req, res) => {
+  // READ ALL DATA
+  static getAllData = async (req, res) => {
     try {
-      const data = blogModel();
+      const data = await blogModel.find();
+
+      if (data.length > 0) {
+        res.status(200).send({
+          status: "success",
+          message: "All Data Show!!!",
+          data: data,
+        });
+      } else {
+        res.status(404).send({
+          status: "failed",
+          message: "Data not found...!",
+        });
+      }
+    } catch (error) {
+      console.log("Get All Data - ", error);
+    }
+  };
+
+  // CREAT
+  static createData = async (req, res) => {
+    try {
+      const data = await blogModel(req.body);
       const result = data.save();
 
       if (req.body) {
@@ -24,32 +46,10 @@ class blogController {
     }
   };
 
-  // READ ALL DATA
-  static getAllData = (req, res) => {
-    try {
-      const data = blogModel.find();
-
-      if (data.length > 0) {
-        res.status(200).send({
-          status: "success",
-          message: "All Data Show!!!",
-          data: data,
-        });
-      } else {
-        res.status(404).send({
-          status: "failed",
-          message: "Data not found...!",
-        });
-      }
-    } catch (error) {
-      console.log("Get All Data - ", error);
-    }
-  };
-
   // READ SINGLE DATA
-  static singleData = (req, res) => {
+  static singleData = async (req, res) => {
     try {
-      const data = blogModel.findById(req.params.id, req.body);
+      const data = await blogModel.findById(req.params.id, req.body);
       if (data) {
         res.status(200).send({
           status: "success",
@@ -68,9 +68,9 @@ class blogController {
   };
 
   // UPDATE
-  static updateData = (req, res) => {
+  static updateData = async (req, res) => {
     try {
-      const data = blogModel.findByIdAndUpdate(req.params.id, req.body);
+      const data = await blogModel.findByIdAndUpdate(req.params.id, req.body);
       if (data) {
         res.status(200).send({
           status: "success",
@@ -89,9 +89,9 @@ class blogController {
   };
 
   // DELETE
-  static deleteData = (req, res) => {
+  static deleteData = async (req, res) => {
     try {
-      const data = blogModel.findByIdAndDelete(req.params.id, req.body);
+      const data = await blogModel.findByIdAndDelete(req.params.id, req.body);
       if (data) {
         res.status(200).send({
           status: "success",
