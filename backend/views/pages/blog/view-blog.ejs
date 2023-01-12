@@ -1,0 +1,97 @@
+<%- include('../../partials/header', {title: "View Blog"}) %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <% if(data){ %>
+      <%- include('../../partials/breadcream', {title:"View Blog",parent:"blog"}) %>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Default box -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Blog Detail  || <span><%= data.status %></span></h3>
+
+          <div class="card-tools">
+            <button
+              type="button"
+              class="btn btn-tool"
+              data-card-widget="collapse"
+              title="Collapse"
+            >
+              <i class="fas fa-minus"></i>
+            </button>
+            <button
+              type="button"
+              class="btn btn-tool"
+              data-card-widget="remove"
+              title="Remove"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-6">
+              <h3 class="text-primary">
+                <i class="fas fa-paint-brush"></i> <%= data.title %>
+              </h3>
+
+              <div class="editor-dat"><%- data.desc %></div>
+
+              <br />
+              <br />
+
+              <div class="text-muted">
+                <p class="text-sm">
+                  Create Date
+                  <b class="d-block"
+                    ><%= (moment(data.createdAt).format("HH:mm - DD-MM-YYYY"))
+                    %></b
+                  >
+                </p>
+                <p class="text-sm">
+                  Created By
+                  <b class="d-block">Admin</b>
+                </p>
+              </div>
+
+              <div class="text-center mt-5 mb-3">
+                <a href="/add-blog" class="btn btn-sm btn-primary"
+                  >Create New Blog</a
+                >
+                <a href="/edit-blog/<%= data.id %>" class="btn btn-sm btn-info"
+                  ><i class="fas fa-edit"></i> Edit</a
+                >
+                <a href="/blog" class="btn btn-sm btn-warning"
+                  ><i class="fas fa-list"></i> All Blogs List</a
+                >
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-6">
+              <div class="post-img">
+                <% var imgName='/assets/upload/' + data.img %>
+                <img
+                  src="<%= imgName %>"
+                  alt="<%= data.title %>"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </div>
+      <!-- /.card -->
+    </section>
+    <!-- /.content -->
+    <% }else{ %>
+    <h3>Data empty</h3>
+    <% } %>
+  </div>
+</div>
+
+<%- include('../../partials/footer') %>

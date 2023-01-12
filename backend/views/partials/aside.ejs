@@ -2,12 +2,10 @@
   <!-- Brand Logo -->
   <a href="/" class="brand-link">
     <img
-      src="assets/dist/img/AdminLTELogo.png"
-      alt="AdminLTE Logo"
-      class="brand-image img-circle elevation-3"
-      style="opacity: 0.8"
+      src="/assets/dist/img/logo-white.png"
+      alt="Infoicon"
+      class="brand-image"
     />
-    <span class="brand-text font-weight-light">AdminLTE 3</span>
   </a>
 
   <!-- Sidebar -->
@@ -16,13 +14,13 @@
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
         <img
-          src="assets/dist/img/user2-160x160.jpg"
+          src="/assets/dist/img/user2-160x160.jpg"
           class="img-circle elevation-2"
           alt="User Image"
         />
       </div>
       <div class="info">
-        <a href="#" class="d-block">Alexander Pierce</a>
+        <a href="#" class="d-block">Abbas Abidi</a>
       </div>
     </div>
 
@@ -54,36 +52,267 @@
         <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="/" class="nav-link active">
+          <a
+            href="/"
+            class="nav-link <% if (page_name === 'home') { %> active <% } %>"
+          >
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>Dashboard</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-copy"></i>
+          <a
+            href="/slider"
+            class="nav-link <% if (page_name === 'slider') { %> active <% } %>"
+          >
+            <i class="nav-icon fab fa-slideshare"></i>
+            <p>Slider</p>
+          </a>
+        </li>
+
+        <li
+          class="nav-item <% if (page_name === 'page') { %> menu-open <% } %>"
+        >
+          <a
+            href="javascript:;"
+            class="nav-link <% if (page_name === 'page') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-book"></i>
             <p>
-              Blogs
+              Pages
               <i class="fas fa-angle-left right"></i>
-              <span class="badge badge-info right">6</span>
+              <span class="badge badge-info right"> 56 </span>
             </p>
           </a>
 
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="/blog" class="nav-link">
+              <a
+                href="/pages"
+                class="nav-link <% if (sub_page === 'allPage') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>All Pages</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/add-page"
+                class="nav-link <% if (sub_page === 'addPage') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Create New Page</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/profile"
+                class="nav-link <% if (sub_page === 'profile') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Profile</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/about"
+                class="nav-link <% if (sub_page === 'about') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>About us</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/contact"
+                class="nav-link <% if (sub_page === 'contact') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Contact us</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/faq"
+                class="nav-link <% if (sub_page === 'faq') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>FAQ's</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li
+          class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>"
+        >
+          <a
+            href="javascript:;"
+            class="nav-link <% if (page_name === 'blog') { %> active <% } %>"
+          >
+            <i class="nav-icon far fa-calendar-alt"></i>
+            <p>
+              Blogs
+              <i class="fas fa-angle-left right"></i>
+              <span class="badge badge-info right"> 20 </span>
+            </p>
+          </a>
+
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a
+                href="/blog"
+                class="nav-link <% if (sub_page === 'allBlog') { %> active <% } %>"
+              >
                 <i class="far fa-circle nav-icon"></i>
                 <p>All Blogs</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/add-blog" class="nav-link">
+              <a
+                href="/add-blog"
+                class="nav-link <% if (sub_page === 'addBlog') { %> active <% } %>"
+              >
                 <i class="far fa-circle nav-icon"></i>
-                <p>Create Blog</p>
+                <p>Create New Blog</p>
               </a>
             </li>
           </ul>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/portfolio"
+            class="nav-link <% if (page_name === 'Portfolio') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-th"></i>
+            <p>Portfolio</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/career"
+            class="nav-link <% if (page_name === 'career') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-graduation-cap"></i>
+            <p>Career</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/testimonial"
+            class="nav-link <% if (page_name === 'testimonial') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-quote-right"></i>
+            <p>Testimonial</p>
+          </a>
+        </li>
+
+        <li
+          class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>"
+        >
+          <a
+            href="javascript:;"
+            class="nav-link <% if (page_name === 'extra') { %> active <% } %>"
+          >
+            <i class="nav-icon far fa-plus-square"></i>
+            <p>
+              Extras
+              <i class="fas fa-angle-left right"></i>
+            </p>
+          </a>
+
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a
+                href="/address"
+                class="nav-link <% if (sub_page === 'address') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Address</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/location"
+                class="nav-link <% if (sub_page === 'location') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Locations</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/footer-menu"
+                class="nav-link <% if (sub_page === 'footerMenu') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Footer Menu</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/other-menu"
+                class="nav-link <% if (sub_page === 'otherMenu') { %> active <% } %>"
+              >
+                <i class="far fa-circle nav-icon"></i>
+                <p>Other Menu</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/gallery"
+            class="nav-link <% if (page_name === 'gallery') { %> active <% } %>"
+          >
+            <i class="nav-icon far fa-image"></i>
+            <p>Gallery</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/social"
+            class="nav-link <% if (page_name === 'social') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-share-alt"></i>
+            <p>Social</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/award"
+            class="nav-link <% if (page_name === 'award') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-award"></i>
+            <p>Award</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/contact"
+            class="nav-link <% if (page_name === 'contact') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-headset"></i>
+            <p>Contact</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="/signout"
+            class="nav-link <% if (page_name === 'signout') { %> active <% } %>"
+          >
+            <i class="nav-icon fas fa-sign-out-alt"></i>
+            <p>Sign Out</p>
+          </a>
         </li>
       </ul>
     </nav>
