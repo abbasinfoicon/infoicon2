@@ -5,11 +5,7 @@ const ConnectDB = async (DATABASE_URL) => {
     const DB_OPTIONS = {
       dbName: "blog",
     };
-    await mongoose.connect(DATABASE_URL, DB_OPTIONS, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex:true
-    });
+    await mongoose.connect(DATABASE_URL, DB_OPTIONS);
     console.log(`Connection Successful on ${DATABASE_URL}`);    
   } catch (error) {
     console.log("Database Connection Failed...!!!", error);

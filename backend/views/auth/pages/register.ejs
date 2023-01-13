@@ -1,0 +1,146 @@
+<%- include('../partials/header', {title: "Register Page"}) %>
+
+<div class="register-box">
+  <div class="register-logo">
+    <a href="/login"><b>Admin</b>LTE</a>
+  </div>
+
+  <% if(locals.message) { %>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong><%=  message  %></strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  <% } %>
+
+
+  <div class="card">
+    <div class="card-body register-card-body">
+      <p class="login-box-msg">Register a new membership</p>
+
+      <form action="/new-register" method="post" enctype="multipart/form-data">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            placeholder="Full name"
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Email"
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="number"
+            name="phone"
+            class="form-control"
+            placeholder="Phone"
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-phone"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <div class="custom-file">
+            <input
+              type="file"
+              class="custom-file-input"
+              id="exampleInputFile"
+              name="img"
+              accept="image/gif, image/jpeg, image/png"
+            />
+            <label class="custom-file-label" for="exampleInputFile"
+              >Upload Profile Image</label
+            >
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            placeholder="Password"
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="password"
+            name="cpassword"
+            class="form-control"
+            placeholder="Retype password"
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="agreeTerms" name="tc" value="1" />
+              <label for="agreeTerms">
+                I agree to the <a href="/">terms</a>
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block">
+              Register
+            </button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+      <div class="social-auth-links text-center">
+        <p>- OR -</p>
+        <a href="/" class="btn btn-block btn-primary">
+          <i class="fab fa-facebook mr-2"></i>
+          Sign up using Facebook
+        </a>
+        <a href="/" class="btn btn-block btn-danger">
+          <i class="fab fa-google-plus mr-2"></i>
+          Sign up using Google+
+        </a>
+      </div>
+
+      <a href="/login" class="text-center">I already have a membership</a>
+    </div>
+    <!-- /.form-box -->
+  </div>
+  <!-- /.card -->
+</div>
+<!-- /.register-box -->
+
+<%- include('../partials/footer') %>
+<script>
+  $(function () {
+    bsCustomFileInput.init();
+  });
+</script>

@@ -22,7 +22,7 @@ class blogWebController {
   static addBlog = async (req, res) => {
     if (req.method == "POST") {
       try {
-        const blogImg = req.files["img"][0].filename;
+        const mulimg = req.files["img"][0].filename;
 
         // console.log("file-img", req.files);
 
@@ -30,7 +30,7 @@ class blogWebController {
           title: req.body.title,
           desc: req.body.desc,
           status: req.body.status,
-          img: blogImg,
+          img: mulimg,
           category: req.body.category,
         });
         const result = data.save();

@@ -1,11 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="/" class="brand-link">
-    <img
-      src="/assets/dist/img/logo-white.png"
-      alt="Infoicon"
-      class="brand-image"
-    />
+    <img src="/assets/dist/img/logo-white.png" alt="Infoicon" class="brand-image" />
   </a>
 
   <!-- Sidebar -->
@@ -13,11 +9,7 @@
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
-        <img
-          src="/assets/dist/img/user2-160x160.jpg"
-          class="img-circle elevation-2"
-          alt="User Image"
-        />
+        <img src="/assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" />
       </div>
       <div class="info">
         <a href="#" class="d-block">Abbas Abidi</a>
@@ -27,12 +19,7 @@
     <!-- SidebarSearch Form -->
     <div class="form-inline">
       <div class="input-group" data-widget="sidebar-search">
-        <input
-          class="form-control form-control-sidebar"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
+        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search" />
         <div class="input-group-append">
           <button class="btn btn-sidebar">
             <i class="fas fa-search fa-fw"></i>
@@ -43,100 +30,66 @@
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
-      <ul
-        class="nav nav-pills nav-sidebar flex-column"
-        data-widget="treeview"
-        role="menu"
-        data-accordion="false"
-      >
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a
-            href="/"
-            class="nav-link <% if (page_name === 'home') { %> active <% } %>"
-          >
+          <a href="/dashboard" class="nav-link <% if (page_name === 'home') { %> active <% } %>">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>Dashboard</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/slider"
-            class="nav-link <% if (page_name === 'slider') { %> active <% } %>"
-          >
+          <a href="/slider" class="nav-link <% if (page_name === 'slider') { %> active <% } %>">
             <i class="nav-icon fab fa-slideshare"></i>
             <p>Slider</p>
           </a>
         </li>
 
-        <li
-          class="nav-item <% if (page_name === 'page') { %> menu-open <% } %>"
-        >
-          <a
-            href="javascript:;"
-            class="nav-link <% if (page_name === 'page') { %> active <% } %>"
-          >
+        <li class="nav-item <% if (page_name === 'page') { %> menu-open <% } %>">
+          <a href="javascript:;" class="nav-link <% if (page_name === 'page') { %> active <% } %>">
             <i class="nav-icon fas fa-book"></i>
             <p>
               Pages
               <i class="fas fa-angle-left right"></i>
-              <span class="badge badge-info right"> 56 </span>
             </p>
           </a>
 
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a
-                href="/pages"
-                class="nav-link <% if (sub_page === 'allPage') { %> active <% } %>"
-              >
+              <a href="/pages" class="nav-link <% if (sub_page === 'allPage') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>All Pages</p>
+                <span class="badge badge-info right"> 56 </span>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/add-page"
-                class="nav-link <% if (sub_page === 'addPage') { %> active <% } %>"
-              >
+              <a href="/add-page" class="nav-link <% if (sub_page === 'addPage') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Create New Page</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/profile"
-                class="nav-link <% if (sub_page === 'profile') { %> active <% } %>"
-              >
+              <a href="/profile" class="nav-link <% if (sub_page === 'profile') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Profile</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/about"
-                class="nav-link <% if (sub_page === 'about') { %> active <% } %>"
-              >
+              <a href="/about" class="nav-link <% if (sub_page === 'about') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>About us</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/contact"
-                class="nav-link <% if (sub_page === 'contact') { %> active <% } %>"
-              >
+              <a href="/contact" class="nav-link <% if (sub_page === 'contact') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Contact us</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/faq"
-                class="nav-link <% if (sub_page === 'faq') { %> active <% } %>"
-              >
+              <a href="/faq" class="nav-link <% if (sub_page === 'faq') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>FAQ's</p>
               </a>
@@ -144,13 +97,8 @@
           </ul>
         </li>
 
-        <li
-          class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>"
-        >
-          <a
-            href="javascript:;"
-            class="nav-link <% if (page_name === 'blog') { %> active <% } %>"
-          >
+        <li class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>">
+          <a href="javascript:;" class="nav-link <% if (page_name === 'blog') { %> active <% } %>">
             <i class="nav-icon far fa-calendar-alt"></i>
             <p>
               Blogs
@@ -161,19 +109,13 @@
 
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a
-                href="/blog"
-                class="nav-link <% if (sub_page === 'allBlog') { %> active <% } %>"
-              >
+              <a href="/blog" class="nav-link <% if (sub_page === 'allBlog') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>All Blogs</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/add-blog"
-                class="nav-link <% if (sub_page === 'addBlog') { %> active <% } %>"
-              >
+              <a href="/add-blog" class="nav-link <% if (sub_page === 'addBlog') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Create New Blog</p>
               </a>
@@ -182,42 +124,28 @@
         </li>
 
         <li class="nav-item">
-          <a
-            href="/portfolio"
-            class="nav-link <% if (page_name === 'Portfolio') { %> active <% } %>"
-          >
+          <a href="/portfolio" class="nav-link <% if (page_name === 'Portfolio') { %> active <% } %>">
             <i class="nav-icon fas fa-th"></i>
             <p>Portfolio</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/career"
-            class="nav-link <% if (page_name === 'career') { %> active <% } %>"
-          >
+          <a href="/career" class="nav-link <% if (page_name === 'career') { %> active <% } %>">
             <i class="nav-icon fas fa-graduation-cap"></i>
             <p>Career</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/testimonial"
-            class="nav-link <% if (page_name === 'testimonial') { %> active <% } %>"
-          >
+          <a href="/testimonial" class="nav-link <% if (page_name === 'testimonial') { %> active <% } %>">
             <i class="nav-icon fas fa-quote-right"></i>
             <p>Testimonial</p>
           </a>
         </li>
 
-        <li
-          class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>"
-        >
-          <a
-            href="javascript:;"
-            class="nav-link <% if (page_name === 'extra') { %> active <% } %>"
-          >
+        <li class="nav-item <% if (page_name === 'blog') { %> menu-open <% } %>">
+          <a href="javascript:;" class="nav-link <% if (page_name === 'extra') { %> active <% } %>">
             <i class="nav-icon far fa-plus-square"></i>
             <p>
               Extras
@@ -227,89 +155,75 @@
 
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a
-                href="/address"
-                class="nav-link <% if (sub_page === 'address') { %> active <% } %>"
-              >
+              <a href="/address" class="nav-link <% if (sub_page === 'address') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Address</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/location"
-                class="nav-link <% if (sub_page === 'location') { %> active <% } %>"
-              >
+              <a href="/location" class="nav-link <% if (sub_page === 'location') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Locations</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/footer-menu"
-                class="nav-link <% if (sub_page === 'footerMenu') { %> active <% } %>"
-              >
+              <a href="/footer-menu" class="nav-link <% if (sub_page === 'footerMenu') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Footer Menu</p>
               </a>
             </li>
             <li class="nav-item">
-              <a
-                href="/other-menu"
-                class="nav-link <% if (sub_page === 'otherMenu') { %> active <% } %>"
-              >
+              <a href="/other-menu" class="nav-link <% if (sub_page === 'otherMenu') { %> active <% } %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Other Menu</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/payment" class="nav-link <% if (sub_page === 'payment') { %> active <% } %>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Payment Method</p>
               </a>
             </li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/gallery"
-            class="nav-link <% if (page_name === 'gallery') { %> active <% } %>"
-          >
+          <a href="/gallery" class="nav-link <% if (page_name === 'gallery') { %> active <% } %>">
             <i class="nav-icon far fa-image"></i>
             <p>Gallery</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/social"
-            class="nav-link <% if (page_name === 'social') { %> active <% } %>"
-          >
+          <a href="/social" class="nav-link <% if (page_name === 'social') { %> active <% } %>">
             <i class="nav-icon fas fa-share-alt"></i>
             <p>Social</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/award"
-            class="nav-link <% if (page_name === 'award') { %> active <% } %>"
-          >
+          <a href="/team" class="nav-link <% if (page_name === 'team') { %> active <% } %>">
+            <i class="nav-icon fas fa-users"></i>
+            <p>Team</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/award" class="nav-link <% if (page_name === 'award') { %> active <% } %>">
             <i class="nav-icon fas fa-award"></i>
             <p>Award</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/contact"
-            class="nav-link <% if (page_name === 'contact') { %> active <% } %>"
-          >
+          <a href="/contact" class="nav-link <% if (page_name === 'contact') { %> active <% } %>">
             <i class="nav-icon fas fa-headset"></i>
             <p>Contact</p>
           </a>
         </li>
 
         <li class="nav-item">
-          <a
-            href="/signout"
-            class="nav-link <% if (page_name === 'signout') { %> active <% } %>"
-          >
+          <a href="/signout" class="nav-link <% if (page_name === 'signout') { %> active <% } %>">
             <i class="nav-icon fas fa-sign-out-alt"></i>
             <p>Sign Out</p>
           </a>

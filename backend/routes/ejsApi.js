@@ -1,12 +1,17 @@
 import express from "express";
 import blogWebController from "../app/controllers/blogWebController.js";
 import sliderController from "../app/controllers/sliderController.js";
+import authController from "../app/controllers/authController.js";
 import upload from "../app/middlewares/multerMiddleware.js";
 
 const ejsrout = express.Router();
 
-ejsrout.get("/", (req, res) => {
+ejsrout.get("/dashboard", (req, res) => {
   res.render("index", { page_name: "home", sub_page: "home" });
+});
+
+ejsrout.get("/", (req, res) => {
+  res.render("auth/pages/login", { page_name: "login" });
 });
 
 // blog-router
@@ -32,5 +37,11 @@ ejsrout.get("/view-slider/:id", sliderController.singleSlider);
 ejsrout.get("/edit-slider/:id", sliderController.openUpdateSlider);
 ejsrout.all("/edit-slider/?:id",upload.fields([{ name: "img", maxCount: 1 }]),sliderController.updateSlider);
 ejsrout.all("/slider/?:id", sliderController.deleteData);
+
+// auth-router
+ejsrout.get("/register", authController.getRegister);
+ejsrout.all("/new-register", upload.fields([{ name: "img", maxCount: 1 }]), authController.addRegister);
+ejsrout.get("/login", authController.getLogin);
+ejsrout.get("/forgot-password", authController.getForgotPassword);
 
 export default ejsrout;
