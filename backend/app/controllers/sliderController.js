@@ -1,7 +1,7 @@
 import moment from "moment/moment.js";
 import sliderModel from "../models/sliderModel.js";
 
-class blogWebController {
+class sliderController {
   // ALL DATA
   static getAllData = async (req, res) => {
     try {
@@ -108,4 +108,4 @@ class blogWebController {
   };
 }
 
-export default blogWebController;
+export default sliderController;

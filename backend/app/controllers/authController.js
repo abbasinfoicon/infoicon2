@@ -1,17 +1,12 @@
 import authModel from "../models/authModel.js";
 
-class blogWebController {
+class authController {
   static getRegister = async (req, res) => {
     try {
-        const data = await authModel.find();
-
-        res.render("pages/blog/blog", {
-          data: data,
-          page_name: "blog", 
-          sub_page: "allBlog"
-        });
+      // const data = await authModel.find();
 
       res.render("auth/pages/register");
+
     } catch (error) {
       console.log("Get All Data - ", error);
     }
@@ -33,10 +28,10 @@ class blogWebController {
           cpassword: req.body.cpassword,
           tc: req.body.tc ? req.body.tc : 0,
         });
-        console.log(data)
+        // console.log(data)
 
         const user = await authModel.findOne({ email: req.body.email });
-        console.log("User-", user)
+        // console.log("User-", user)
 
         if (user) {
           res.render("auth/pages/register", {
@@ -46,10 +41,13 @@ class blogWebController {
         } else {
           if (req.body.name && req.body.email && req.body.phone && mulimg && req.body.password) {
             if (req.body.password === req.body.cpassword) {
-              const result = data.save();
-              res.redirect("login");
+              const result = await data.save();
 
-              console.log("Register Data- ", result);
+              res.render("auth/pages/login", {
+                status: "success",
+                message: "Regiser Successfull..!!!",
+                data: result
+              });
             } else {
               res.render("auth/pages/register", {
                 status: "failed",
@@ -96,4 +94,4 @@ class blogWebController {
   };
 }
 
-export default blogWebController;
+export default authController;
