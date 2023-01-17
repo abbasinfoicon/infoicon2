@@ -19,7 +19,7 @@ class blogWebController {
   };
 
   // CREATE DATA
-  static addBlog = async (req, res) => {
+  static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
         const mulimg = req.files["img"][0].filename;
@@ -46,7 +46,7 @@ class blogWebController {
   };
 
   // READ SINGLE DATA
-  static singleBlog = async (req, res) => {
+  static singleData = async (req, res) => {
     try {
       const data = await blogModel.findById(req.params.id, req.body);
 
@@ -62,7 +62,7 @@ class blogWebController {
   };
 
   // UPDATE
-  static openUpdateBlog = async (req, res) => {
+  static openUpdateData = async (req, res) => {
     try {
       const data = await blogModel.findById(req.params.id, req.body);
       // console.log("Update data", data);
@@ -78,7 +78,7 @@ class blogWebController {
   };
 
   // UPDATE
-  static updateBlog = async (req, res) => {
+  static updateData = async (req, res) => {
     try {
       const blogImg = req.files["img"]?.[0].filename;
 

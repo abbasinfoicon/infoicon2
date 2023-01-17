@@ -1,0 +1,91 @@
+<%- include('../../partials/header', {title: "Add Award"}) %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <%- include('../../partials/breadcream', {title:"Add Award", parent:"awad"}) %>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="/add-award"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <!-- <input type="text"> -->
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="titleLabel">Award Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="titleLabel"
+                    name="name"
+                    placeholder="Enter Award Name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="titleLabel">Link</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="titleLabel"
+                    name="link"
+                    placeholder="Enter Link"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputFile">Image Upload</label>
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input
+                        type="file"
+                        class="custom-file-input"
+                        id="exampleInputFile"
+                        name="img"
+                      />
+                      <label class="custom-file-label" for="exampleInputFile"
+                        >Choose Image</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <textarea id="summernote" name="desc"></textarea>
+                </div>
+              </div>
+              <!-- /.card-body -->
+
+              <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+</div>
+
+<%- include('../../partials/footer') %>
+<script>
+  $(function () {
+    // Summernote
+    $("#summernote").summernote({
+      height: 250,
+    });
+  });
+
+  $(function () {
+    bsCustomFileInput.init();
+  });
+</script>

@@ -19,7 +19,7 @@ class sliderController {
   };
 
   // CREATE DATA
-  static addSlider = async (req, res) => {
+  static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
         const mulimg = req.files["img"][0].filename;
@@ -45,7 +45,7 @@ class sliderController {
   };
 
   // READ SINGLE DATA
-  static singleSlider = async (req, res) => {
+  static singleData = async (req, res) => {
     try {
       const data = await sliderModel.findById(req.params.id, req.body);
 
@@ -61,7 +61,7 @@ class sliderController {
   };
 
   // UPDATE
-  static openUpdateSlider = async (req, res) => {
+  static openUpdateData = async (req, res) => {
     try {
       const data = await sliderModel.findById(req.params.id, req.body);
       // console.log("Update data", data);
@@ -77,7 +77,7 @@ class sliderController {
   };
 
   // UPDATE
-  static updateSlider = async (req, res) => {
+  static updateData = async (req, res) => {
     try {
       const blogImg = req.files["img"]?.[0].filename;
 

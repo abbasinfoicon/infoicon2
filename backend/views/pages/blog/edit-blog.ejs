@@ -57,9 +57,11 @@
                     <div class="form-group">
                       <label>Status</label>
                       <select class="form-control" name="status">
-                        <option value="success" <% if(data.status =='success'){ %> selected <% }%>>Success</option>
-                        <option value="pending" <% if(data.status =='pending'){ %> selected <% }%>>Pending</option>
-                        <option value="reject" <% if(data.status =='reject'){ %> selected <% }%> >Reject</option>
+                        <% let status=['success','pending','reject']; %>
+                            <% status.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.status==item ){ %> selected <% } %>><%= item %>
+                              </option>
+                              <% }) %>
                       </select>
                     </div>
                   </div>

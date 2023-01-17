@@ -1,0 +1,143 @@
+<%- include('../../partials/header', {title: "Career Update" }) %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+
+    <%- include('../../partials/breadcream', {title:"Update Career",parent:"career"}) %>
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <form action="/edit-career" method="post" enctype="multipart/form-data">
+                <!-- <input type="text"> -->
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="titleLabel">Title</label>
+                    <input type="text" class="form-control" id="titleLabel" name="title" placeholder="Enter title"
+                      value="<%= data.title %>" />
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label for="experienceLabel">Experience</label>
+                        <input type="text" class="form-control" id="experienceLabel" name="experience"
+                          placeholder="Enter Experience" value="<%= data.experience %>" />
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Status</label>
+                        <select class="form-control" name="status">
+                          <% let status=['success','pending','reject']; %>
+                            <% status.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.status==item ){ %> selected <% } %>><%= item %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="form-group">
+                        <label>Salary</label>
+                        <select class="form-control" name="salary" style="width: 100%;">
+                          <% let salary=['negotiable','1-3','3-5','5-6','6-7','7-8','8-9','9-10','10-11','11-12','12+'];
+                            %>
+                            <% salary.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.salary==item ){ %> selected <% } %>><%= item %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-1">
+                      <div class="form-group">
+                        <label>Vacancy</label>
+                        <% let vacancy=['1','2','3','4','5','6','7','8','9','10','10+']; %>
+
+                          <select class="form-control" name="vacancy" style="width: 100%;">
+
+                            <% vacancy.forEach( function (item) {%>
+                              <option value="<%= item %>" <% if(data.vacancy==item){ %> selected <% } %> ><%= item %>
+                              </option>
+                              <% }) %>
+
+                          </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Qualification</label>
+                          <select class="select2" name="qualification[]" multiple="multiple"
+                            data-placeholder="Select a Qualification" style="width: 100%;">
+
+                            <% let qualification=['12th','BA','BCA','BSc','B.Tech','MCA','M.Tech','MBA']; %>
+                            <% qualification.forEach( function (item) {%>
+                              <option value="<%= item %>" <% if(data.qualification.includes(item)){ %> selected <% } %> ><%= item %>
+                              </option>
+                              <% }) %>
+
+                          </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5">
+                      <div class="form-group">
+                        <label>Skills</label>
+                        <select class="select2" name="skills[]" multiple="multiple" data-placeholder="Select a Skills"
+                          style="width: 100%;">
+
+                          <% let skills=['HTML','CSS','Jquery','javascript','Reactjs','Nodejs','Bootstrap','Wordpress','Core PHP','Vue js','Laravel','Maganto','Mongodb','Mysql','Shopyfy','Express','SASS/LESS','Photoshop','XD/Figma']; %>
+                            <% skills.forEach( function (item) {%>
+                              <option value="<%= item %>" <% if(data.skills.includes(item)){ %> selected <% } %> ><%= item %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <textarea id="summernote" name="desc"><%= data.desc %></textarea>
+                  </div>
+
+
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
+  </div>
+  </div>
+
+  <%- include('../../partials/footer') %>
+  <script>
+    $(function () {
+      // Summernote
+      $("#summernote").summernote({
+        height: 250,
+      });
+
+      bsCustomFileInput.init();
+
+      $('.select2').select2()
+    });
+  </script>
