@@ -22,24 +22,28 @@ class portfolioController {
   static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
-        const mulimg = req.files["img"][0].filename;
+        const mulimg = req.files["img"]?.[0].filename;
 
         // console.log("file-img", req.files);
-        const { name, banner, link, desc, service, industries, technologies } = req.body
-        const data = await portfolioModel({
-          name: name,
-          img: mulimg,
-          banner: banner,
-          link: link,
-          desc: desc,
-          service: service,
-          industries: industries,
-          technologies: technologies
-        });
-        const result = data.save();
-        res.redirect("portfolio");
+        const { name, link, desc, service, industries, technologies, status } = req.body
+        if (name && mulimg) {
+          const data = await portfolioModel({
+            name: name,
+            img: mulimg,
+            link: link,
+            desc: desc,
+            service: service,
+            industries: industries,
+            technologies: technologies,
+            status: status
+          });
+          const result = data.save();
 
-        console.log(result);
+          console.log(result);
+          res.redirect("portfolio");
+        } else {
+          res.render("pages/portfolio/add-portfolio", { page_name: "portfolio", sub_page: "addPortfolio", status: "failed", message: "Some field Required!!!" });
+        }
       } catch (error) {
         console.log("Create Data - ", error);
       }
@@ -84,16 +88,16 @@ class portfolioController {
   static updateData = async (req, res) => {
     try {
       const mulimg = req.files["img"]?.[0].filename;
-      const { name, banner, link, desc, service, industries, technologies } = req.body
+      const { name, link, desc, service, industries, technologies, status } = req.body
       await portfolioModel.findByIdAndUpdate(req.params.id, {
         name: name,
         img: mulimg,
-        banner: banner,
         link: link,
         desc: desc,
         service: service,
         industries: industries,
-        technologies: technologies
+        technologies: technologies,
+        status: status
       });
 
       res.redirect("/portfolio");

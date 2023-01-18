@@ -1,93 +1,102 @@
-<%- include('../../partials/header', {title: "View Slider"}) %>
+<%- include('../../partials/header', {title: "View Team" }) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <% if(data){ %>
-      <%- include('../../partials/breadcream', {title:"View Slider",parent:"slider"}) %>
+      <%- include('../../partials/breadcream', {title:"View Team",parent:"team"}) %>
 
-    <!-- Main content -->
-    <section class="content">
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Slider Detail  || <span><%= data.status %></span></h3>
+        <!-- Main content -->
+        <section class="content">
+          <!-- Default box -->
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Team Detail || <span>
+                  <%= data.status %>
+                </span></h3>
 
-          <div class="card-tools">
-            <button
-              type="button"
-              class="btn btn-tool"
-              data-card-widget="collapse"
-              title="Collapse"
-            >
-              <i class="fas fa-minus"></i>
-            </button>
-            <button
-              type="button"
-              class="btn btn-tool"
-              data-card-widget="remove"
-              title="Remove"
-            >
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12 col-md-12 col-lg-6">
-              <h3 class="text-primary">
-                <i class="fas fa-paint-brush"></i> <%= data.title %>
-              </h3>
-
-              <div class="editor-dat"><%- data.desc %></div>
-
-              <br />
-              <br />
-
-              <div class="text-muted">
-                <p class="text-sm">
-                  Create Date
-                  <b class="d-block"
-                    ><%= (moment(data.createdAt).format("HH:mm - DD-MM-YYYY"))
-                    %></b
-                  >
-                </p>
-              </div>
-
-              <div class="text-center mt-5 mb-3">
-                <a href="/add-slider" class="btn btn-sm btn-primary"
-                  >Create New Slider</a
-                >
-                <a href="/edit-slider/<%= data.id %>" class="btn btn-sm btn-info"
-                  ><i class="fas fa-edit"></i> Edit</a
-                >
-                <a href="/slider" class="btn btn-sm btn-warning"
-                  ><i class="fas fa-list"></i> All Silder List</a
-                >
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
               </div>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
-              <div class="post-img">
-                <% var imgName='/assets/upload/' + data.img %>
-                <img
-                  src="<%= imgName %>"
-                  alt="<%= data.title %>"
-                  class="img-fluid"
-                />
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                  <h3 class="text-primary">
+                    <i class="fas fa-paint-brush"></i>
+                    <%= data.name %>
+                  </h3>
+
+                  <div class="editor-dat">#EmpID: <%= data.id %> || <%= data.destination %></div>
+                  <br />
+                  <div class="editor-dat"><%- data.desc %></div>
+
+                  <br />
+
+                  <div class="text-muted">
+                    <p class="text-sm">
+                      <i class="fas fa-lg fa-building"></i></span>
+                      Address
+                      <b class="d-block">
+                        <%= (data.address) %>
+                      </b>
+                    </p>
+                  </div>
+                  <div class="text-muted">
+                    <p class="text-sm">
+                      <i class="fas fa-lg fa-envelope"></i></span>
+                      Email
+                      <b class="d-block">
+                        <%= (data.email) %>
+                      </b>
+                    </p>
+                  </div>
+                  <div class="text-muted">
+                    <p class="text-sm">
+                      <i class="fas fa-lg fa-phone"></i></span> Phone
+                      <b class="d-block">
+                        <%= (data.phone) %>
+                      </b>
+                    </p>
+                  </div>
+                  <div class="text-muted">
+                    <p class="text-sm">
+                      Create Date
+                      <b class="d-block">
+                        <%= (moment(data.createdAt).format("HH:mm - DD-MM-YYYY")) %>
+                      </b>
+                    </p>
+                  </div>
+
+                  <div class="text-center mt-5 mb-3">
+                    <a href="/add-team" class="btn btn-sm btn-primary">Create New Team</a>
+                    <a href="/edit-team/<%= data.id %>" class="btn btn-sm btn-info"><i class="fas fa-edit"></i> Edit</a>
+                    <a href="/team" class="btn btn-sm btn-warning"><i class="fas fa-list"></i> All Team List</a>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-6">
+                  <div class="post-img">
+                    <% var imgName='/assets/upload/' + data.img %>
+                      <img src="<%= imgName %>" alt="<%= data.title %>" class="img-fluid" />
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- /.card-body -->
           </div>
-        </div>
-        <!-- /.card-body -->
-      </div>
-      <!-- /.card -->
-    </section>
-    <!-- /.content -->
-    <% }else{ %>
-    <h3>Data empty</h3>
-    <% } %>
+          <!-- /.card -->
+        </section>
+        <!-- /.content -->
+        <% }else{ %>
+          <h3>Data empty</h3>
+          <% } %>
   </div>
-</div>
+  </div>
 
-<%- include('../../partials/footer') %>
+  <%- include('../../partials/footer') %>

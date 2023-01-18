@@ -1,18 +1,19 @@
-<%- include('../../partials/header', {title: "Slider"}) %>
+<%- include('../../partials/header', {title: "Social"}) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <%- include('../../partials/breadcream', {title: "Slider"}) %>
+    <%- include('../../partials/breadcream', {title: "Social"}) %>
 
     <!-- Main content -->
     <section class="content">
+      <div class="d-flex justify-content-end mb-3">
+        <a href="/add-social" class="btn btn-primary">Add Social</a>
+      </div>
       <!-- Default box -->
       <% if(data.length>0){ %>
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">#<%= data.length %> - Slider</h3>
-
-            <a href="/add-slider" class="btn btn-primary ml-5">Add Slider</a>
+            <h3 class="card-title">#<%= data.length %> - Social</h3>
   
             <div class="card-tools">
               <button
@@ -39,11 +40,9 @@
               <thead>
                 <tr>
                   <th style="width: 1%">#</th>
-                  <th style="width: 20%">Slider Title</th>
-                  <th style="width: 30%">Description</th>
-                  <th>Image</th>
-                  <th style="width: 8%" class="text-center">Status</th>
-                  <th style="width: 20%"></th>
+                  <th>Name</th>
+                  <th>Icon</th>
+                  <th>Link</th>
                 </tr>
               </thead>
               <tbody>
@@ -52,35 +51,24 @@
                 <tr>
                   <td>#<%= (index+1) %></td>
                   <td>
-                    <a> <%= (item.title) %> </a>
+                    <a> <%= (item.name) %> </a>
                     <br />
                     <small> Created <%= (moment(item.createdAt).format("HH:mm - DD-MM-YYYY")) %> </small>
                   </td>
                   <td>
-                    <%- (item.desc) %>
+                    <i class="fab fa-<%- (item.icon) %>"></i>
                   </td>
                   <td>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <% var imgName='/assets/upload/' + item.img %>
-                        <img
-                          alt="Avatar"
-                          class="table-avatar1"
-                          style="height: 100px;"
-                          src=<%= imgName %>
-                        />
-                      </li>
-                    </ul>
+                    <a href="<%- (item.link) %>" target="_blank" class="btn btn-primary"><i class="fab fa-<%- (item.icon) %>"></i> <%- (item.name) %></a> : <%- (item.link) %>
                   </td>
-                  <td class="project-state">
-                    <span class="badge <%= item.status === 'success' ? 'badge-success' : item.status === 'pending' ? 'badge-warning' : 'badge-danger' %>"><%= (item.status) %></span>
-                  </td>
+                  
+                 
                   <td class="project-actions text-right">
-                    <a class="btn btn-primary btn-sm" href="view-slider/<%= (item.id) %>">
+                    <a class="btn btn-primary btn-sm" href="view-social/<%= (item.id) %>">
                       <i class="fas fa-folder"> </i>
                       View
                     </a>
-                    <a class="btn btn-info btn-sm" href="edit-slider/<%= (item.id) %>">
+                    <a class="btn btn-info btn-sm" href="edit-social/<%= (item.id) %>">
                       <i class="fas fa-pencil-alt"> </i>
                       Edit
                     </a>
@@ -95,7 +83,7 @@
                   <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title">Delete Slider</h4>
+                        <h4 class="modal-title">Delete Social</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -107,7 +95,7 @@
                       </div>
                       <div class="modal-footer justify-content-center">
                         <button type="button" class="btn btn-default" data-dismiss="modal">NO</button>
-                        <a href="slider/<%= (item.id) %>" class="btn btn-primary">YES</a>
+                        <a href="social/<%= (item.id) %>" class="btn btn-primary">YES</a>
                       </div>
                     </div>
                     <!-- /.modal-content -->

@@ -34,10 +34,18 @@
 
         <div class="card-body">
           <div class="row">
-            <div class="col-12 col-md-12 col-lg-6">
+            <div class="col-12 col-md-12 col-lg-8">
               <h3 class="text-primary">
                 <i class="fas fa-paint-brush"></i> <%= data.title %>
               </h3>
+
+              <ul>
+                <li><strong>Experience</strong> <%= data.experience %></li>
+                <li><strong>Salary</strong> <%= data.salary %></li>
+                <li><strong>Vacancy</strong> <%= data.vacancy %></li>
+                <li><strong>Qualification</strong> <%= data.qualification %></li>
+                <li><strong>Skills</strong> <%= data.skills %></li>
+              </ul>
 
               <div class="editor-dat"><%- data.desc %></div>
 
@@ -67,11 +75,10 @@
               </div>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-6">
+            <div class="col-12 col-md-12 col-lg-4">
               <div class="post-img">
-                <% var imgName='/assets/upload/' + data.img %>
                 <img
-                  src="<%= imgName %>"
+                  src="/assets/dist/img/job-post.png"
                   alt="<%= data.title %>"
                   class="img-fluid"
                 />

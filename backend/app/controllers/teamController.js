@@ -22,19 +22,32 @@ class teamController {
   static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
-        const mulimg = req.files["img"][0].filename;
+        const mulimg = req.files["img"]?.[0].filename;
 
         // console.log("file-img", req.files);
-        const { name, img, destination, desc } = req.body;
-        const data = await teamModel({
-          name: name,
-          img: mulimg,
-          destination: destination
-        });
-        const result = data.save();
-        res.redirect("team");
+        const { name, destination, desc, phone, email, city, address, dob, status } = req.body;
+        if (name && mulimg && desc) {
+          const data = await teamModel({
+            name: name,
+            img: mulimg,
+            destination: destination,
+            desc: desc,
+            phone: phone,
+            email: email,
+            city: city,
+            address: address,
+            dob: dob,
+            status: status,
+            moment: moment,
+          });
+          const result = data.save();
+          res.redirect("team");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          res.render("pages/team/add-team", { page_name: "team", sub_page: "addTeam", status: "failed", message: "All fielded required!!!" });
+        }
+
       } catch (error) {
         console.log("Create Data - ", error);
       }
@@ -68,7 +81,8 @@ class teamController {
       res.render("pages/team/edit-team", {
         data: data,
         page_name: "team",
-        sub_page: "editTeam"
+        sub_page: "editTeam",
+        moment: moment,
       });
     } catch (error) {
       console.log("Update Data - ", error);
@@ -79,11 +93,18 @@ class teamController {
   static updateData = async (req, res) => {
     try {
       const mulimg = req.files["img"]?.[0].filename;
-      const { name, img, destination, desc } = req.body;
+      const { name, destination, desc, phone, email, city, address, dob, status } = req.body;
       await teamModel.findByIdAndUpdate(req.params.id, {
         name: name,
         img: mulimg,
-        destination: destination
+        destination: destination,
+        desc: desc,
+        phone: phone,
+        email: email,
+        city: city,
+        address: address,
+        dob: dob,
+        status: status
       });
 
       res.redirect("/team");

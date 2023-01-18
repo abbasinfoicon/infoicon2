@@ -81,8 +81,9 @@ class careerController {
   // UPDATE
   static updateData = async (req, res) => {
     try {
+      console.log("body", req.body)
       const { title, experience, salary, vacancy, qualification, skills, desc, status } = req.body
-      await careerModel.findByIdAndUpdate(req.params.id, {
+      await careerModel.findByIdAndUpdate(req.params.id,{
         title: title,
         experience: experience,
         salary: salary,

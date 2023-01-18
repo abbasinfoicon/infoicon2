@@ -1,93 +1,158 @@
-<%- include('../../partials/header', {title: "Add Slider"}) %>
+<%- include('../../partials/header', {title: "Add Portfolio" }) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <%- include('../../partials/breadcream', {title:"Add Slider", parent:"slider"}) %>
+    <%- include('../../partials/breadcream', {title:"Add Portfolio", parent:"portfolio"}) %>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <form
-              action="/add-slider"
-              method="post"
-              enctype="multipart/form-data"
-            >
-              <!-- <input type="text"> -->
-              <div class="card-body">
-                <div class="form-group">
-                  <label for="titleLabel">Title</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="titleLabel"
-                    name="title"
-                    placeholder="Enter title"
-                  />
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <% if(locals.message) { %>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>
+                    <%= message %>
+                  </strong>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <% } %>
+                  <form action="/add-portfolio" method="post" enctype="multipart/form-data">
+                    <!-- <input type="text"> -->
+                    <div class="card-body">
+                      <div class="form-group">
+                        <label for="nameLabel">Name</label>
+                        <input type="text" class="form-control" id="nameLabel" name="name" placeholder="Enter name" />
+                      </div>
 
-                <div class="form-group">
-                  <textarea id="summernote" name="desc"></textarea>
-                </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputFile">Image Upload</label>
+                            <div class="input-group">
+                              <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="exampleInputFile" name="img" />
+                                <label class="custom-file-label" for="exampleInputFile">Choose Image</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                <div class="form-group">
-                  <label for="exampleInputFile">Image Upload</label>
-                  <div class="input-group">
-                    <div class="custom-file">
-                      <input
-                        type="file"
-                        class="custom-file-input"
-                        id="exampleInputFile"
-                        name="img"
-                      />
-                      <label class="custom-file-label" for="exampleInputFile"
-                        >Choose Image</label
-                      >
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="linkLabel">Link</label>
+                            <input type="text" class="form-control" id="linkLabel" name="link"
+                              placeholder="Enter Link" />
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label>Service</label>
+                            <select class="form-control" name="service">
+                              <option value="Advanced Web Development">Advanced Web Development</option>
+                              <option value="Mobile App Development">Mobile App Development</option>
+                              <option value="Digital Marketing & SEO">Digital Marketing & SEO</option>
+                              <option value="Social Networking">Social Networking</option>
+                              <option value="SalesForce">SalesForce</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label>Industries</label>
+                            <select class="select2" name="industries[]" multiple="multiple"
+                              data-placeholder="Select a Industries" style="width: 100%;">
+                              <option value="Media">Media</option>
+                              <option value="Entertainment">Entertainment</option>
+                              <option value="Business">Business</option>
+                              <option value="Resturant">Resturant</option>
+                              <option value="Technology">Technology</option>
+                              <option value="Real Estate">Real Estate</option>
+                              <option value="Consulting">Consulting</option>
+                              <option value="Job Portal">Job Portal</option>
+                              <option value="Automotive">Automotive</option>
+                              <option value="Travel">Travel</option>
+                              <option value="Hospitality">Hospitality</option>
+                              <option value="E-Commerce">E-Commerce</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label>Technologies</label>
+                            <select class="form-control" name="technologies">
+                              <option value="Wordpress">Wordpress</option>
+                              <option value="Mogento">Mogento</option>
+                              <option value="Vue">Vue</option>
+                              <option value="Codeignitor">Codeignitor</option>
+                              <option value="Shopify">Shopify</option>
+                              <option value="Woo Commerce">Woo Commerce</option>
+                              <option value="Joomla">Joomla</option>
+                              <option value="ASP .Net">ASP .Net</option>
+                              <option value="Opencart">Opencart</option>
+                              <option value="Custom CMS">Custom CMS</option>
+                              <option value="Reactjs">Reactjs</option>
+                              <option value="Nodejs">Nodejs</option>
+                              <option value="Laravel">Laravel</option>
+                              <option value="Angularjs">Angularjs</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Describtion</label>
+                        <textarea id="summernote" name="desc"></textarea>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label>Status</label>
+                            <select class="form-control" name="status">
+                              <option value="success">Success</option>
+                              <option value="pending" selected>Pending</option>
+                              <option value="reject">Reject</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- /.card-body -->
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label>Status</label>
-                      <select class="form-control" name="status">
-                        <option value="success">Success</option>
-                        <option value="pending" selected>Pending</option>
-                        <option value="reject">Reject</option>
-                      </select>
+                    <div class="card-footer">
+                      <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-body -->
+                  </form>
+            </div>
 
-              <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
+            <div class="col-md-4"></div>
           </div>
-
-          <div class="col-md-4"></div>
         </div>
-      </div>
-      <!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+        <!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
   </div>
-</div>
+  </div>
 
-<%- include('../../partials/footer') %>
-<script>
-  $(function () {
-    // Summernote
-    $("#summernote").summernote({
-      height: 250,
-    });
-  });
+  <%- include('../../partials/footer') %>
+    <script>
+      $(function () {
+        // Summernote
+        $("#summernote").summernote({
+          height: 250,
+        });
 
-  $(function () {
-    bsCustomFileInput.init();
-  });
-</script>
+        bsCustomFileInput.init();
+
+        $('.select2').select2()
+      });
+    </script>

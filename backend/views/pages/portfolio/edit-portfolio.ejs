@@ -1,101 +1,141 @@
-<%- include('../../partials/header', {title: "Slider Update"}) %>
+<%- include('../../partials/header', {title: "Portfolio Update" }) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    
-    <%- include('../../partials/breadcream', {title:"Update Slider",parent:"slider"}) %>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <form
-              action="/edit-slider/<%= data.id %>"
-              method="POST"
-              enctype="multipart/form-data"
-            >
-            
-              <!-- <input type="text"> -->
-              <div class="card-body">
-                <div class="form-group">
-                  <label for="titleLabel">Title</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="titleLabel"
-                    name="title"
-                    placeholder="Enter title"
-                    value="<%= data.title %>"
-                  />
-                </div>
+    <%- include('../../partials/breadcream', {title:"Update Portfolio",parent:"portfolio"}) %>
 
-                <div class="form-group">
-                  <textarea id="summernote" name="desc"><%= data.desc %></textarea>
-                </div>
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <form action="/edit-portfolio/<%= data.id %>" method="POST" enctype="multipart/form-data">
 
-                <div class="form-group">
-                  <label for="exampleInputFile">Image Upload</label>
-                  <div class="input-group">
-                    <div class="custom-file">
-                      <input
-                        type="file"
-                        class="custom-file-input"
-                        id="exampleInputFile"
-                        name="img"
-                      />
-                      <label class="custom-file-label" for="exampleInputFile"
-                        >Choose Image</label
-                      >
+                <!-- <input type="text"> -->
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="nameLabel">Name</label>
+                    <input type="text" class="form-control" id="nameLabel" name="name" placeholder="Enter Name"
+                      value="<%= data.name %>" />
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="exampleInputFile">Image Upload</label>
+                        <div class="input-group">
+                          <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="exampleInputFile" name="img"
+                              accept="image/gif, image/jpeg, image/png" />
+                            <label class="custom-file-label" for="exampleInputFile">Choose Image</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="linkLabel">Link</label>
+                        <input type="text" class="form-control" id="linkLabel" name="link" placeholder="Enter Link"
+                          value="<%= data.link %>" />
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label>Status</label>
-                      <select class="form-control" name="status">
-                        <option value="success" <% if(data.status =='success'){ %> selected <% }%>>Success</option>
-                        <option value="pending" <% if(data.status =='pending'){ %> selected <% }%>>Pending</option>
-                        <option value="reject" <% if(data.status =='reject'){ %> selected <% }%> >Reject</option>
-                      </select>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Service</label>
+                        <select class="form-control" name="service">
+                          <% let service=['Advanced Web Development','Mobile App Development',
+                          'Digital Marketing & SEO', 'Social Networking' ,'SalesForce']; %>
+                            <% service.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.service==item ){ %> selected <% } %>><%= item %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Industries</label>
+                        <select class="select2" name="industries[]" multiple="multiple" style="width: 100%;">
+                          <% let industries=['Media','Entertainment','Business','Resturant','Technology', 'Real Estate'
+                            ,'Consulting','Job Portal','Automotive','Travel','Hospitality','E-Commerce']; %>
+                            <% industries.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.industries.includes(item) ){ %> selected <% } %>>
+                                  <%= item %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Technologies</label>
+                        <select class="form-control" name="technologies">
+                          <% let technologies=['Wordpress','Mogento','Vue','Codeignitor','Shopify', 'Woo Commerce'
+                            ,'Joomla','ASP .Net','Opencart','Custom CMS','Reactjs', 'Nodejs' ,'Laravel','Angularjs']; %>
+                            <% technologies.forEach( (item)=> { %>
+                              <option value="<%= item %>" <% if(data.technologies==item ){ %> selected <% } %>><%= item
+                                    %>
+                              </option>
+                              <% }) %>
+                        </select>
+                      </div>
                     </div>
                   </div>
+
+                  <div class="form-group">
+                    <textarea id="summernote" name="desc"><%= data.desc %></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Status</label>
+                    <select class="form-control" name="status">
+                      <% let status=['success','pending','reject']; %>
+                        <% status.forEach( (item)=> { %>
+                          <option value="<%= item %>" <% if(data.status==item ){ %> selected <% } %>><%= item %>
+                          </option>
+                          <% }) %>
+                    </select>
+                  </div>
                 </div>
-              </div>
-              <!-- /.card-body -->
+                <!-- /.card-body -->
 
-              <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
-          </div>
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
 
-          <div class="col-md-4">
-            <div class="img-style">
+            <div class="col-md-4">
+              <div class="img-style">
                 <% var imgName='/assets/upload/' + data.img %>
-                <img alt="<%= data.title %>" class="img-fluid" src=<%= imgName %> />
+                  <img alt="<%= data.title %>" class="img-fluid" src=<%=imgName %> />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+        <!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
   </div>
-</div>
+  </div>
 
-<%- include('../../partials/footer') %>
-<script>
-  $(function () {
-    // Summernote
-    $("#summernote").summernote({
-      height: 250,
-    });
-  });
+  <%- include('../../partials/footer') %>
+    <script>
+      $(function () {
+        // Summernote
+        $("#summernote").summernote({
+          height: 250,
+        });
 
-  $(function () {
-    bsCustomFileInput.init();
-  });
-</script>
+        bsCustomFileInput.init();
+
+        $('.select2').select2()
+      });
+    </script>

@@ -7,6 +7,12 @@ const teamSchema = new mongoose.Schema(
     img: { type: String, required: true },
     destination: { type: String, },
     desc: { type: String, required: true },
+    phone: { type: Number },
+    email: { type: String },
+    city: { type: String },
+    address: { type: String },
+    dob: { type: Date },
+    status: { type: String }
   },
   {
     timestamps: true,

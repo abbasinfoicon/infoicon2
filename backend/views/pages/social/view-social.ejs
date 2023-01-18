@@ -1,16 +1,16 @@
-<%- include('../../partials/header', {title: "View Slider"}) %>
+<%- include('../../partials/header', {title: "View Social"}) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <% if(data){ %>
-      <%- include('../../partials/breadcream', {title:"View Slider",parent:"slider"}) %>
+      <%- include('../../partials/breadcream', {title:"View Social",parent:"social"}) %>
 
     <!-- Main content -->
     <section class="content">
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Slider Detail  || <span><%= data.status %></span></h3>
+          <h3 class="card-title">Social Detail</h3>
 
           <div class="card-tools">
             <button
@@ -36,13 +36,22 @@
           <div class="row">
             <div class="col-12 col-md-12 col-lg-6">
               <h3 class="text-primary">
-                <i class="fas fa-paint-brush"></i> <%= data.title %>
+                <i class="fas fa-paint-brush"></i> <%= data.name %>
               </h3>
 
-              <div class="editor-dat"><%- data.desc %></div>
+              <div class="editor-dat"><a href="<%= data.link %>" target="_blank" class="btn btn-primary"><i class="fab fa-<%= data.icon %>"></i> <%= data.name %></a></div>
 
               <br />
               <br />
+
+              <div class="text-muted">
+                <p class="text-sm">
+                  Link
+                  <b class="d-block"
+                    > <%= data.link %></b
+                  >
+                </p>
+              </div>
 
               <div class="text-muted">
                 <p class="text-sm">
@@ -55,14 +64,14 @@
               </div>
 
               <div class="text-center mt-5 mb-3">
-                <a href="/add-slider" class="btn btn-sm btn-primary"
-                  >Create New Slider</a
+                <a href="/add-social" class="btn btn-sm btn-primary"
+                  >Create New Social</a
                 >
-                <a href="/edit-slider/<%= data.id %>" class="btn btn-sm btn-info"
+                <a href="/edit-social/<%= data.id %>" class="btn btn-sm btn-info"
                   ><i class="fas fa-edit"></i> Edit</a
                 >
-                <a href="/slider" class="btn btn-sm btn-warning"
-                  ><i class="fas fa-list"></i> All Silder List</a
+                <a href="/social" class="btn btn-sm btn-warning"
+                  ><i class="fas fa-list"></i> All Social List</a
                 >
               </div>
             </div>

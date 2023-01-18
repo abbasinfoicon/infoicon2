@@ -48,7 +48,7 @@ ejsrout.get("/career", careerController.getAllData);
 ejsrout.all("/add-career", upload.fields([{ name: "img", maxCount: 1 }]), careerController.addData);
 ejsrout.get("/view-career/:id", careerController.singleData);
 ejsrout.get("/edit-career/:id", careerController.openUpdateData);
-ejsrout.all("/edit-career/?:id", upload.fields([{ name: "img", maxCount: 1 }]), careerController.updateData);
+ejsrout.all("/edit-career/?:id", careerController.updateData);
 ejsrout.all("/career/?:id", careerController.deleteData);
 
 // gallery-router
@@ -77,10 +77,10 @@ ejsrout.all("/portfolio/?:id", portfolioController.deleteData);
 
 // social-router
 ejsrout.get("/social", socialController.getAllData);
-ejsrout.all("/add-social", upload.fields([{ name: "img", maxCount: 1 }]), socialController.addData);
+ejsrout.all("/add-social", socialController.addData);
 ejsrout.get("/view-social/:id", socialController.singleData);
 ejsrout.get("/edit-social/:id", socialController.openUpdateData);
-ejsrout.all("/edit-social/?:id", upload.fields([{ name: "img", maxCount: 1 }]), socialController.updateData);
+ejsrout.all("/edit-social/?:id", socialController.updateData);
 ejsrout.all("/social/?:id", socialController.deleteData);
 
 // team-router

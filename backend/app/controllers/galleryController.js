@@ -22,19 +22,25 @@ class galleryController {
   static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
-        const mulimg = req.files["img"][0].filename;
+        const mulimg = req.files["img"]?.[0].filename;
 
         // console.log("file-img", req.files);
         const { name, category } = req.body;
-        const data = await galleryModel({
-          name: name,
-          img: mulimg,
-          category: category
-        });
-        const result = data.save();
-        res.redirect("gallery");
+        if (name && category && mulimg) {
+          const data = await galleryModel({
+            name: name,
+            img: mulimg,
+            category: category
+          });
+          const result = data.save();
+          res.redirect("gallery");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          console.log("All field required!!");
+          res.render("pages/gallery/add-gallery", { page_name: "gallery", sub_page: "addGallery", "status": "failed", "message": "All Field Required!!!!" });
+        }
+
       } catch (error) {
         console.log("Create Data - ", error);
       }

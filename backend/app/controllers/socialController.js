@@ -23,15 +23,21 @@ class socialController {
     if (req.method == "POST") {
       try {
         const { name, icon, link } = req.body
-        const data = await socialModel({
-          name: name,
-          icon: icon,
-          link: link
-        });
-        const result = data.save();
-        res.redirect("social");
+        if (name && icon && link) {
+          const data = await socialModel({
+            name: name,
+            icon: icon,
+            link: link
+          });
+          const result = data.save();
+          res.redirect("social");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          console.log("All field required!!");
+          res.render("pages/social/add-social", { page_name: "social", sub_page: "addSocial", "status": "failed", "message": "All Field Required!!!!" });
+        }
+
       } catch (error) {
         console.log("Create Data - ", error);
       }

@@ -5,14 +5,12 @@ const portfolioSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
     img: { type: String, required: true },
-    banner: { type: String },
     link: { type: String, },
     desc: { type: String },
     service: { type: String, required: true },
-    industries: [{
-      list: { type: String }
-    }],
+    industries: { type: Array, required: true },
     technologies: { type: String, required: true },
+    status:{type:String}
   },
   {
     timestamps: true,

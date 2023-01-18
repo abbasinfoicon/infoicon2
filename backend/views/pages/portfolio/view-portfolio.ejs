@@ -1,16 +1,16 @@
-<%- include('../../partials/header', {title: "View Slider"}) %>
+<%- include('../../partials/header', {title: "View Portfolio"}) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <% if(data){ %>
-      <%- include('../../partials/breadcream', {title:"View Slider",parent:"slider"}) %>
+      <%- include('../../partials/breadcream', {title:"View Portfolio",parent:"portfolio"}) %>
 
     <!-- Main content -->
     <section class="content">
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Slider Detail  || <span><%= data.status %></span></h3>
+          <h3 class="card-title">Portfolio Detail  || <span><%= data.status %></span></h3>
 
           <div class="card-tools">
             <button
@@ -36,8 +36,14 @@
           <div class="row">
             <div class="col-12 col-md-12 col-lg-6">
               <h3 class="text-primary">
-                <i class="fas fa-paint-brush"></i> <%= data.title %>
+                <i class="fas fa-paint-brush"></i> <%= data.name %>
               </h3>
+
+              <ul>
+                <li><strong>Service</strong><%= data.service %></li>
+                <li><strong>Industries</strong><%= data.industries %></li>
+                <li><strong>Technologies</strong><%= data.technologies %></li>
+              </ul>
 
               <div class="editor-dat"><%- data.desc %></div>
 
@@ -55,13 +61,13 @@
               </div>
 
               <div class="text-center mt-5 mb-3">
-                <a href="/add-slider" class="btn btn-sm btn-primary"
-                  >Create New Slider</a
+                <a href="/add-portfolio" class="btn btn-sm btn-primary"
+                  >Create New portfolio</a
                 >
-                <a href="/edit-slider/<%= data.id %>" class="btn btn-sm btn-info"
+                <a href="/edit-portfolio/<%= data.id %>" class="btn btn-sm btn-info"
                   ><i class="fas fa-edit"></i> Edit</a
                 >
-                <a href="/slider" class="btn btn-sm btn-warning"
+                <a href="/portfolio" class="btn btn-sm btn-warning"
                   ><i class="fas fa-list"></i> All Silder List</a
                 >
               </div>
