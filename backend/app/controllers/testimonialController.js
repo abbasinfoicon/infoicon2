@@ -1,5 +1,6 @@
 import testimonialModel from "../models/testimonialModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class testimonialController {
   // ALL DATA
@@ -22,21 +23,28 @@ class testimonialController {
   static addData = async (req, res) => {
     if (req.method == "POST") {
       try {
-        const mulimg = req.files["img"][0].filename;
+        const mulimg = req.files["img"]?.[0].filename;
 
         // console.log("file-img", req.files);
-        const { name, city, video, desc } = req.body
-        const data = await testimonialModel({
-          name: name,
-          city: city,
-          img: mulimg,
-          video: video,
-          desc: desc
-        });
-        const result = data.save();
-        res.redirect("testimonial");
+        const { name, city, video, text, desc, status } = req.body
+        if (name && city && mulimg) {
+          const data = await testimonialModel({
+            name: name,
+            city: city,
+            img: mulimg,
+            video: video,
+            text: text,
+            desc: desc,
+            status: status
+          });
+          const result = data.save();
+          res.redirect("testimonial");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          res.render("pages/testimonial/add-testimonial", { page_name: "testimonial", sub_page: "addTestimonial", status: "failed", message: "Some Field Required!!" });
+        }
+
       } catch (error) {
         console.log("Create Data - ", error);
       }
@@ -81,13 +89,15 @@ class testimonialController {
   static updateData = async (req, res) => {
     try {
       const mulimg = req.files["img"]?.[0].filename;
-      const { name, city, video, desc } = req.body
+      const { name, city, video, text, desc, status } = req.body
       await testimonialModel.findByIdAndUpdate(req.params.id, {
         name: name,
         city: city,
         img: mulimg,
         video: video,
-        desc: desc
+        text: text,
+        desc: desc,
+        status: status
       });
 
       res.redirect("/testimonial");
@@ -98,14 +108,17 @@ class testimonialController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await testimonialModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await testimonialModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await testimonialModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/testimonial");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

@@ -1,5 +1,6 @@
 import teamModel from "../models/teamModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class teamController {
   // ALL DATA
@@ -115,14 +116,17 @@ class teamController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await teamModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await teamModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await teamModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/team");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

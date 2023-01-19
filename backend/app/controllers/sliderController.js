@@ -1,5 +1,6 @@
 import moment from "moment/moment.js";
 import sliderModel from "../models/sliderModel.js";
+import fs from "fs"
 
 class sliderController {
   // ALL DATA
@@ -10,7 +11,7 @@ class sliderController {
       res.render("pages/slider/slider", {
         data: data,
         moment: moment,
-        page_name: "slider", 
+        page_name: "slider",
         sub_page: "allSlider"
       });
     } catch (error) {
@@ -23,8 +24,6 @@ class sliderController {
     if (req.method == "POST") {
       try {
         const mulimg = req.files["img"][0].filename;
-
-        // console.log("file-img", req.files);
 
         const data = await sliderModel({
           title: req.body.title,
@@ -52,7 +51,7 @@ class sliderController {
       res.render("pages/slider/view-slider", {
         data: data,
         moment: moment,
-        page_name: "slider", 
+        page_name: "slider",
         sub_page: "viewSlider"
       });
     } catch (error) {
@@ -68,7 +67,7 @@ class sliderController {
 
       res.render("pages/slider/edit-slider", {
         data: data,
-        page_name: "slider", 
+        page_name: "slider",
         sub_page: "editSlider"
       });
     } catch (error) {
@@ -80,6 +79,7 @@ class sliderController {
   static updateData = async (req, res) => {
     try {
       const blogImg = req.files["img"]?.[0].filename;
+      // console.log("file-img", req.files);
 
       await sliderModel.findByIdAndUpdate(req.params.id, {
         title: req.body.title,
@@ -96,14 +96,17 @@ class sliderController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await sliderModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await sliderModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
-      
+      await sliderModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
+
       res.redirect("/slider");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

@@ -1,5 +1,6 @@
 import galleryModel from "../models/galleryModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class galleryController {
   // ALL DATA
@@ -100,14 +101,17 @@ class galleryController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await galleryModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await galleryModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await galleryModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/gallery");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

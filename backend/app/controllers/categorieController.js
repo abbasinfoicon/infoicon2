@@ -1,12 +1,12 @@
-import pageModel from "../models/pageModel.js";
+import categorieModel from "../models/categorieModel.js";
 import moment from "moment/moment.js";
 import fs from "fs"
 
-class pageController {
+class categorieController {
   // ALL DATA
   static getAllData = async (req, res) => {
     try {
-      const data = await pageModel.find();
+      const data = await categorieModel.find();
 
       res.render("pages/page/page", {
         data: data,
@@ -30,7 +30,7 @@ class pageController {
         const { page, show, smallDesc, desc, categories, status, subCategories } = req.body
         console.log("page data-", req.body)
         if (page && show && mulimg && desc) {
-          const data = await pageModel({
+          const data = await categorieModel({
             page: page,
             banner: bnrimg,
             show: show,
@@ -59,7 +59,7 @@ class pageController {
   // READ SINGLE DATA
   static singleData = async (req, res) => {
     try {
-      const data = await pageModel.findById(req.params.id, req.body);
+      const data = await categorieModel.findById(req.params.id, req.body);
 
       res.render("pages/page/view-page", {
         data: data,
@@ -75,7 +75,7 @@ class pageController {
   // UPDATE
   static openUpdateData = async (req, res) => {
     try {
-      const data = await pageModel.findById(req.params.id, req.body);
+      const data = await categorieModel.findById(req.params.id, req.body);
       // console.log("Update data", data);
 
       res.render("pages/page/edit-page", {
@@ -93,7 +93,7 @@ class pageController {
     try {
       const mulimg = req.files["img"]?.[0].filename;
       const { page, banner, show, smallDesc, desc, categories, status, subCategories } = req.body
-      await pageModel.findByIdAndUpdate(req.params.id, {
+      await categorieModel.findByIdAndUpdate(req.params.id, {
         page: page,
         banner: banner,
         show: show,
@@ -113,13 +113,13 @@ class pageController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    const data = await pageModel.findById(req.params.id);
+    const data = await categorieModel.findById(req.params.id);
     const file_name = "public/assets/upload/" + data.img
     const file_name2 = "public/assets/upload/" + data.banner
 
     // console.log("file-img", file_name);
     try {
-      await pageModel.findByIdAndDelete(req.params.id, req.body);
+      await categorieModel.findByIdAndDelete(req.params.id, req.body);
       fs.unlinkSync(file_name);
       fs.unlinkSync(file_name2);
 
@@ -130,4 +130,4 @@ class pageController {
   };
 }
 
-export default pageController;
+export default categorieController;

@@ -1,5 +1,6 @@
 import awardModel from "../models/awardModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class awardController {
   // ALL DATA
@@ -26,16 +27,20 @@ class awardController {
 
         // console.log("file-img", req.files);
         const { name, link, desc } = req.body;
-        const data = await awardModel({
-          name: name,
-          desc: desc,
-          link: link,
-          img: mulimg,
-        });
-        const result = data.save();
-        res.redirect("award");
+        if (name && link && desc) {
+          const data = await awardModel({
+            name: name,
+            desc: desc,
+            link: link,
+            img: mulimg,
+          });
+          const result = data.save();
+          res.redirect("award");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          res.render("pages/award/add-award", { page_name: "award", sub_page: "addAward", status: "failed", message: "All field Required!!" });
+        }
       } catch (error) {
         console.log("Create Data - ", error);
       }
@@ -96,14 +101,17 @@ class awardController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await awardModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await awardModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await awardModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/award");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

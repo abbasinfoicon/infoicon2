@@ -1,4 +1,5 @@
 import blogModel from "../models/blogModel.js";
+import fs from "fs"
 
 class blogController {
   // READ ALL DATA

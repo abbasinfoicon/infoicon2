@@ -12,19 +12,21 @@ import teamController from "../app/controllers/teamController.js";
 import testimonialController from "../app/controllers/testimonialController.js";
 import upload from "../app/middlewares/multerMiddleware.js";
 import auth from "../app/middlewares/authMiddleware.js"
+import categorieController from "../app/controllers/categorieController.js";
 
 const ejsrout = express.Router();
 
 ejsrout.get("/dashboard", auth, authController.dashboard);
 
-ejsrout.get("/", (req, res) => {res.render("auth/pages/login", { page_name: "login" });});
+ejsrout.get("/", (req, res) => { res.render("auth/pages/login", { page_name: "login" }); });
+ejsrout.get("/contact", (req, res) => { res.render("pages/contact", { page_name: "contact", sub_page: "home" }); });
 
 // blog-router
 ejsrout.get("/blog", blogWebController.getAllData);
-ejsrout.all("/add-blog",upload.fields([{ name: "img", maxCount: 1 }]),blogWebController.addData);
+ejsrout.all("/add-blog", upload.fields([{ name: "img", maxCount: 1 }]), blogWebController.addData);
 ejsrout.get("/view-blog/:id", blogWebController.singleData);
 ejsrout.get("/edit-blog/:id", blogWebController.openUpdateData);
-ejsrout.all("/edit-blog/?:id",upload.fields([{ name: "img", maxCount: 1 }]),blogWebController.updateData);
+ejsrout.all("/edit-blog/?:id", upload.fields([{ name: "img", maxCount: 1 }]), blogWebController.updateData);
 ejsrout.all("/blog/?:id", blogWebController.deleteData);
 
 // slider-router
@@ -61,7 +63,7 @@ ejsrout.all("/gallery/?:id", galleryController.deleteData);
 
 // page-router
 ejsrout.get("/page", pageController.getAllData);
-ejsrout.all("/add-page", upload.fields([{ name: "img", maxCount: 1 }]), pageController.addData);
+ejsrout.all("/add-page", upload.fields([{ name: "img", maxCount: 1 }, { name: "banner", maxCount: 1 }]), pageController.addData);
 ejsrout.get("/view-page/:id", pageController.singleData);
 ejsrout.get("/edit-page/:id", pageController.openUpdateData);
 ejsrout.all("/edit-page/?:id", upload.fields([{ name: "img", maxCount: 1 }]), pageController.updateData);
@@ -99,7 +101,13 @@ ejsrout.get("/edit-testimonial/:id", testimonialController.openUpdateData);
 ejsrout.all("/edit-testimonial/?:id", upload.fields([{ name: "img", maxCount: 1 }]), testimonialController.updateData);
 ejsrout.all("/testimonial/?:id", testimonialController.deleteData);
 
-
+// categories-router
+ejsrout.get("/categories", categorieController.getAllData);
+ejsrout.all("/add-social", categorieController.addData);
+ejsrout.get("/view-social/:id", categorieController.singleData);
+ejsrout.get("/edit-social/:id", categorieController.openUpdateData);
+ejsrout.all("/edit-social/?:id", categorieController.updateData);
+ejsrout.all("/social/?:id", categorieController.deleteData);
 
 
 

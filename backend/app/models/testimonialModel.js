@@ -5,9 +5,11 @@ const testimonialSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
     city: { type: String, required: true },
-    img: { type: String },
+    img: { type: String, required: true },
     video: { type: String },
+    text: { type: String },
     desc: { type: String },
+    status: { type: String }
   },
   {
     timestamps: true,

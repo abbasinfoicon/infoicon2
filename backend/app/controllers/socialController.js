@@ -1,5 +1,6 @@
 import socialModel from "../models/socialModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class socialController {
   // ALL DATA
@@ -94,18 +95,21 @@ class socialController {
     }
   };
 
-  // DELETE
-  static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
-    try {
-      const data = await socialModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+ // DELETE
+ static deleteData = async (req, res) => {
+  const data = await socialModel.findById(req.params.id);
+  const file_name = "public/assets/upload/" + data.img
 
-      res.redirect("/social");
-    } catch (error) {
-      // console.log("Delete Data - ", error);
-    }
-  };
+  // console.log("file-img", file_name);
+  try {
+    await socialModel.findByIdAndDelete(req.params.id, req.body);
+    fs.unlinkSync(file_name);
+
+    res.redirect("/social");
+  } catch (error) {
+    console.log("Delete Data - ", error);
+  }
+};
 }
 
 export default socialController;

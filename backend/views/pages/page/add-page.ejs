@@ -1,93 +1,207 @@
-<%- include('../../partials/header', {title: "Add Slider"}) %>
+<%- include('../../partials/header', {title: "Add Page" }) %>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <%- include('../../partials/breadcream', {title:"Add Slider", parent:"slider"}) %>
+    <%- include('../../partials/breadcream', {title:"Add Page", parent:"page"}) %>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <form
-              action="/add-slider"
-              method="post"
-              enctype="multipart/form-data"
-            >
-              <!-- <input type="text"> -->
-              <div class="card-body">
-                <div class="form-group">
-                  <label for="titleLabel">Title</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="titleLabel"
-                    name="title"
-                    placeholder="Enter title"
-                  />
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <% if(locals.message) { %>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>
+                    <%= message %>
+                  </strong>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
+                <% } %>
 
-                <div class="form-group">
-                  <textarea id="summernote" name="desc"></textarea>
-                </div>
+                  <form action="/add-page" method="post" enctype="multipart/form-data">
+                    <!-- <input type="text"> -->
+                    <div class="card-body">
+                      <div class="form-group">
+                        <label>Page Name</label>
+                        <input type="text" class="form-control" name="page" placeholder="Enter Page Name" />
+                      </div>
 
-                <div class="form-group">
-                  <label for="exampleInputFile">Image Upload</label>
-                  <div class="input-group">
-                    <div class="custom-file">
-                      <input
-                        type="file"
-                        class="custom-file-input"
-                        id="exampleInputFile"
-                        name="img"
-                      />
-                      <label class="custom-file-label" for="exampleInputFile"
-                        >Choose Image</label
-                      >
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputFile">Banner Upload</label>
+                            <div class="input-group">
+                              <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="exampleInputFile" name="banner" />
+                                <label class="custom-file-label" for="exampleInputFile">Choose Banner</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputFile">Image Upload</label>
+                            <div class="input-group">
+                              <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="exampleInputFile" name="img" />
+                                <label class="custom-file-label" for="exampleInputFile">Choose Image</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label>Small Description</label>
+                        <textarea id="summernote2" name="smallDesc"></textarea>
+                      </div>
+
+                      <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="summernote" name="desc"></textarea>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label>Categories</label>
+                            <select class="form-control" name="categories" id="category" onchange="showDiv()">
+                              <option value="">Select Category Name</option>
+                              <option value="About us">About us</option>
+                              <option value="Services">Services</option>
+                              <option value="Expertise">Expertise</option>
+                              <option value="Infra Services">Infra Services</option>
+                              <option value="Industries">Industries</option>
+                              <option value="Custom Solution">Custom Solution</option>
+                              <option value="Products">Products</option>
+                              <option value="Big Data Analytics Solution">Big Data Analytics Solution</option>
+                              <option value="Software Testing">Software Testing</option>
+                              <option value="Digital Marketing">Digital Marketing</option>
+                              <option value="Cloud Computing">Cloud Computing</option>
+                              <option value="AWS-Migration">AWS-Migration</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="s_c col-md-4 subCategories1" style="display: none;">
+                          <div class="form-group">
+                            <label>Sub Categories</label>
+                            <select class="form-control" name="subCategories">
+                              <option value="">Select Sub category</option>
+                              <option value="Corporate Info">Corporate Info</option>
+                              <option value="Quick Contact Info">Quick Contact Info</option>
+                              <option value="Certifications">Certifications</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="s_c col-md-4 subCategories2" style="display: none;">
+                          <div class="form-group">
+                            <label>Sub Categories</label>
+                            <select class="form-control" name="subCategories">
+                              <option value="">Select Sub category</option>
+                              <option value="Mobility Solution">Mobility Solution</option>
+                              <option value="Tech Expertise">Tech Expertise</option>
+                              <option value="Solution Design">Solution Design</option>
+                              <option value="Success Stories">Success Stories</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="s_c col-md-4 subCategories3" style="display: none;">
+                          <div class="form-group">
+                            <label>Sub Categories</label>
+                            <select class="form-control" name="subCategories">
+                              <option value="">Select Sub category</option>
+                              <option value="CMS Development">CMS Development</option>
+                              <option value="PHP Expertise">PHP Expertise</option>
+                              <option value="Sforce Development">Sforce Development</option>
+                              <option value="JS Libraries & Frameworks">JS Libraries & Frameworks</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="s_c col-md-4 subCategories4" style="display: none;">
+                          <div class="form-group">
+                            <label>Sub Categories</label>
+                            <select class="form-control" name="subCategories">
+                              <option value="">Select Sub category</option>
+                              <option value="Backend Support">Backend Support</option>
+                              <option value="Cloud Services">Cloud Services</option>
+                              <option value="Sforce Development">Sforce Development</option>
+                              <option value="Sharepoint Developement">Sharepoint Developement</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-2">
+                          <div class="form-group">
+                            <label>Show</label>
+                            <select class="form-control" name="show">
+                              <option value="Mobile">Mobile</option>
+                              <option value="Dashboard" selected>Dashboard</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-2">
+                          <div class="form-group">
+                            <label>Status</label>
+                            <select class="form-control" name="status">
+                              <option value="success">Success</option>
+                              <option value="pending" selected>Pending</option>
+                              <option value="reject">Reject</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- /.card-body -->
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label>Status</label>
-                      <select class="form-control" name="status">
-                        <option value="success">Success</option>
-                        <option value="pending" selected>Pending</option>
-                        <option value="reject">Reject</option>
-                      </select>
+                    <div class="card-footer">
+                      <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-body -->
+                  </form>
+            </div>
 
-              <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
+            <div class="col-md-4"></div>
           </div>
-
-          <div class="col-md-4"></div>
         </div>
-      </div>
-      <!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+        <!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
   </div>
-</div>
+  </div>
 
-<%- include('../../partials/footer') %>
-<script>
-  $(function () {
-    // Summernote
-    $("#summernote").summernote({
-      height: 250,
-    });
-  });
+  <%- include('../../partials/footer') %>
+    <script>
+      $(function () {
+        // Summernote
+        $("#summernote").summernote({ height: 250 });
+        $("#summernote2").summernote({ height: 100 });
+      });
 
-  $(function () {
-    bsCustomFileInput.init();
-  });
-</script>
+      $(function () {
+        bsCustomFileInput.init();
+      });
+
+      $("#category").change(function () {
+        $("#category option:selected").each(function () {
+          if ($(this).attr("value") == "About us") {
+            $(".s_c").hide();
+            $(".subCategories1").show();
+          } else if ($(this).attr("value") == "Services") {
+            $(".s_c").hide();
+            $(".subCategories2").show();
+          } else if ($(this).attr("value") == "Expertise") {
+            $(".s_c").hide();
+            $(".subCategories3").show();
+          } else if ($(this).attr("value") == "Infra Services") {
+            $(".s_c").hide();
+            $(".subCategories4").show();
+          } else {
+            $(".s_c").hide();
+          }
+        });
+      }).change();
+    </script>

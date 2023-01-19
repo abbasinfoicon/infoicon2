@@ -1,5 +1,6 @@
 import careerModel from "../models/careerModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class careerController {
   // ALL DATA
@@ -24,20 +25,24 @@ class careerController {
       try {
         // console.log("file-img", req.files);
         const { title, experience, salary, vacancy, qualification, skills, desc, status } = req.body
-        const data = await careerModel({
-          title: title,
-          experience: experience,
-          salary: salary,
-          vacancy: vacancy,
-          qualification: qualification,
-          skills: skills,
-          desc: desc,
-          status: status,
-        });
-        const result = data.save();
-        res.redirect("career");
+        if (title && experience && vacancy) {
+          const data = await careerModel({
+            title: title,
+            experience: experience,
+            salary: salary,
+            vacancy: vacancy,
+            qualification: qualification,
+            skills: skills,
+            desc: desc,
+            status: status,
+          });
+          const result = data.save();
+          res.redirect("career");
 
-        console.log(result);
+          console.log(result);
+        } else {
+          res.render("pages/career/add-career", { page_name: "career", sub_page: "addCareer", status: "failed", message: "Some Fieled Required!!" });
+        }
       } catch (error) {
         console.log("Create Data - ", error);
       }
@@ -83,7 +88,7 @@ class careerController {
     try {
       console.log("body", req.body)
       const { title, experience, salary, vacancy, qualification, skills, desc, status } = req.body
-      await careerModel.findByIdAndUpdate(req.params.id,{
+      await careerModel.findByIdAndUpdate(req.params.id, {
         title: title,
         experience: experience,
         salary: salary,
@@ -102,14 +107,17 @@ class careerController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await careerModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await careerModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await careerModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/career");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }

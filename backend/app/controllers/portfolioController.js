@@ -1,5 +1,6 @@
 import portfolioModel from "../models/portfolioModel.js";
 import moment from "moment/moment.js";
+import fs from "fs"
 
 class portfolioController {
   // ALL DATA
@@ -108,14 +109,17 @@ class portfolioController {
 
   // DELETE
   static deleteData = async (req, res) => {
-    // console.log("delete-id", req.params.id);
+    const data = await portfolioModel.findById(req.params.id);
+    const file_name = "public/assets/upload/" + data.img
+
+    // console.log("file-img", file_name);
     try {
-      const data = await portfolioModel.findByIdAndDelete(req.params.id, req.body);
-      // console.log("Delete data", data)
+      await portfolioModel.findByIdAndDelete(req.params.id, req.body);
+      fs.unlinkSync(file_name);
 
       res.redirect("/portfolio");
     } catch (error) {
-      // console.log("Delete Data - ", error);
+      console.log("Delete Data - ", error);
     }
   };
 }
