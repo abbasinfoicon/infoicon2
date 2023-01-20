@@ -103,11 +103,10 @@ ejsrout.all("/testimonial/?:id", testimonialController.deleteData);
 
 // categories-router
 ejsrout.get("/categories", categorieController.getAllData);
-ejsrout.all("/add-social", categorieController.addData);
-ejsrout.get("/view-social/:id", categorieController.singleData);
-ejsrout.get("/edit-social/:id", categorieController.openUpdateData);
-ejsrout.all("/edit-social/?:id", categorieController.updateData);
-ejsrout.all("/social/?:id", categorieController.deleteData);
+ejsrout.post("/categories", categorieController.addData);
+ejsrout.get("/categories/:id", categorieController.singleData);
+ejsrout.all("/categories/?:id", categorieController.updateData);
+ejsrout.all("/categories/del/?:id", categorieController.deleteData);
 
 
 
